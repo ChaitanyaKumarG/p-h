@@ -1,0 +1,15 @@
+
+{
+  "name": "p-h_cli",
+  "version": "1.0.0",
+  "description": "PSD to HTML conversion using CLI (v1)",
+  "license": "ISC",
+  "author": "Chaitanya G",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "ag-psd": "^29.0.0"
+  }
+}
