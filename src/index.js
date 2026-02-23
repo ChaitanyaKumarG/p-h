@@ -1,6 +1,6 @@
-// src/index.js
+import { normalizePsd } from "../core/normalize.js";
 import { parsePsd } from "../core/parsePsd.js";
-
+import fs from "fs";
 const filePath = process.argv[2];
 
 if (!filePath) {
@@ -9,6 +9,10 @@ if (!filePath) {
 }
 
 const psd = parsePsd(filePath);
+const normalized = normalizePsd(psd);
+
+fs.writeFileSync("./output/psd.json", JSON.stringify(normalized, null, 2));
+
 
 // function printLayers(layers, depth = 0) {
 //   if (!layers) return;
