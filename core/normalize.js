@@ -16,15 +16,19 @@ function extractLayers(layers, result = [], parent = null) {
     const bottom = layer.bottom ?? top;
 
     const element = {
-      id: `${layer.name}_${index}`,
+      id: `${sanitize(layer.name)}_${index}`,
       name: layer.name,
       type: detectType(layer),
+
       frame: {
         x: left,
         y: top,
         width: right - left,
         height: bottom - top,
       },
+
+      styles: extractStyles(layer),
+
       parent,
     };
 
@@ -42,4 +46,59 @@ function detectType(layer) {
   if (layer.text) return "text";
   if (layer.children) return "group";
   return "image";
+}
+
+function extractStyles(layer) {
+  if (layer.text) {
+    return extractTextStyles(layer);
+  }
+
+  return {};
+}
+
+function extractTextStyles(layer) {
+  const style = layer.text.style || {};
+  const fill = style.fillColor;
+
+  return {
+    fontSize: style.fontSize ?? null,
+
+    lineHeight: style.leading ?? null,
+
+    letterSpacing: style.tracking ?? null,
+
+    fontFamily: style.font?.name ?? null,
+
+    fontWeight: deriveWeight(style.font?.style),
+
+    color: fill ? `rgb(${fill.r}, ${fill.g}, ${fill.b})` : null,
+
+    textDecoration: deriveDecoration(style),
+  };
+}
+
+function deriveWeight(style) {
+  if (!style) return 400;
+
+  const s = style.toLowerCase();
+
+  if (s.includes("bold")) return 700;
+  if (s.includes("semibold")) return 600;
+  if (s.includes("medium")) return 500;
+  if (s.includes("light")) return 300;
+
+  return 400;
+}
+
+function deriveDecoration(style) {
+  if (!style) return "none";
+
+  if (style.underline) return "underline";
+  if (style.strikethrough) return "line-through";
+
+  return "none";
+}
+
+function sanitize(name) {
+  return name.replace(/\s+/g, "_").toLowerCase();
 }

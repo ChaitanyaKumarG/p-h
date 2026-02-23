@@ -5,7 +5,7 @@
   },
   "elements": [
     {
-      "id": "Background_0",
+      "id": "background_0",
       "name": "Background",
       "type": "image",
       "frame": {
@@ -14,10 +14,11 @@
         "width": 1920,
         "height": 7921
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 8_1",
+      "id": "rectangle_8_1",
       "name": "Rectangle 8",
       "type": "image",
       "frame": {
@@ -26,10 +27,11 @@
         "width": 1922,
         "height": 1068
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Layer 7_2",
+      "id": "layer_7_2",
       "name": "Layer 7",
       "type": "image",
       "frame": {
@@ -38,10 +40,11 @@
         "width": 1920,
         "height": 1334
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Layer 2_3",
+      "id": "layer_2_3",
       "name": "Layer 2",
       "type": "image",
       "frame": {
@@ -50,10 +53,11 @@
         "width": 1919,
         "height": 794
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Color Lookup 1_4",
+      "id": "color_lookup_1_4",
       "name": "Color Lookup 1",
       "type": "image",
       "frame": {
@@ -62,10 +66,11 @@
         "width": 0,
         "height": 0
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Photo Filter 1_5",
+      "id": "photo_filter_1_5",
       "name": "Photo Filter 1",
       "type": "image",
       "frame": {
@@ -74,10 +79,11 @@
         "width": 0,
         "height": 0
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Layer 6_6",
+      "id": "layer_6_6",
       "name": "Layer 6",
       "type": "image",
       "frame": {
@@ -86,10 +92,11 @@
         "width": 1920,
         "height": 1088
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Layer 8_7",
+      "id": "layer_8_7",
       "name": "Layer 8",
       "type": "image",
       "frame": {
@@ -98,10 +105,11 @@
         "width": 1920,
         "height": 2162
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Group 1_8",
+      "id": "group_1_8",
       "name": "Group 1",
       "type": "group",
       "frame": {
@@ -110,10 +118,11 @@
         "width": 0,
         "height": 0
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 10_0",
+      "id": "rectangle_10_0",
       "name": "Rectangle 10",
       "type": "image",
       "frame": {
@@ -122,10 +131,11 @@
         "width": 699,
         "height": 699
       },
-      "parent": "Group 1_8"
+      "styles": {},
+      "parent": "group_1_8"
     },
     {
-      "id": "Rectangle 10 copy_1",
+      "id": "rectangle_10_copy_1",
       "name": "Rectangle 10 copy",
       "type": "image",
       "frame": {
@@ -134,10 +144,11 @@
         "width": 494,
         "height": 494
       },
-      "parent": "Group 1_8"
+      "styles": {},
+      "parent": "group_1_8"
     },
     {
-      "id": "Rectangle 10 copy 2_2",
+      "id": "rectangle_10_copy_2_2",
       "name": "Rectangle 10 copy 2",
       "type": "image",
       "frame": {
@@ -146,10 +157,11 @@
         "width": 274,
         "height": 274
       },
-      "parent": "Group 1_8"
+      "styles": {},
+      "parent": "group_1_8"
     },
     {
-      "id": "Rectangle 10 copy 3_3",
+      "id": "rectangle_10_copy_3_3",
       "name": "Rectangle 10 copy 3",
       "type": "image",
       "frame": {
@@ -158,10 +170,11 @@
         "width": 699,
         "height": 699
       },
-      "parent": "Group 1_8"
+      "styles": {},
+      "parent": "group_1_8"
     },
     {
-      "id": "Rectangle 10 copy 3_4",
+      "id": "rectangle_10_copy_3_4",
       "name": "Rectangle 10 copy 3",
       "type": "image",
       "frame": {
@@ -170,10 +183,11 @@
         "width": 494,
         "height": 495
       },
-      "parent": "Group 1_8"
+      "styles": {},
+      "parent": "group_1_8"
     },
     {
-      "id": "Rectangle 10 copy 3_5",
+      "id": "rectangle_10_copy_3_5",
       "name": "Rectangle 10 copy 3",
       "type": "image",
       "frame": {
@@ -182,10 +196,11 @@
         "width": 232,
         "height": 231
       },
-      "parent": "Group 1_8"
+      "styles": {},
+      "parent": "group_1_8"
     },
     {
-      "id": "Board Certified_9",
+      "id": "board_certified_9",
       "name": "Board Certified",
       "type": "text",
       "frame": {
@@ -194,10 +209,19 @@
         "width": 911,
         "height": 302
       },
+      "styles": {
+        "fontSize": 193,
+        "lineHeight": 162,
+        "letterSpacing": -35,
+        "fontFamily": "Raleway-ExtraBold",
+        "fontWeight": 400,
+        "color": "rgb(235.99995, 255, 244.14465)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": " Criminal Defense Attorney_10",
+      "id": "_criminal_defense_attorney_10",
       "name": " Criminal Defense Attorney",
       "type": "text",
       "frame": {
@@ -206,10 +230,19 @@
         "width": 891,
         "height": 37
       },
+      "styles": {
+        "fontSize": 50,
+        "lineHeight": 165,
+        "letterSpacing": 120,
+        "fontFamily": "Raleway-SemiBold",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "San Bernardino County_11",
+      "id": "san_bernardino_county_11",
       "name": "San Bernardino County",
       "type": "text",
       "frame": {
@@ -218,10 +251,19 @@
         "width": 755,
         "height": 39
       },
+      "styles": {
+        "fontSize": 49,
+        "lineHeight": 40,
+        "letterSpacing": 100,
+        "fontFamily": "Jost-SemiBold",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Rectangle 6_12",
+      "id": "rectangle_6_12",
       "name": "Rectangle 6",
       "type": "image",
       "frame": {
@@ -230,10 +272,11 @@
         "width": 1922,
         "height": 91
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Home          Attorney Profile          Practice Areas         _13",
+      "id": "home_attorney_profile_practice_areas__13",
       "name": "Home          Attorney Profile          Practice Areas         ",
       "type": "text",
       "frame": {
@@ -242,10 +285,19 @@
         "width": 977,
         "height": 18
       },
+      "styles": {
+        "fontSize": 23,
+        "lineHeight": 36,
+        "letterSpacing": 30,
+        "fontFamily": "Jost-Medium",
+        "fontWeight": 400,
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Rectangle 11_14",
+      "id": "rectangle_11_14",
       "name": "Rectangle 11",
       "type": "image",
       "frame": {
@@ -254,10 +306,11 @@
         "width": 1428,
         "height": 273
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 13 copy 3_15",
+      "id": "rectangle_13_copy_3_15",
       "name": "Rectangle 13 copy 3",
       "type": "image",
       "frame": {
@@ -266,10 +319,11 @@
         "width": 701,
         "height": 44
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 7_16",
+      "id": "rectangle_7_16",
       "name": "Rectangle 7",
       "type": "image",
       "frame": {
@@ -278,10 +332,11 @@
         "width": 2227,
         "height": 93
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Call Us Today! 940.591.7097 _17",
+      "id": "call_us_today!_940.591.7097__17",
       "name": "Call Us Today! 940.591.7097 ",
       "type": "text",
       "frame": {
@@ -290,10 +345,19 @@
         "width": 425,
         "height": 22
       },
+      "styles": {
+        "fontSize": 28,
+        "lineHeight": 36,
+        "letterSpacing": 30,
+        "fontFamily": "Jost-Medium",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Contact Us At Any Time, 24/7._18",
+      "id": "contact_us_at_any_time,_24/7._18",
       "name": "Contact Us At Any Time, 24/7.",
       "type": "text",
       "frame": {
@@ -302,10 +366,19 @@
         "width": 375,
         "height": 28
       },
+      "styles": {
+        "fontSize": 28,
+        "lineHeight": 36,
+        "letterSpacing": 0,
+        "fontFamily": "Jost-Medium",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Rectangle 9_19",
+      "id": "rectangle_9_19",
       "name": "Rectangle 9",
       "type": "image",
       "frame": {
@@ -314,10 +387,11 @@
         "width": 470,
         "height": 218
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 9 copy_20",
+      "id": "rectangle_9_copy_20",
       "name": "Rectangle 9 copy",
       "type": "image",
       "frame": {
@@ -326,10 +400,11 @@
         "width": 472,
         "height": 79
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 9 copy 2_21",
+      "id": "rectangle_9_copy_2_21",
       "name": "Rectangle 9 copy 2",
       "type": "image",
       "frame": {
@@ -338,10 +413,11 @@
         "width": 756,
         "height": 11
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Ellipse 2_22",
+      "id": "ellipse_2_22",
       "name": "Ellipse 2",
       "type": "image",
       "frame": {
@@ -350,10 +426,11 @@
         "width": 59,
         "height": 59
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Layer 5_23",
+      "id": "layer_5_23",
       "name": "Layer 5",
       "type": "image",
       "frame": {
@@ -362,10 +439,11 @@
         "width": 28,
         "height": 27
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Call Us Today! 940.591.7097 _24",
+      "id": "call_us_today!_940.591.7097__24",
       "name": "Call Us Today! 940.591.7097 ",
       "type": "text",
       "frame": {
@@ -374,10 +452,19 @@
         "width": 280,
         "height": 52
       },
+      "styles": {
+        "fontSize": null,
+        "lineHeight": 36,
+        "letterSpacing": null,
+        "fontFamily": null,
+        "fontWeight": 400,
+        "color": "rgb(0.9995999999999999, 0.8160000000000001, 0.8160000000000001)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "phone-call (1)_25",
+      "id": "phone-call_(1)_25",
       "name": "phone-call (1)",
       "type": "image",
       "frame": {
@@ -386,10 +473,11 @@
         "width": 47,
         "height": 47
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "EARL_DOBSON-smallwebversion_26",
+      "id": "earl_dobson-smallwebversion_26",
       "name": "EARL_DOBSON-smallwebversion",
       "type": "image",
       "frame": {
@@ -398,10 +486,11 @@
         "width": 398,
         "height": 122
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Schedule A Free Consultation_27",
+      "id": "schedule_a_free_consultation_27",
       "name": "Schedule A Free Consultation",
       "type": "text",
       "frame": {
@@ -410,10 +499,19 @@
         "width": 383,
         "height": 16
       },
+      "styles": {
+        "fontSize": 23,
+        "lineHeight": 165,
+        "letterSpacing": 0,
+        "fontFamily": "Raleway-ExtraBold",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Layer 9_28",
+      "id": "layer_9_28",
       "name": "Layer 9",
       "type": "image",
       "frame": {
@@ -422,10 +520,11 @@
         "width": 1920,
         "height": 1406
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Layer 13_29",
+      "id": "layer_13_29",
       "name": "Layer 13",
       "type": "image",
       "frame": {
@@ -434,10 +533,11 @@
         "width": 1920,
         "height": 1265
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Defending Every Client’s Rights & Reputation_30",
+      "id": "defending_every_client’s_rights_&_reputation_30",
       "name": "Defending Every Client’s Rights & Reputation",
       "type": "text",
       "frame": {
@@ -446,10 +546,19 @@
         "width": 833,
         "height": 174
       },
+      "styles": {
+        "fontSize": 80,
+        "lineHeight": 97,
+        "letterSpacing": -20,
+        "fontFamily": "Raleway-Light",
+        "fontWeight": 400,
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Free Office or Phone Consultations Available _31",
+      "id": "free_office_or_phone_consultations_available__31",
       "name": "Free Office or Phone Consultations Available ",
       "type": "text",
       "frame": {
@@ -458,10 +567,19 @@
         "width": 808,
         "height": 31
       },
+      "styles": {
+        "fontSize": 40,
+        "lineHeight": 97,
+        "letterSpacing": -20,
+        "fontFamily": "Raleway-Bold",
+        "fontWeight": 400,
+        "color": "rgb(0, 110.4966, 45.0024)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Rectangle 12_32",
+      "id": "rectangle_12_32",
       "name": "Rectangle 12",
       "type": "image",
       "frame": {
@@ -470,10 +588,11 @@
         "width": 347,
         "height": 274
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 13_33",
+      "id": "rectangle_13_33",
       "name": "Rectangle 13",
       "type": "image",
       "frame": {
@@ -482,10 +601,11 @@
         "width": 1129,
         "height": 442
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 13 copy_34",
+      "id": "rectangle_13_copy_34",
       "name": "Rectangle 13 copy",
       "type": "image",
       "frame": {
@@ -494,10 +614,11 @@
         "width": 1920,
         "height": 871
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 13 copy 2_35",
+      "id": "rectangle_13_copy_2_35",
       "name": "Rectangle 13 copy 2",
       "type": "image",
       "frame": {
@@ -506,10 +627,11 @@
         "width": 1920,
         "height": 871
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 14 copy_36",
+      "id": "rectangle_14_copy_36",
       "name": "Rectangle 14 copy",
       "type": "image",
       "frame": {
@@ -518,10 +640,11 @@
         "width": 16,
         "height": 153
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 14 copy 2_37",
+      "id": "rectangle_14_copy_2_37",
       "name": "Rectangle 14 copy 2",
       "type": "image",
       "frame": {
@@ -530,10 +653,11 @@
         "width": 17,
         "height": 635
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 14_38",
+      "id": "rectangle_14_38",
       "name": "Rectangle 14",
       "type": "image",
       "frame": {
@@ -542,10 +666,11 @@
         "width": 340,
         "height": 339
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Logo_39",
+      "id": "logo_39",
       "name": "Logo",
       "type": "image",
       "frame": {
@@ -554,10 +679,11 @@
         "width": 254,
         "height": 342
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 14 copy 3_40",
+      "id": "rectangle_14_copy_3_40",
       "name": "Rectangle 14 copy 3",
       "type": "image",
       "frame": {
@@ -566,10 +692,11 @@
         "width": 3,
         "height": 339
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 14 copy 4_41",
+      "id": "rectangle_14_copy_4_41",
       "name": "Rectangle 14 copy 4",
       "type": "image",
       "frame": {
@@ -578,10 +705,11 @@
         "width": 340,
         "height": 339
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 14 copy 5_42",
+      "id": "rectangle_14_copy_5_42",
       "name": "Rectangle 14 copy 5",
       "type": "image",
       "frame": {
@@ -590,10 +718,11 @@
         "width": 340,
         "height": 339
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 14 copy 4_43",
+      "id": "rectangle_14_copy_4_43",
       "name": "Rectangle 14 copy 4",
       "type": "image",
       "frame": {
@@ -602,10 +731,11 @@
         "width": 4,
         "height": 339
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 14 copy 6_44",
+      "id": "rectangle_14_copy_6_44",
       "name": "Rectangle 14 copy 6",
       "type": "image",
       "frame": {
@@ -614,10 +744,11 @@
         "width": 340,
         "height": 339
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 14 copy 6_45",
+      "id": "rectangle_14_copy_6_45",
       "name": "Rectangle 14 copy 6",
       "type": "image",
       "frame": {
@@ -626,10 +757,11 @@
         "width": 3,
         "height": 339
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 14 copy 7_46",
+      "id": "rectangle_14_copy_7_46",
       "name": "Rectangle 14 copy 7",
       "type": "image",
       "frame": {
@@ -638,10 +770,11 @@
         "width": 339,
         "height": 339
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 14 copy 7_47",
+      "id": "rectangle_14_copy_7_47",
       "name": "Rectangle 14 copy 7",
       "type": "image",
       "frame": {
@@ -650,10 +783,11 @@
         "width": 4,
         "height": 339
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 14 copy 7_48",
+      "id": "rectangle_14_copy_7_48",
       "name": "Rectangle 14 copy 7",
       "type": "image",
       "frame": {
@@ -662,10 +796,11 @@
         "width": 339,
         "height": 339
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 14 copy 7_49",
+      "id": "rectangle_14_copy_7_49",
       "name": "Rectangle 14 copy 7",
       "type": "image",
       "frame": {
@@ -674,10 +809,11 @@
         "width": 4,
         "height": 339
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 14 copy 6_50",
+      "id": "rectangle_14_copy_6_50",
       "name": "Rectangle 14 copy 6",
       "type": "image",
       "frame": {
@@ -686,10 +822,11 @@
         "width": 340,
         "height": 339
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 14 copy 6_51",
+      "id": "rectangle_14_copy_6_51",
       "name": "Rectangle 14 copy 6",
       "type": "image",
       "frame": {
@@ -698,10 +835,11 @@
         "width": 340,
         "height": 339
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 14 copy 6_52",
+      "id": "rectangle_14_copy_6_52",
       "name": "Rectangle 14 copy 6",
       "type": "image",
       "frame": {
@@ -710,10 +848,11 @@
         "width": 4,
         "height": 339
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 12 copy_53",
+      "id": "rectangle_12_copy_53",
       "name": "Rectangle 12 copy",
       "type": "image",
       "frame": {
@@ -722,10 +861,11 @@
         "width": 587,
         "height": 824
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Layer 10_54",
+      "id": "layer_10_54",
       "name": "Layer 10",
       "type": "image",
       "frame": {
@@ -734,10 +874,11 @@
         "width": 614,
         "height": 920
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 9 copy 2_55",
+      "id": "rectangle_9_copy_2_55",
       "name": "Rectangle 9 copy 2",
       "type": "image",
       "frame": {
@@ -746,10 +887,11 @@
         "width": 752,
         "height": 11
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "The Denton Law Office of Defense Attorney Earl Dobson has handl_56",
+      "id": "the_denton_law_office_of_defense_attorney_earl_dobson_has_handl_56",
       "name": "The Denton Law Office of Defense Attorney Earl Dobson has handl",
       "type": "text",
       "frame": {
@@ -758,10 +900,19 @@
         "width": 802,
         "height": 230
       },
+      "styles": {
+        "fontSize": 23,
+        "lineHeight": 41,
+        "letterSpacing": 0,
+        "fontFamily": "Jost-Medium",
+        "fontWeight": 400,
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Without skillful legal representation, defendants will face the_57",
+      "id": "without_skillful_legal_representation,_defendants_will_face_the_57",
       "name": "Without skillful legal representation, defendants will face the",
       "type": "text",
       "frame": {
@@ -770,10 +921,19 @@
         "width": 736,
         "height": 271
       },
+      "styles": {
+        "fontSize": 23,
+        "lineHeight": 41,
+        "letterSpacing": 0,
+        "fontFamily": "Jost-Medium",
+        "fontWeight": 400,
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "DWI & DUI_58",
+      "id": "dwi_&_dui_58",
       "name": "DWI & DUI",
       "type": "text",
       "frame": {
@@ -781,6 +941,15 @@
         "y": 2887,
         "width": 116,
         "height": 17
+      },
+      "styles": {
+        "fontSize": 24,
+        "lineHeight": 31,
+        "letterSpacing": 0,
+        "fontFamily": "Raleway-Medium",
+        "fontWeight": 400,
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none"
       },
       "parent": null
     },
@@ -794,10 +963,11 @@
         "width": 107,
         "height": 107
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Computer Crimes_60",
+      "id": "computer_crimes_60",
       "name": "Computer Crimes",
       "type": "text",
       "frame": {
@@ -806,10 +976,19 @@
         "width": 198,
         "height": 23
       },
+      "styles": {
+        "fontSize": 24,
+        "lineHeight": 31,
+        "letterSpacing": 0,
+        "fontFamily": "Raleway-Medium",
+        "fontWeight": 400,
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Domestic Violence & Assault_61",
+      "id": "domestic_violence_&_assault_61",
       "name": "Domestic Violence & Assault",
       "type": "text",
       "frame": {
@@ -817,6 +996,15 @@
         "y": 3251,
         "width": 210,
         "height": 49
+      },
+      "styles": {
+        "fontSize": 24,
+        "lineHeight": 31,
+        "letterSpacing": 0,
+        "fontFamily": "Raleway-Medium",
+        "fontWeight": 400,
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none"
       },
       "parent": null
     },
@@ -830,10 +1018,11 @@
         "width": 107,
         "height": 107
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Probation Violations_63",
+      "id": "probation_violations_63",
       "name": "Probation Violations",
       "type": "text",
       "frame": {
@@ -841,6 +1030,15 @@
         "y": 3251,
         "width": 223,
         "height": 18
+      },
+      "styles": {
+        "fontSize": 24,
+        "lineHeight": 31,
+        "letterSpacing": 0,
+        "fontFamily": "Raleway-Medium",
+        "fontWeight": 400,
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none"
       },
       "parent": null
     },
@@ -854,10 +1052,11 @@
         "width": 106,
         "height": 106
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Theft Charges_65",
+      "id": "theft_charges_65",
       "name": "Theft Charges",
       "type": "text",
       "frame": {
@@ -865,6 +1064,15 @@
         "y": 3251,
         "width": 159,
         "height": 23
+      },
+      "styles": {
+        "fontSize": 24,
+        "lineHeight": 31,
+        "letterSpacing": 0,
+        "fontFamily": "Raleway-Medium",
+        "fontWeight": 400,
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none"
       },
       "parent": null
     },
@@ -878,6 +1086,7 @@
         "width": 91,
         "height": 101
       },
+      "styles": {},
       "parent": null
     },
     {
@@ -890,10 +1099,11 @@
         "width": 81,
         "height": 81
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Drug Crimes_68",
+      "id": "drug_crimes_68",
       "name": "Drug Crimes",
       "type": "text",
       "frame": {
@@ -902,10 +1112,19 @@
         "width": 174,
         "height": 29
       },
+      "styles": {
+        "fontSize": 30,
+        "lineHeight": 33,
+        "letterSpacing": 0,
+        "fontFamily": "Raleway-SemiBold",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Expunction & Non-Disclosure_69",
+      "id": "expunction_&_non-disclosure_69",
       "name": "Expunction & Non-Disclosure",
       "type": "text",
       "frame": {
@@ -913,6 +1132,15 @@
         "y": 2887,
         "width": 174,
         "height": 51
+      },
+      "styles": {
+        "fontSize": 24,
+        "lineHeight": 33,
+        "letterSpacing": 0,
+        "fontFamily": "Raleway-Medium",
+        "fontWeight": 400,
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none"
       },
       "parent": null
     },
@@ -926,10 +1154,11 @@
         "width": 104,
         "height": 102
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Sex Crimes_71",
+      "id": "sex_crimes_71",
       "name": "Sex Crimes",
       "type": "text",
       "frame": {
@@ -937,6 +1166,15 @@
         "y": 2888,
         "width": 78,
         "height": 50
+      },
+      "styles": {
+        "fontSize": 24,
+        "lineHeight": 33,
+        "letterSpacing": 0,
+        "fontFamily": "Raleway-Medium",
+        "fontWeight": 400,
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none"
       },
       "parent": null
     },
@@ -950,6 +1188,7 @@
         "width": 105,
         "height": 105
       },
+      "styles": {},
       "parent": null
     },
     {
@@ -962,10 +1201,11 @@
         "width": 106,
         "height": 108
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 9 copy 3_74",
+      "id": "rectangle_9_copy_3_74",
       "name": "Rectangle 9 copy 3",
       "type": "image",
       "frame": {
@@ -974,10 +1214,11 @@
         "width": 473,
         "height": 79
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Schedule A Free Consultation copy_75",
+      "id": "schedule_a_free_consultation_copy_75",
       "name": "Schedule A Free Consultation copy",
       "type": "text",
       "frame": {
@@ -986,10 +1227,19 @@
         "width": 383,
         "height": 16
       },
+      "styles": {
+        "fontSize": 23,
+        "lineHeight": 165,
+        "letterSpacing": 0,
+        "fontFamily": "Raleway-ExtraBold",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Rectangle 9 copy 9_76",
+      "id": "rectangle_9_copy_9_76",
       "name": "Rectangle 9 copy 9",
       "type": "image",
       "frame": {
@@ -998,10 +1248,11 @@
         "width": 353,
         "height": 79
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "READ MORE_77",
+      "id": "read_more_77",
       "name": "READ MORE",
       "type": "text",
       "frame": {
@@ -1010,10 +1261,19 @@
         "width": 131,
         "height": 16
       },
+      "styles": {
+        "fontSize": 23,
+        "lineHeight": 165,
+        "letterSpacing": 0,
+        "fontFamily": "Raleway-ExtraBold",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Group 2_78",
+      "id": "group_2_78",
       "name": "Group 2",
       "type": "group",
       "frame": {
@@ -1022,10 +1282,11 @@
         "width": 0,
         "height": 0
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 9 copy 6_0",
+      "id": "rectangle_9_copy_6_0",
       "name": "Rectangle 9 copy 6",
       "type": "image",
       "frame": {
@@ -1034,10 +1295,11 @@
         "width": 161,
         "height": 53
       },
-      "parent": "Group 2_78"
+      "styles": {},
+      "parent": "group_2_78"
     },
     {
-      "id": "Read More_1",
+      "id": "read_more_1",
       "name": "Read More",
       "type": "text",
       "frame": {
@@ -1046,10 +1308,19 @@
         "width": 98,
         "height": 12
       },
-      "parent": "Group 2_78"
+      "styles": {
+        "fontSize": 25.63218,
+        "lineHeight": 164.34747,
+        "letterSpacing": 0,
+        "fontFamily": "Raleway-ExtraBold",
+        "fontWeight": 400,
+        "color": "rgb(0, 99.501, 40.49655)",
+        "textDecoration": "none"
+      },
+      "parent": "group_2_78"
     },
     {
-      "id": "Rectangle 9 copy 5_2",
+      "id": "rectangle_9_copy_5_2",
       "name": "Rectangle 9 copy 5",
       "type": "image",
       "frame": {
@@ -1058,10 +1329,11 @@
         "width": 452,
         "height": 78
       },
-      "parent": "Group 2_78"
+      "styles": {},
+      "parent": "group_2_78"
     },
     {
-      "id": "VIEW ALL PRACTICE AREAS_3",
+      "id": "view_all_practice_areas_3",
       "name": "VIEW ALL PRACTICE AREAS",
       "type": "text",
       "frame": {
@@ -1070,10 +1342,19 @@
         "width": 301,
         "height": 16
       },
-      "parent": "Group 2_78"
+      "styles": {
+        "fontSize": 23,
+        "lineHeight": 165,
+        "letterSpacing": 0,
+        "fontFamily": "Raleway-ExtraBold",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
+      "parent": "group_2_78"
     },
     {
-      "id": "Rectangle 11_79",
+      "id": "rectangle_11_79",
       "name": "Rectangle 11",
       "type": "image",
       "frame": {
@@ -1082,10 +1363,11 @@
         "width": 2089,
         "height": 1110
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 11 copy_80",
+      "id": "rectangle_11_copy_80",
       "name": "Rectangle 11 copy",
       "type": "image",
       "frame": {
@@ -1094,10 +1376,11 @@
         "width": 2089,
         "height": 1110
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Layer 15_81",
+      "id": "layer_15_81",
       "name": "Layer 15",
       "type": "image",
       "frame": {
@@ -1106,10 +1389,11 @@
         "width": 1920,
         "height": 1292
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Layer 14_82",
+      "id": "layer_14_82",
       "name": "Layer 14",
       "type": "image",
       "frame": {
@@ -1118,10 +1402,11 @@
         "width": 1920,
         "height": 2055
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 10_83",
+      "id": "rectangle_10_83",
       "name": "Rectangle 10",
       "type": "image",
       "frame": {
@@ -1130,10 +1415,11 @@
         "width": 699,
         "height": 699
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 10 copy_84",
+      "id": "rectangle_10_copy_84",
       "name": "Rectangle 10 copy",
       "type": "image",
       "frame": {
@@ -1142,10 +1428,11 @@
         "width": 494,
         "height": 494
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Types Of Cases We Handle_85",
+      "id": "types_of_cases_we_handle_85",
       "name": "Types Of Cases We Handle",
       "type": "text",
       "frame": {
@@ -1154,10 +1441,19 @@
         "width": 954,
         "height": 77
       },
+      "styles": {
+        "fontSize": 80,
+        "lineHeight": 97,
+        "letterSpacing": -20,
+        "fontFamily": "Raleway-Light",
+        "fontWeight": 400,
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Practice Areas_86",
+      "id": "practice_areas_86",
       "name": "Practice Areas",
       "type": "text",
       "frame": {
@@ -1166,10 +1462,19 @@
         "width": 1175,
         "height": 110
       },
+      "styles": {
+        "fontSize": 149.24298,
+        "lineHeight": 66.66187,
+        "letterSpacing": -20,
+        "fontFamily": "Raleway-ExtraBold",
+        "fontWeight": 400,
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Our Reviews_87",
+      "id": "our_reviews_87",
       "name": "Our Reviews",
       "type": "text",
       "frame": {
@@ -1178,10 +1483,19 @@
         "width": 433,
         "height": 60
       },
+      "styles": {
+        "fontSize": 80,
+        "lineHeight": 97,
+        "letterSpacing": -20,
+        "fontFamily": "Raleway-Light",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": " Testimonials_88",
+      "id": "_testimonials_88",
       "name": " Testimonials",
       "type": "text",
       "frame": {
@@ -1190,10 +1504,19 @@
         "width": 1048,
         "height": 110
       },
+      "styles": {
+        "fontSize": 149.24298,
+        "lineHeight": 66.66187,
+        "letterSpacing": -20,
+        "fontFamily": "Raleway-ExtraBold",
+        "fontWeight": 400,
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Group 3_89",
+      "id": "group_3_89",
       "name": "Group 3",
       "type": "group",
       "frame": {
@@ -1202,10 +1525,11 @@
         "width": 0,
         "height": 0
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": " Criminal Defense Attorney_0",
+      "id": "_criminal_defense_attorney_0",
       "name": " Criminal Defense Attorney",
       "type": "text",
       "frame": {
@@ -1214,10 +1538,19 @@
         "width": 713,
         "height": 30
       },
-      "parent": "Group 3_89"
+      "styles": {
+        "fontSize": 40,
+        "lineHeight": 165,
+        "letterSpacing": 120,
+        "fontFamily": "Raleway-SemiBold",
+        "fontWeight": 400,
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none"
+      },
+      "parent": "group_3_89"
     },
     {
-      "id": "Earl Dobson grew up in Austin, Texas and graduated from Reagan _1",
+      "id": "earl_dobson_grew_up_in_austin,_texas_and_graduated_from_reagan__1",
       "name": "Earl Dobson grew up in Austin, Texas and graduated from Reagan ",
       "type": "text",
       "frame": {
@@ -1226,10 +1559,19 @@
         "width": 746,
         "height": 574
       },
-      "parent": "Group 3_89"
+      "styles": {
+        "fontSize": 24,
+        "lineHeight": null,
+        "letterSpacing": 0,
+        "fontFamily": "Jost-Regular",
+        "fontWeight": 400,
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none"
+      },
+      "parent": "group_3_89"
     },
     {
-      "id": "Group 4_90",
+      "id": "group_4_90",
       "name": "Group 4",
       "type": "group",
       "frame": {
@@ -1238,10 +1580,11 @@
         "width": 0,
         "height": 0
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 10 copy 4_0",
+      "id": "rectangle_10_copy_4_0",
       "name": "Rectangle 10 copy 4",
       "type": "image",
       "frame": {
@@ -1250,10 +1593,11 @@
         "width": 623,
         "height": 508
       },
-      "parent": "Group 4_90"
+      "styles": {},
+      "parent": "group_4_90"
     },
     {
-      "id": "Rectangle 10 copy 5_1",
+      "id": "rectangle_10_copy_5_1",
       "name": "Rectangle 10 copy 5",
       "type": "image",
       "frame": {
@@ -1262,10 +1606,11 @@
         "width": 623,
         "height": 508
       },
-      "parent": "Group 4_90"
+      "styles": {},
+      "parent": "group_4_90"
     },
     {
-      "id": "“ copy 2_2",
+      "id": "“_copy_2_2",
       "name": "“ copy 2",
       "type": "text",
       "frame": {
@@ -1274,10 +1619,19 @@
         "width": 116,
         "height": 86
       },
-      "parent": "Group 4_90"
+      "styles": {
+        "fontSize": 103.88439,
+        "lineHeight": 89.78243,
+        "letterSpacing": -30,
+        "fontFamily": "PlayfairDisplay-Bold",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
+      "parent": "group_4_90"
     },
     {
-      "id": "wwwww copy 3_3",
+      "id": "wwwww_copy_3_3",
       "name": "wwwww copy 3",
       "type": "text",
       "frame": {
@@ -1286,10 +1640,19 @@
         "width": 118,
         "height": 20
       },
-      "parent": "Group 4_90"
+      "styles": {
+        "fontSize": 28.81872,
+        "lineHeight": 40,
+        "letterSpacing": 140,
+        "fontFamily": "SeeingStars",
+        "fontWeight": 400,
+        "color": "rgb(237.9966, 213.384, 5.60745)",
+        "textDecoration": "none"
+      },
+      "parent": "group_4_90"
     },
     {
-      "id": "I would like to thank Mr. Dobson,and Mrs. Melissa for helping m_4",
+      "id": "i_would_like_to_thank_mr._dobson,and_mrs._melissa_for_helping_m_4",
       "name": "I would like to thank Mr. Dobson,and Mrs. Melissa for helping m",
       "type": "text",
       "frame": {
@@ -1298,10 +1661,19 @@
         "width": 511,
         "height": 166
       },
-      "parent": "Group 4_90"
+      "styles": {
+        "fontSize": 21,
+        "lineHeight": 36,
+        "letterSpacing": null,
+        "fontFamily": "Jost-Italic",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
+      "parent": "group_4_90"
     },
     {
-      "id": "Keashia Sennet_5",
+      "id": "keashia_sennet_5",
       "name": "Keashia Sennet",
       "type": "text",
       "frame": {
@@ -1310,10 +1682,19 @@
         "width": 212,
         "height": 25
       },
-      "parent": "Group 4_90"
+      "styles": {
+        "fontSize": 24,
+        "lineHeight": 40,
+        "letterSpacing": 20,
+        "fontFamily": "Jost-SemiBold",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "underline"
+      },
+      "parent": "group_4_90"
     },
     {
-      "id": "Rectangle 10 copy 3_6",
+      "id": "rectangle_10_copy_3_6",
       "name": "Rectangle 10 copy 3",
       "type": "image",
       "frame": {
@@ -1322,7 +1703,8 @@
         "width": 623,
         "height": 508
       },
-      "parent": "Group 4_90"
+      "styles": {},
+      "parent": "group_4_90"
     },
     {
       "id": "“_7",
@@ -1334,10 +1716,19 @@
         "width": 116,
         "height": 86
       },
-      "parent": "Group 4_90"
+      "styles": {
+        "fontSize": 103.88439,
+        "lineHeight": 89.78243,
+        "letterSpacing": -30,
+        "fontFamily": "PlayfairDisplay-Bold",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
+      "parent": "group_4_90"
     },
     {
-      "id": "“ copy_8",
+      "id": "“_copy_8",
       "name": "“ copy",
       "type": "text",
       "frame": {
@@ -1346,10 +1737,19 @@
         "width": 116,
         "height": 86
       },
-      "parent": "Group 4_90"
+      "styles": {
+        "fontSize": 103.88439,
+        "lineHeight": 89.78243,
+        "letterSpacing": -30,
+        "fontFamily": "PlayfairDisplay-Bold",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
+      "parent": "group_4_90"
     },
     {
-      "id": "wwwww copy_9",
+      "id": "wwwww_copy_9",
       "name": "wwwww copy",
       "type": "text",
       "frame": {
@@ -1358,10 +1758,19 @@
         "width": 118,
         "height": 20
       },
-      "parent": "Group 4_90"
+      "styles": {
+        "fontSize": 28.81872,
+        "lineHeight": 40,
+        "letterSpacing": 140,
+        "fontFamily": "SeeingStars",
+        "fontWeight": 400,
+        "color": "rgb(237.9966, 213.384, 5.60745)",
+        "textDecoration": "none"
+      },
+      "parent": "group_4_90"
     },
     {
-      "id": "I have used Earl twice and there isn't anyone else I would go t_10",
+      "id": "i_have_used_earl_twice_and_there_isn't_anyone_else_i_would_go_t_10",
       "name": "I have used Earl twice and there isn't anyone else I would go t",
       "type": "text",
       "frame": {
@@ -1370,10 +1779,19 @@
         "width": 508,
         "height": 202
       },
-      "parent": "Group 4_90"
+      "styles": {
+        "fontSize": 21,
+        "lineHeight": 36,
+        "letterSpacing": null,
+        "fontFamily": "Jost-Italic",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
+      "parent": "group_4_90"
     },
     {
-      "id": "Reese Pickard_11",
+      "id": "reese_pickard_11",
       "name": "Reese Pickard",
       "type": "text",
       "frame": {
@@ -1382,10 +1800,19 @@
         "width": 189,
         "height": 25
       },
-      "parent": "Group 4_90"
+      "styles": {
+        "fontSize": 24,
+        "lineHeight": 40,
+        "letterSpacing": 20,
+        "fontFamily": "Jost-SemiBold",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "underline"
+      },
+      "parent": "group_4_90"
     },
     {
-      "id": "wwwww copy 2_12",
+      "id": "wwwww_copy_2_12",
       "name": "wwwww copy 2",
       "type": "text",
       "frame": {
@@ -1394,10 +1821,19 @@
         "width": 118,
         "height": 20
       },
-      "parent": "Group 4_90"
+      "styles": {
+        "fontSize": 28.81872,
+        "lineHeight": 40,
+        "letterSpacing": 140,
+        "fontFamily": "SeeingStars",
+        "fontWeight": 400,
+        "color": "rgb(237.9966, 213.384, 5.60745)",
+        "textDecoration": "none"
+      },
+      "parent": "group_4_90"
     },
     {
-      "id": "In a stressful situation and they were great from start to fini_13",
+      "id": "in_a_stressful_situation_and_they_were_great_from_start_to_fini_13",
       "name": "In a stressful situation and they were great from start to fini",
       "type": "text",
       "frame": {
@@ -1406,10 +1842,19 @@
         "width": 491,
         "height": 166
       },
-      "parent": "Group 4_90"
+      "styles": {
+        "fontSize": 21,
+        "lineHeight": 36,
+        "letterSpacing": null,
+        "fontFamily": "Jost-Italic",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
+      "parent": "group_4_90"
     },
     {
-      "id": "Rectangle 25_14",
+      "id": "rectangle_25_14",
       "name": "Rectangle 25",
       "type": "image",
       "frame": {
@@ -1418,10 +1863,11 @@
         "width": 66,
         "height": 66
       },
-      "parent": "Group 4_90"
+      "styles": {},
+      "parent": "group_4_90"
     },
     {
-      "id": "Layer 43 copy_15",
+      "id": "layer_43_copy_15",
       "name": "Layer 43 copy",
       "type": "image",
       "frame": {
@@ -1430,10 +1876,11 @@
         "width": 38,
         "height": 32
       },
-      "parent": "Group 4_90"
+      "styles": {},
+      "parent": "group_4_90"
     },
     {
-      "id": "Rectangle 25 copy_16",
+      "id": "rectangle_25_copy_16",
       "name": "Rectangle 25 copy",
       "type": "image",
       "frame": {
@@ -1442,10 +1889,11 @@
         "width": 65,
         "height": 66
       },
-      "parent": "Group 4_90"
+      "styles": {},
+      "parent": "group_4_90"
     },
     {
-      "id": "Layer 43 copy 2_17",
+      "id": "layer_43_copy_2_17",
       "name": "Layer 43 copy 2",
       "type": "image",
       "frame": {
@@ -1454,10 +1902,11 @@
         "width": 38,
         "height": 32
       },
-      "parent": "Group 4_90"
+      "styles": {},
+      "parent": "group_4_90"
     },
     {
-      "id": "Dy L_18",
+      "id": "dy_l_18",
       "name": "Dy L",
       "type": "text",
       "frame": {
@@ -1466,10 +1915,19 @@
         "width": 54,
         "height": 24
       },
-      "parent": "Group 4_90"
+      "styles": {
+        "fontSize": 24,
+        "lineHeight": 40,
+        "letterSpacing": 20,
+        "fontFamily": "Jost-SemiBold",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "underline"
+      },
+      "parent": "group_4_90"
     },
     {
-      "id": "Rectangle 9 copy 8_91",
+      "id": "rectangle_9_copy_8_91",
       "name": "Rectangle 9 copy 8",
       "type": "image",
       "frame": {
@@ -1478,10 +1936,11 @@
         "width": 452,
         "height": 79
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "View All tESTIMONIALS_92",
+      "id": "view_all_testimonials_92",
       "name": "View All tESTIMONIALS",
       "type": "text",
       "frame": {
@@ -1490,10 +1949,19 @@
         "width": 279,
         "height": 16
       },
+      "styles": {
+        "fontSize": 23,
+        "lineHeight": 165,
+        "letterSpacing": 0,
+        "fontFamily": "Raleway-ExtraBold",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Rectangle 10_93",
+      "id": "rectangle_10_93",
       "name": "Rectangle 10",
       "type": "image",
       "frame": {
@@ -1502,10 +1970,11 @@
         "width": 1422,
         "height": 1422
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Shape 7_94",
+      "id": "shape_7_94",
       "name": "Shape 7",
       "type": "image",
       "frame": {
@@ -1514,10 +1983,11 @@
         "width": 419,
         "height": 560
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Background copy_95",
+      "id": "background_copy_95",
       "name": "Background copy",
       "type": "image",
       "frame": {
@@ -1526,10 +1996,11 @@
         "width": 546,
         "height": 1767
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Awards of Excellence_96",
+      "id": "awards_of_excellence_96",
       "name": "Awards of Excellence",
       "type": "text",
       "frame": {
@@ -1538,10 +2009,19 @@
         "width": 672,
         "height": 26
       },
+      "styles": {
+        "fontSize": 35,
+        "lineHeight": 90,
+        "letterSpacing": 360,
+        "fontFamily": "Raleway-SemiBold",
+        "fontWeight": 400,
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Group 5_97",
+      "id": "group_5_97",
       "name": "Group 5",
       "type": "group",
       "frame": {
@@ -1550,10 +2030,11 @@
         "width": 0,
         "height": 0
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 16_0",
+      "id": "rectangle_16_0",
       "name": "Rectangle 16",
       "type": "image",
       "frame": {
@@ -1562,10 +2043,11 @@
         "width": 279,
         "height": 189
       },
-      "parent": "Group 5_97"
+      "styles": {},
+      "parent": "group_5_97"
     },
     {
-      "id": "Layer 16_1",
+      "id": "layer_16_1",
       "name": "Layer 16",
       "type": "image",
       "frame": {
@@ -1574,10 +2056,11 @@
         "width": 132,
         "height": 132
       },
-      "parent": "Group 5_97"
+      "styles": {},
+      "parent": "group_5_97"
     },
     {
-      "id": "Rectangle 16 copy_2",
+      "id": "rectangle_16_copy_2",
       "name": "Rectangle 16 copy",
       "type": "image",
       "frame": {
@@ -1586,10 +2069,11 @@
         "width": 279,
         "height": 189
       },
-      "parent": "Group 5_97"
+      "styles": {},
+      "parent": "group_5_97"
     },
     {
-      "id": "Rectangle 16 copy 4_3",
+      "id": "rectangle_16_copy_4_3",
       "name": "Rectangle 16 copy 4",
       "type": "image",
       "frame": {
@@ -1598,10 +2082,11 @@
         "width": 279,
         "height": 189
       },
-      "parent": "Group 5_97"
+      "styles": {},
+      "parent": "group_5_97"
     },
     {
-      "id": "Rectangle 16 copy 4_4",
+      "id": "rectangle_16_copy_4_4",
       "name": "Rectangle 16 copy 4",
       "type": "image",
       "frame": {
@@ -1610,10 +2095,11 @@
         "width": 279,
         "height": 189
       },
-      "parent": "Group 5_97"
+      "styles": {},
+      "parent": "group_5_97"
     },
     {
-      "id": "Rectangle 16 copy 5_5",
+      "id": "rectangle_16_copy_5_5",
       "name": "Rectangle 16 copy 5",
       "type": "image",
       "frame": {
@@ -1622,10 +2108,11 @@
         "width": 279,
         "height": 189
       },
-      "parent": "Group 5_97"
+      "styles": {},
+      "parent": "group_5_97"
     },
     {
-      "id": "Layer 20_6",
+      "id": "layer_20_6",
       "name": "Layer 20",
       "type": "image",
       "frame": {
@@ -1634,10 +2121,11 @@
         "width": 223,
         "height": 75
       },
-      "parent": "Group 5_97"
+      "styles": {},
+      "parent": "group_5_97"
     },
     {
-      "id": "Layer 21_7",
+      "id": "layer_21_7",
       "name": "Layer 21",
       "type": "image",
       "frame": {
@@ -1646,10 +2134,11 @@
         "width": 198,
         "height": 161
       },
-      "parent": "Group 5_97"
+      "styles": {},
+      "parent": "group_5_97"
     },
     {
-      "id": "Board Certified_98",
+      "id": "board_certified_98",
       "name": "Board Certified",
       "type": "text",
       "frame": {
@@ -1658,10 +2147,19 @@
         "width": 819,
         "height": 73
       },
+      "styles": {
+        "fontSize": 99.9666,
+        "lineHeight": 137,
+        "letterSpacing": -35,
+        "fontFamily": "Raleway-ExtraBold",
+        "fontWeight": 400,
+        "color": "rgb(0, 111.6645, 44.497499999999995)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Earl Dobson_99",
+      "id": "earl_dobson_99",
       "name": "Earl Dobson",
       "type": "text",
       "frame": {
@@ -1670,10 +2168,19 @@
         "width": 997,
         "height": 110
       },
+      "styles": {
+        "fontSize": 149.24298,
+        "lineHeight": 66.66187,
+        "letterSpacing": -20,
+        "fontFamily": "Raleway-ExtraBold",
+        "fontWeight": 400,
+        "color": "rgb(0, 0, 0)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Legal Experience_100",
+      "id": "legal_experience_100",
       "name": "Legal Experience",
       "type": "image",
       "frame": {
@@ -1682,10 +2189,11 @@
         "width": 137,
         "height": 111
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Layer 12_101",
+      "id": "layer_12_101",
       "name": "Layer 12",
       "type": "image",
       "frame": {
@@ -1694,10 +2202,11 @@
         "width": 165,
         "height": 157
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Layer 23_102",
+      "id": "layer_23_102",
       "name": "Layer 23",
       "type": "image",
       "frame": {
@@ -1706,10 +2215,11 @@
         "width": 926,
         "height": 443
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 11 copy_103",
+      "id": "rectangle_11_copy_103",
       "name": "Rectangle 11 copy",
       "type": "image",
       "frame": {
@@ -1718,10 +2228,11 @@
         "width": 2089,
         "height": 1110
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Layer 44_104",
+      "id": "layer_44_104",
       "name": "Layer 44",
       "type": "image",
       "frame": {
@@ -1730,10 +2241,11 @@
         "width": 1931,
         "height": 1287
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 10_105",
+      "id": "rectangle_10_105",
       "name": "Rectangle 10",
       "type": "image",
       "frame": {
@@ -1742,10 +2254,11 @@
         "width": 699,
         "height": 700
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 10 copy_106",
+      "id": "rectangle_10_copy_106",
       "name": "Rectangle 10 copy",
       "type": "image",
       "frame": {
@@ -1754,10 +2267,11 @@
         "width": 495,
         "height": 495
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 10 copy 2_107",
+      "id": "rectangle_10_copy_2_107",
       "name": "Rectangle 10 copy 2",
       "type": "image",
       "frame": {
@@ -1766,10 +2280,11 @@
         "width": 274,
         "height": 274
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 10 copy 6_108",
+      "id": "rectangle_10_copy_6_108",
       "name": "Rectangle 10 copy 6",
       "type": "image",
       "frame": {
@@ -1778,10 +2293,11 @@
         "width": 699,
         "height": 700
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 10 copy 6_109",
+      "id": "rectangle_10_copy_6_109",
       "name": "Rectangle 10 copy 6",
       "type": "image",
       "frame": {
@@ -1790,10 +2306,11 @@
         "width": 495,
         "height": 495
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 10 copy 6_110",
+      "id": "rectangle_10_copy_6_110",
       "name": "Rectangle 10 copy 6",
       "type": "image",
       "frame": {
@@ -1802,10 +2319,11 @@
         "width": 274,
         "height": 274
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Home     |     Attorney Profile     |     Practice Areas     | _111",
+      "id": "home_|_attorney_profile_|_practice_areas_|__111",
       "name": "Home     |     Attorney Profile     |     Practice Areas     | ",
       "type": "text",
       "frame": {
@@ -1814,10 +2332,19 @@
         "width": 1315,
         "height": 31
       },
+      "styles": {
+        "fontSize": 30,
+        "lineHeight": 36,
+        "letterSpacing": 30,
+        "fontFamily": "Jost-Medium",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Rectangle 861_112",
+      "id": "rectangle_861_112",
       "name": "Rectangle 861",
       "type": "image",
       "frame": {
@@ -1826,10 +2353,11 @@
         "width": 1442,
         "height": 6
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 860_113",
+      "id": "rectangle_860_113",
       "name": "Rectangle 860",
       "type": "image",
       "frame": {
@@ -1838,10 +2366,11 @@
         "width": 1502,
         "height": 599
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Layer 43_114",
+      "id": "layer_43_114",
       "name": "Layer 43",
       "type": "image",
       "frame": {
@@ -1850,10 +2379,11 @@
         "width": 1743,
         "height": 1080
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 857_115",
+      "id": "rectangle_857_115",
       "name": "Rectangle 857",
       "type": "image",
       "frame": {
@@ -1862,10 +2392,11 @@
         "width": 770,
         "height": 758
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 858 copy 3_116",
+      "id": "rectangle_858_copy_3_116",
       "name": "Rectangle 858 copy 3",
       "type": "image",
       "frame": {
@@ -1874,10 +2405,11 @@
         "width": 640,
         "height": 167
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 859_117",
+      "id": "rectangle_859_117",
       "name": "Rectangle 859",
       "type": "image",
       "frame": {
@@ -1886,10 +2418,11 @@
         "width": 60,
         "height": 67
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Layer 28_118",
+      "id": "layer_28_118",
       "name": "Layer 28",
       "type": "image",
       "frame": {
@@ -1898,10 +2431,11 @@
         "width": 31,
         "height": 20
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 858 copy 2_119",
+      "id": "rectangle_858_copy_2_119",
       "name": "Rectangle 858 copy 2",
       "type": "image",
       "frame": {
@@ -1910,10 +2444,11 @@
         "width": 314,
         "height": 67
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 859_120",
+      "id": "rectangle_859_120",
       "name": "Rectangle 859",
       "type": "image",
       "frame": {
@@ -1922,10 +2457,11 @@
         "width": 60,
         "height": 67
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 858 copy 2_121",
+      "id": "rectangle_858_copy_2_121",
       "name": "Rectangle 858 copy 2",
       "type": "image",
       "frame": {
@@ -1934,10 +2470,11 @@
         "width": 314,
         "height": 67
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 859_122",
+      "id": "rectangle_859_122",
       "name": "Rectangle 859",
       "type": "image",
       "frame": {
@@ -1946,10 +2483,11 @@
         "width": 60,
         "height": 67
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "How We Can Help You?*_123",
+      "id": "how_we_can_help_you?*_123",
       "name": "How We Can Help You?*",
       "type": "text",
       "frame": {
@@ -1958,10 +2496,19 @@
         "width": 216,
         "height": 21
       },
+      "styles": {
+        "fontSize": 20,
+        "lineHeight": 38,
+        "letterSpacing": null,
+        "fontFamily": "Jost-Regular",
+        "fontWeight": 400,
+        "color": "rgb(101.99745, 101.99745, 101.99745)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Layer 30_124",
+      "id": "layer_30_124",
       "name": "Layer 30",
       "type": "image",
       "frame": {
@@ -1970,10 +2517,11 @@
         "width": 20,
         "height": 20
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Phone Number*_125",
+      "id": "phone_number*_125",
       "name": "Phone Number*",
       "type": "text",
       "frame": {
@@ -1982,10 +2530,19 @@
         "width": 138,
         "height": 17
       },
+      "styles": {
+        "fontSize": 20,
+        "lineHeight": 38,
+        "letterSpacing": null,
+        "fontFamily": "Jost-Regular",
+        "fontWeight": 400,
+        "color": "rgb(101.99745, 101.99745, 101.99745)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Layer 32_126",
+      "id": "layer_32_126",
       "name": "Layer 32",
       "type": "image",
       "frame": {
@@ -1994,10 +2551,11 @@
         "width": 33,
         "height": 23
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Email Address*_127",
+      "id": "email_address*_127",
       "name": "Email Address*",
       "type": "text",
       "frame": {
@@ -2006,10 +2564,19 @@
         "width": 130,
         "height": 17
       },
+      "styles": {
+        "fontSize": 20,
+        "lineHeight": 38,
+        "letterSpacing": null,
+        "fontFamily": "Jost-Regular",
+        "fontWeight": 400,
+        "color": "rgb(101.99745, 101.99745, 101.99745)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Rectangle 858 copy_128",
+      "id": "rectangle_858_copy_128",
       "name": "Rectangle 858 copy",
       "type": "image",
       "frame": {
@@ -2018,10 +2585,11 @@
         "width": 314,
         "height": 67
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 859_129",
+      "id": "rectangle_859_129",
       "name": "Rectangle 859",
       "type": "image",
       "frame": {
@@ -2030,10 +2598,11 @@
         "width": 60,
         "height": 67
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Layer 34_130",
+      "id": "layer_34_130",
       "name": "Layer 34",
       "type": "image",
       "frame": {
@@ -2042,10 +2611,11 @@
         "width": 23,
         "height": 24
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Last Name*_131",
+      "id": "last_name*_131",
       "name": "Last Name*",
       "type": "text",
       "frame": {
@@ -2054,10 +2624,19 @@
         "width": 97,
         "height": 16
       },
+      "styles": {
+        "fontSize": 20,
+        "lineHeight": 38,
+        "letterSpacing": null,
+        "fontFamily": "Jost-Regular",
+        "fontWeight": 400,
+        "color": "rgb(101.99745, 101.99745, 101.99745)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Rectangle 858_132",
+      "id": "rectangle_858_132",
       "name": "Rectangle 858",
       "type": "image",
       "frame": {
@@ -2066,10 +2645,11 @@
         "width": 314,
         "height": 67
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 859_133",
+      "id": "rectangle_859_133",
       "name": "Rectangle 859",
       "type": "image",
       "frame": {
@@ -2078,10 +2658,11 @@
         "width": 60,
         "height": 67
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Layer 36_134",
+      "id": "layer_36_134",
       "name": "Layer 36",
       "type": "image",
       "frame": {
@@ -2090,10 +2671,11 @@
         "width": 23,
         "height": 24
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "First Name*_135",
+      "id": "first_name*_135",
       "name": "First Name*",
       "type": "text",
       "frame": {
@@ -2102,10 +2684,19 @@
         "width": 100,
         "height": 16
       },
+      "styles": {
+        "fontSize": 20,
+        "lineHeight": 38,
+        "letterSpacing": null,
+        "fontFamily": "Jost-Regular",
+        "fontWeight": 400,
+        "color": "rgb(101.99745, 101.99745, 101.99745)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Don't Wait! Contact Us Today_136",
+      "id": "don't_wait!_contact_us_today_136",
       "name": "Don't Wait! Contact Us Today",
       "type": "text",
       "frame": {
@@ -2114,10 +2705,19 @@
         "width": 576,
         "height": 141
       },
+      "styles": {
+        "fontSize": 72,
+        "lineHeight": 72,
+        "letterSpacing": null,
+        "fontFamily": "Raleway-Light",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Layer 11_137",
+      "id": "layer_11_137",
       "name": "Layer 11",
       "type": "image",
       "frame": {
@@ -2126,10 +2726,11 @@
         "width": 221,
         "height": 89
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rectangle 9 copy 10_138",
+      "id": "rectangle_9_copy_10_138",
       "name": "Rectangle 9 copy 10",
       "type": "image",
       "frame": {
@@ -2138,10 +2739,11 @@
         "width": 283,
         "height": 79
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Submit Now_139",
+      "id": "submit_now_139",
       "name": "Submit Now",
       "type": "text",
       "frame": {
@@ -2150,10 +2752,19 @@
         "width": 152,
         "height": 16
       },
+      "styles": {
+        "fontSize": 23,
+        "lineHeight": 165,
+        "letterSpacing": 0,
+        "fontFamily": "Raleway-ExtraBold",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Fields marked with an * are required_140",
+      "id": "fields_marked_with_an_*_are_required_140",
       "name": "Fields marked with an * are required",
       "type": "text",
       "frame": {
@@ -2162,10 +2773,19 @@
         "width": 292,
         "height": 19
       },
+      "styles": {
+        "fontSize": 18,
+        "lineHeight": 40,
+        "letterSpacing": 20,
+        "fontFamily": "Jost-Regular",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Disclaimer  |  Privacy Policy_141",
+      "id": "disclaimer_|_privacy_policy_141",
       "name": "Disclaimer  |  Privacy Policy",
       "type": "text",
       "frame": {
@@ -2174,10 +2794,19 @@
         "width": 219,
         "height": 20
       },
+      "styles": {
+        "fontSize": 18,
+        "lineHeight": 40,
+        "letterSpacing": 20,
+        "fontFamily": "Jost-Regular",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "I  Have Read The Disclaimer *_142",
+      "id": "i_have_read_the_disclaimer_*_142",
       "name": "I  Have Read The Disclaimer *",
       "type": "text",
       "frame": {
@@ -2186,10 +2815,19 @@
         "width": 238,
         "height": 16
       },
+      "styles": {
+        "fontSize": 18,
+        "lineHeight": 40,
+        "letterSpacing": 20,
+        "fontFamily": "Jost-Regular",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
       "parent": null
     },
     {
-      "id": "Rectangle 12 copy 3_143",
+      "id": "rectangle_12_copy_3_143",
       "name": "Rectangle 12 copy 3",
       "type": "image",
       "frame": {
@@ -2198,10 +2836,11 @@
         "width": 15,
         "height": 15
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Group 6_144",
+      "id": "group_6_144",
       "name": "Group 6",
       "type": "group",
       "frame": {
@@ -2210,10 +2849,11 @@
         "width": 0,
         "height": 0
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Group 7_145",
+      "id": "group_7_145",
       "name": "Group 7",
       "type": "group",
       "frame": {
@@ -2222,10 +2862,11 @@
         "width": 0,
         "height": 0
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "EARL_DOBSON-smallwebversion_0",
+      "id": "earl_dobson-smallwebversion_0",
       "name": "EARL_DOBSON-smallwebversion",
       "type": "image",
       "frame": {
@@ -2234,10 +2875,11 @@
         "width": 390,
         "height": 119
       },
-      "parent": "Group 7_145"
+      "styles": {},
+      "parent": "group_7_145"
     },
     {
-      "id": "(940) 591-7097_1",
+      "id": "(940)_591-7097_1",
       "name": "(940) 591-7097",
       "type": "text",
       "frame": {
@@ -2246,10 +2888,19 @@
         "width": 272,
         "height": 35
       },
-      "parent": "Group 7_145"
+      "styles": {
+        "fontSize": 35,
+        "lineHeight": 32,
+        "letterSpacing": 20,
+        "fontFamily": "Jost-Bold",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
+      "parent": "group_7_145"
     },
     {
-      "id": "Contact Us_2",
+      "id": "contact_us_2",
       "name": "Contact Us",
       "type": "text",
       "frame": {
@@ -2258,10 +2909,19 @@
         "width": 243,
         "height": 30
       },
-      "parent": "Group 7_145"
+      "styles": {
+        "fontSize": 40,
+        "lineHeight": 105,
+        "letterSpacing": -20,
+        "fontFamily": "Raleway-Bold",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
+      "parent": "group_7_145"
     },
     {
-      "id": "Rectangle 49 copy_3",
+      "id": "rectangle_49_copy_3",
       "name": "Rectangle 49 copy",
       "type": "image",
       "frame": {
@@ -2270,10 +2930,11 @@
         "width": 246,
         "height": 8
       },
-      "parent": "Group 7_145"
+      "styles": {},
+      "parent": "group_7_145"
     },
     {
-      "id": "Office Location_4",
+      "id": "office_location_4",
       "name": "Office Location",
       "type": "text",
       "frame": {
@@ -2282,10 +2943,19 @@
         "width": 335,
         "height": 30
       },
-      "parent": "Group 7_145"
+      "styles": {
+        "fontSize": 40,
+        "lineHeight": 105,
+        "letterSpacing": -20,
+        "fontFamily": "Raleway-Bold",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
+      "parent": "group_7_145"
     },
     {
-      "id": "Rectangle 49_5",
+      "id": "rectangle_49_5",
       "name": "Rectangle 49",
       "type": "image",
       "frame": {
@@ -2294,10 +2964,11 @@
         "width": 345,
         "height": 8
       },
-      "parent": "Group 7_145"
+      "styles": {},
+      "parent": "group_7_145"
     },
     {
-      "id": "The Law Office of Earl Dobson 1415 North Locust Street Denton, _6",
+      "id": "the_law_office_of_earl_dobson_1415_north_locust_street_denton,__6",
       "name": "The Law Office of Earl Dobson 1415 North Locust Street Denton, ",
       "type": "text",
       "frame": {
@@ -2306,10 +2977,19 @@
         "width": 311,
         "height": 123
       },
-      "parent": "Group 7_145"
+      "styles": {
+        "fontSize": null,
+        "lineHeight": null,
+        "letterSpacing": 0,
+        "fontFamily": null,
+        "fontWeight": 400,
+        "color": null,
+        "textDecoration": "none"
+      },
+      "parent": "group_7_145"
     },
     {
-      "id": "Layer 37_7",
+      "id": "layer_37_7",
       "name": "Layer 37",
       "type": "image",
       "frame": {
@@ -2318,10 +2998,11 @@
         "width": 22,
         "height": 31
       },
-      "parent": "Group 7_145"
+      "styles": {},
+      "parent": "group_7_145"
     },
     {
-      "id": "Rectangle 51_8",
+      "id": "rectangle_51_8",
       "name": "Rectangle 51",
       "type": "image",
       "frame": {
@@ -2330,10 +3011,11 @@
         "width": 4,
         "height": 250
       },
-      "parent": "Group 7_145"
+      "styles": {},
+      "parent": "group_7_145"
     },
     {
-      "id": "Rectangle 51 copy_9",
+      "id": "rectangle_51_copy_9",
       "name": "Rectangle 51 copy",
       "type": "image",
       "frame": {
@@ -2342,10 +3024,11 @@
         "width": 5,
         "height": 170
       },
-      "parent": "Group 7_145"
+      "styles": {},
+      "parent": "group_7_145"
     },
     {
-      "id": "Rectangle 51 copy 2_10",
+      "id": "rectangle_51_copy_2_10",
       "name": "Rectangle 51 copy 2",
       "type": "image",
       "frame": {
@@ -2354,10 +3037,11 @@
         "width": 4,
         "height": 250
       },
-      "parent": "Group 7_145"
+      "styles": {},
+      "parent": "group_7_145"
     },
     {
-      "id": "Rectangle 51 copy 2_11",
+      "id": "rectangle_51_copy_2_11",
       "name": "Rectangle 51 copy 2",
       "type": "image",
       "frame": {
@@ -2366,10 +3050,11 @@
         "width": 6,
         "height": 170
       },
-      "parent": "Group 7_145"
+      "styles": {},
+      "parent": "group_7_145"
     },
     {
-      "id": "Rectangle 51 copy 3_12",
+      "id": "rectangle_51_copy_3_12",
       "name": "Rectangle 51 copy 3",
       "type": "image",
       "frame": {
@@ -2378,10 +3063,11 @@
         "width": 4,
         "height": 250
       },
-      "parent": "Group 7_145"
+      "styles": {},
+      "parent": "group_7_145"
     },
     {
-      "id": "Rectangle 51 copy 3_13",
+      "id": "rectangle_51_copy_3_13",
       "name": "Rectangle 51 copy 3",
       "type": "image",
       "frame": {
@@ -2390,10 +3076,11 @@
         "width": 6,
         "height": 170
       },
-      "parent": "Group 7_145"
+      "styles": {},
+      "parent": "group_7_145"
     },
     {
-      "id": "Rectangle 51 copy 4_14",
+      "id": "rectangle_51_copy_4_14",
       "name": "Rectangle 51 copy 4",
       "type": "image",
       "frame": {
@@ -2402,10 +3089,11 @@
         "width": 4,
         "height": 250
       },
-      "parent": "Group 7_145"
+      "styles": {},
+      "parent": "group_7_145"
     },
     {
-      "id": "Rectangle 51 copy 4_15",
+      "id": "rectangle_51_copy_4_15",
       "name": "Rectangle 51 copy 4",
       "type": "image",
       "frame": {
@@ -2414,10 +3102,11 @@
         "width": 6,
         "height": 170
       },
-      "parent": "Group 7_145"
+      "styles": {},
+      "parent": "group_7_145"
     },
     {
-      "id": "Layer 40_16",
+      "id": "layer_40_16",
       "name": "Layer 40",
       "type": "image",
       "frame": {
@@ -2426,10 +3115,11 @@
         "width": 26,
         "height": 26
       },
-      "parent": "Group 7_145"
+      "styles": {},
+      "parent": "group_7_145"
     },
     {
-      "id": "(940) 382-6505_17",
+      "id": "(940)_382-6505_17",
       "name": "(940) 382-6505",
       "type": "text",
       "frame": {
@@ -2438,7 +3128,16 @@
         "width": 278,
         "height": 35
       },
-      "parent": "Group 7_145"
+      "styles": {
+        "fontSize": 35,
+        "lineHeight": 32,
+        "letterSpacing": 20,
+        "fontFamily": "Jost-Bold",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
+      "parent": "group_7_145"
     },
     {
       "id": "fax_18",
@@ -2450,10 +3149,11 @@
         "width": 33,
         "height": 29
       },
-      "parent": "Group 7_145"
+      "styles": {},
+      "parent": "group_7_145"
     },
     {
-      "id": "Rectangle 9 copy 11_19",
+      "id": "rectangle_9_copy_11_19",
       "name": "Rectangle 9 copy 11",
       "type": "image",
       "frame": {
@@ -2462,10 +3162,11 @@
         "width": 383,
         "height": 79
       },
-      "parent": "Group 7_145"
+      "styles": {},
+      "parent": "group_7_145"
     },
     {
-      "id": "Get A free Consultation_20",
+      "id": "get_a_free_consultation_20",
       "name": "Get A free Consultation",
       "type": "text",
       "frame": {
@@ -2474,10 +3175,19 @@
         "width": 305,
         "height": 16
       },
-      "parent": "Group 7_145"
+      "styles": {
+        "fontSize": 23,
+        "lineHeight": 165,
+        "letterSpacing": 0,
+        "fontFamily": "Raleway-ExtraBold",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
+      "parent": "group_7_145"
     },
     {
-      "id": "Earl Dobson is a Board Certified® Texas criminal defense attorn_21",
+      "id": "earl_dobson_is_a_board_certified®_texas_criminal_defense_attorn_21",
       "name": "Earl Dobson is a Board Certified® Texas criminal defense attorn",
       "type": "text",
       "frame": {
@@ -2486,10 +3196,19 @@
         "width": 963,
         "height": 56
       },
-      "parent": "Group 7_145"
+      "styles": {
+        "fontSize": 18,
+        "lineHeight": 18,
+        "letterSpacing": 0,
+        "fontFamily": "Jost-Regular",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
+      },
+      "parent": "group_7_145"
     },
     {
-      "id": "Rectangle 861 copy_146",
+      "id": "rectangle_861_copy_146",
       "name": "Rectangle 861 copy",
       "type": "image",
       "frame": {
@@ -2498,10 +3217,11 @@
         "width": 1442,
         "height": 6
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "Rounded Rectangle 7 copy 4_147",
+      "id": "rounded_rectangle_7_copy_4_147",
       "name": "Rounded Rectangle 7 copy 4",
       "type": "image",
       "frame": {
@@ -2510,10 +3230,11 @@
         "width": 1639,
         "height": 178
       },
+      "styles": {},
       "parent": null
     },
     {
-      "id": "© 2024 • The Law Office Of Earl Dobson • All Rights Reserved Di_148",
+      "id": "©_2024_•_the_law_office_of_earl_dobson_•_all_rights_reserved_di_148",
       "name": "© 2024 • The Law Office Of Earl Dobson • All Rights Reserved Di",
       "type": "text",
       "frame": {
@@ -2521,6 +3242,15 @@
         "y": 7860,
         "width": 888,
         "height": 21
+      },
+      "styles": {
+        "fontSize": 20,
+        "lineHeight": 38,
+        "letterSpacing": 20,
+        "fontFamily": "Jost-Regular",
+        "fontWeight": 400,
+        "color": "rgb(255, 255, 255)",
+        "textDecoration": "none"
       },
       "parent": null
     }
