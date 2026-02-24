@@ -1,6 +1,8 @@
 import fs from "fs";
 import { normalizePsd } from "../core/normalize.js";
 import { parsePsd } from "../core/parsePsd.js";
+import { generateCSS } from "../generators/cssGenerator.js";
+import { generateHTML } from "../generators/htmlGenerator.js";
 
 const filePath = process.argv[2];
 
@@ -19,11 +21,19 @@ if (!psd) {
 }
 
 const normalized = normalizePsd(psd);
+const css = generateCSS(normalized.elements);
+const html = generateHTML(normalized.elements);
 
 fs.writeFileSync("./output/psd.json", JSON.stringify(normalized, null, 2));
 
 console.log("\n✅ PSD parsed successfully");
 console.log("✅ JSON generated → output/psd.json\n");
+
+fs.writeFileSync("./output/styles.css", css);
+fs.writeFileSync("./output/index.html", html);
+
+console.log("✅ HTML & CSS generated");
+
 
 const layers = psd.children || [];
 
