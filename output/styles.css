@@ -1,6 +1,4 @@
 
-/* ===== PSD Rendering Engine Base Rules ===== */
-
 .text-layer {
   position: absolute;
   white-space: pre;
@@ -12,116 +10,7 @@
   position: absolute;
 }
 
-.background_0 {
-  left: 0px;
-  top: 0px;
-  width: 1920px;
-  height: 7921px;
-}
-
-.rectangle_8_1 {
-  left: -1px;
-  top: 86px;
-  width: 1922px;
-  height: 1068px;
-}
-
-.layer_7_2 {
-  left: 0px;
-  top: 32px;
-  width: 1920px;
-  height: 1334px;
-}
-
-.layer_2_3 {
-  left: 1px;
-  top: 67px;
-  width: 1919px;
-  height: 794px;
-}
-
-.color_lookup_1_4 {
-  left: 0px;
-  top: 0px;
-  width: 0px;
-  height: 0px;
-}
-
-.photo_filter_1_5 {
-  left: 0px;
-  top: 0px;
-  width: 0px;
-  height: 0px;
-}
-
-.layer_6_6 {
-  left: 0px;
-  top: 392px;
-  width: 1920px;
-  height: 1088px;
-}
-
-.layer_8_7 {
-  left: 0px;
-  top: 0px;
-  width: 1920px;
-  height: 2162px;
-}
-
-.group_1_8 {
-  left: 0px;
-  top: 0px;
-  width: 0px;
-  height: 0px;
-}
-
-.rectangle_10_0 {
-  left: 1533px;
-  top: 142px;
-  width: 699px;
-  height: 699px;
-}
-
-.rectangle_10_copy_1 {
-  left: 1287px;
-  top: 532px;
-  width: 494px;
-  height: 494px;
-}
-
-.rectangle_10_copy_2_2 {
-  left: 1649px;
-  top: 816px;
-  width: 274px;
-  height: 274px;
-}
-
-.rectangle_10_copy_3_3 {
-  left: -374px;
-  top: 328px;
-  width: 699px;
-  height: 699px;
-}
-
-.rectangle_10_copy_3_4 {
-  left: 136px;
-  top: 427px;
-  width: 494px;
-  height: 495px;
-}
-
-.rectangle_10_copy_3_5 {
-  left: 112px;
-  top: 817px;
-  width: 232px;
-  height: 231px;
-}
-
-.board_certified_9 {
-  left: 209px;
-  top: 457px;
-  width: 911px;
-  height: 302px;
+.text-style-1 {
   font-size: 193px;
   line-height: 193px;
   letter-spacing: -35px;
@@ -130,11 +19,7 @@
   color: rgb(236, 255, 244);
 }
 
-.criminal_defense_attorney_10 {
-  left: 208px;
-  top: 795px;
-  width: 891px;
-  height: 37px;
+.text-style-2 {
   font-size: 50px;
   line-height: 165px;
   letter-spacing: 120px;
@@ -143,11 +28,7 @@
   color: rgb(255, 255, 255);
 }
 
-.san_bernardino_county_11 {
-  left: 156px;
-  top: 549px;
-  width: 755px;
-  height: 39px;
+.text-style-3 {
   font-size: 49px;
   line-height: 49px;
   letter-spacing: 100px;
@@ -156,18 +37,7 @@
   color: rgb(255, 255, 255);
 }
 
-.rectangle_6_12 {
-  left: -1px;
-  top: 90px;
-  width: 1922px;
-  height: 91px;
-}
-
-.home_attorney_profile_practice_areas__13 {
-  left: 733px;
-  top: 126px;
-  width: 977px;
-  height: 18px;
+.text-style-4 {
   font-size: 23px;
   line-height: 36px;
   letter-spacing: 30px;
@@ -176,32 +46,7 @@
   color: rgb(0, 0, 0);
 }
 
-.rectangle_11_14 {
-  left: 571px;
-  top: 1049px;
-  width: 1428px;
-  height: 273px;
-}
-
-.rectangle_13_copy_3_15 {
-  left: 834px;
-  top: 113px;
-  width: 701px;
-  height: 44px;
-}
-
-.rectangle_7_16 {
-  left: -18px;
-  top: -1px;
-  width: 2227px;
-  height: 93px;
-}
-
-.call_us_today__940_591_7097__17 {
-  left: 1285px;
-  top: 33px;
-  width: 425px;
-  height: 22px;
+.text-style-5 {
   font-size: 28px;
   line-height: 36px;
   letter-spacing: 30px;
@@ -210,11 +55,7 @@
   color: rgb(255, 255, 255);
 }
 
-.contact_us_at_any_time__24_7__18 {
-  left: 807px;
-  top: 33px;
-  width: 375px;
-  height: 28px;
+.text-style-6 {
   font-size: 28px;
   line-height: 36px;
   letter-spacing: 0px;
@@ -223,71 +64,14 @@
   color: rgb(255, 255, 255);
 }
 
-.rectangle_9_19 {
-  left: 209px;
-  top: -1px;
-  width: 470px;
-  height: 218px;
-}
-
-.rectangle_9_copy_20 {
-  left: 209px;
-  top: 874px;
-  width: 472px;
-  height: 79px;
-}
-
-.rectangle_9_copy_2_21 {
-  left: -16px;
-  top: 1143px;
-  width: 756px;
-  height: 11px;
-}
-
-.ellipse_2_22 {
-  left: 1212px;
-  top: 16px;
-  width: 59px;
-  height: 59px;
-}
-
-.layer_5_23 {
-  left: 1228px;
-  top: 32px;
-  width: 28px;
-  height: 27px;
-}
-
-.call_us_today__940_591_7097__24 {
-  left: 1400px;
-  top: 5787px;
-  width: 280px;
-  height: 52px;
+.text-style-7 {
   line-height: 36px;
   letter-spacing: 0px;
   font-weight: 400;
   color: rgb(1, 1, 1);
 }
 
-.phone-call__1__25 {
-  left: 1342px;
-  top: 5790px;
-  width: 47px;
-  height: 47px;
-}
-
-.earl_dobson-smallwebversion_26 {
-  left: 245px;
-  top: 48px;
-  width: 398px;
-  height: 122px;
-}
-
-.schedule_a_free_consultation_27 {
-  left: 254px;
-  top: 906px;
-  width: 383px;
-  height: 16px;
+.text-style-8 {
   font-size: 23px;
   line-height: 165px;
   letter-spacing: 0px;
@@ -296,25 +80,7 @@
   color: rgb(255, 255, 255);
 }
 
-.layer_9_28 {
-  left: 0px;
-  top: 903px;
-  width: 1920px;
-  height: 1406px;
-}
-
-.layer_13_29 {
-  left: 0px;
-  top: 1031px;
-  width: 1920px;
-  height: 1265px;
-}
-
-.defending_every_client_s_rights___reputation_30 {
-  left: 210px;
-  top: 1271px;
-  width: 833px;
-  height: 174px;
+.text-style-9 {
   font-size: 80px;
   line-height: 97px;
   letter-spacing: -20px;
@@ -323,11 +89,7 @@
   color: rgb(0, 0, 0);
 }
 
-.free_office_or_phone_consultations_available__31 {
-  left: 210px;
-  top: 1747px;
-  width: 808px;
-  height: 31px;
+.text-style-10 {
   font-size: 40px;
   line-height: 97px;
   letter-spacing: -20px;
@@ -336,179 +98,7 @@
   color: rgb(0, 110, 45);
 }
 
-.rectangle_12_32 {
-  left: 1377px;
-  top: 1199px;
-  width: 347px;
-  height: 274px;
-}
-
-.rectangle_13_33 {
-  left: 210px;
-  top: 1817px;
-  width: 1129px;
-  height: 442px;
-}
-
-.rectangle_13_copy_34 {
-  left: 0px;
-  top: 2309px;
-  width: 1920px;
-  height: 871px;
-}
-
-.rectangle_13_copy_2_35 {
-  left: 0px;
-  top: 5928px;
-  width: 1920px;
-  height: 871px;
-}
-
-.rectangle_14_copy_36 {
-  left: 1113px;
-  top: 1665px;
-  width: 16px;
-  height: 153px;
-}
-
-.rectangle_14_copy_2_37 {
-  left: 1707px;
-  top: 1450px;
-  width: 17px;
-  height: 635px;
-}
-
-.rectangle_14_38 {
-  left: 596px;
-  top: 2660px;
-  width: 340px;
-  height: 339px;
-}
-
-.logo_39 {
-  left: 639px;
-  top: 2671px;
-  width: 254px;
-  height: 342px;
-}
-
-.rectangle_14_copy_3_40 {
-  left: 959px;
-  top: 2660px;
-  width: 3px;
-  height: 339px;
-}
-
-.rectangle_14_copy_4_41 {
-  left: 983px;
-  top: 2660px;
-  width: 340px;
-  height: 339px;
-}
-
-.rectangle_14_copy_5_42 {
-  left: 1371px;
-  top: 2660px;
-  width: 340px;
-  height: 339px;
-}
-
-.rectangle_14_copy_4_43 {
-  left: 1345px;
-  top: 2660px;
-  width: 4px;
-  height: 339px;
-}
-
-.rectangle_14_copy_6_44 {
-  left: 596px;
-  top: 3026px;
-  width: 340px;
-  height: 339px;
-}
-
-.rectangle_14_copy_6_45 {
-  left: 959px;
-  top: 3026px;
-  width: 3px;
-  height: 339px;
-}
-
-.rectangle_14_copy_7_46 {
-  left: 209px;
-  top: 2660px;
-  width: 339px;
-  height: 339px;
-}
-
-.rectangle_14_copy_7_47 {
-  left: 570px;
-  top: 2660px;
-  width: 4px;
-  height: 339px;
-}
-
-.rectangle_14_copy_7_48 {
-  left: 209px;
-  top: 3026px;
-  width: 339px;
-  height: 339px;
-}
-
-.rectangle_14_copy_7_49 {
-  left: 570px;
-  top: 3026px;
-  width: 4px;
-  height: 339px;
-}
-
-.rectangle_14_copy_6_50 {
-  left: 983px;
-  top: 3026px;
-  width: 340px;
-  height: 339px;
-}
-
-.rectangle_14_copy_6_51 {
-  left: 1371px;
-  top: 3026px;
-  width: 340px;
-  height: 339px;
-}
-
-.rectangle_14_copy_6_52 {
-  left: 1345px;
-  top: 3026px;
-  width: 4px;
-  height: 339px;
-}
-
-.rectangle_12_copy_53 {
-  left: 1124px;
-  top: 1213px;
-  width: 587px;
-  height: 824px;
-}
-
-.layer_10_54 {
-  left: 1118px;
-  top: 1184px;
-  width: 614px;
-  height: 920px;
-}
-
-.rectangle_9_copy_2_55 {
-  left: 209px;
-  top: 2178px;
-  width: 752px;
-  height: 11px;
-}
-
-.the_denton_law_office_of_defense_attorney_earl_dobson_has_handl_56 {
-  left: 210px;
-  top: 1474px;
-  width: 802px;
-  height: 230px;
+.text-style-11 {
   font-size: 23px;
   line-height: 41px;
   letter-spacing: 0px;
@@ -517,24 +107,7 @@
   color: rgb(0, 0, 0);
 }
 
-.without_skillful_legal_representation__defendants_will_face_the_57 {
-  left: 259px;
-  top: 1859px;
-  width: 736px;
-  height: 271px;
-  font-size: 23px;
-  line-height: 41px;
-  letter-spacing: 0px;
-  font-family: 'Jost-Medium';
-  font-weight: 400;
-  color: rgb(0, 0, 0);
-}
-
-.dwi___dui_58 {
-  left: 320px;
-  top: 2887px;
-  width: 116px;
-  height: 17px;
+.text-style-12 {
   font-size: 24px;
   line-height: 31px;
   letter-spacing: 0px;
@@ -543,98 +116,7 @@
   color: rgb(0, 0, 0);
 }
 
-.drink_59 {
-  left: 325px;
-  top: 2722px;
-  width: 107px;
-  height: 107px;
-}
-
-.computer_crimes_60 {
-  left: 279px;
-  top: 3251px;
-  width: 198px;
-  height: 23px;
-  font-size: 24px;
-  line-height: 31px;
-  letter-spacing: 0px;
-  font-family: 'Raleway-Medium';
-  font-weight: 400;
-  color: rgb(0, 0, 0);
-}
-
-.domestic_violence___assault_61 {
-  left: 662px;
-  top: 3251px;
-  width: 210px;
-  height: 49px;
-  font-size: 24px;
-  line-height: 31px;
-  letter-spacing: 0px;
-  font-family: 'Raleway-Medium';
-  font-weight: 400;
-  color: rgb(0, 0, 0);
-}
-
-.stop-violence_62 {
-  left: 713px;
-  top: 3087px;
-  width: 107px;
-  height: 107px;
-}
-
-.probation_violations_63 {
-  left: 1042px;
-  top: 3251px;
-  width: 223px;
-  height: 18px;
-  font-size: 24px;
-  line-height: 31px;
-  letter-spacing: 0px;
-  font-family: 'Raleway-Medium';
-  font-weight: 400;
-  color: rgb(0, 0, 0);
-}
-
-.gavel_64 {
-  left: 1101px;
-  top: 3087px;
-  width: 106px;
-  height: 106px;
-}
-
-.theft_charges_65 {
-  left: 1461px;
-  top: 3251px;
-  width: 159px;
-  height: 23px;
-  font-size: 24px;
-  line-height: 31px;
-  letter-spacing: 0px;
-  font-family: 'Raleway-Medium';
-  font-weight: 400;
-  color: rgb(0, 0, 0);
-}
-
-.thief_66 {
-  left: 1496px;
-  top: 3089px;
-  width: 91px;
-  height: 101px;
-}
-
-.prohibition_67 {
-  left: 726px;
-  top: 2731px;
-  width: 81px;
-  height: 81px;
-}
-
-.drug_crimes_68 {
-  left: 680px;
-  top: 2832px;
-  width: 174px;
-  height: 29px;
+.text-style-13 {
   font-size: 30px;
   line-height: 33px;
   letter-spacing: 0px;
@@ -643,11 +125,7 @@
   color: rgb(255, 255, 255);
 }
 
-.expunction___non-disclosure_69 {
-  left: 1067px;
-  top: 2887px;
-  width: 174px;
-  height: 51px;
+.text-style-14 {
   font-size: 24px;
   line-height: 33px;
   letter-spacing: 0px;
@@ -656,99 +134,7 @@
   color: rgb(0, 0, 0);
 }
 
-.badge_70 {
-  left: 1102px;
-  top: 2725px;
-  width: 104px;
-  height: 102px;
-}
-
-.sex_crimes_71 {
-  left: 1502px;
-  top: 2888px;
-  width: 78px;
-  height: 50px;
-  font-size: 24px;
-  line-height: 33px;
-  letter-spacing: 0px;
-  font-family: 'Raleway-Medium';
-  font-weight: 400;
-  color: rgb(0, 0, 0);
-}
-
-.harassment_72 {
-  left: 1489px;
-  top: 2722px;
-  width: 105px;
-  height: 105px;
-}
-
-.hacker_73 {
-  left: 326px;
-  top: 3087px;
-  width: 106px;
-  height: 108px;
-}
-
-.rectangle_9_copy_3_74 {
-  left: 1238px;
-  top: 2074px;
-  width: 473px;
-  height: 79px;
-}
-
-.schedule_a_free_consultation_copy_75 {
-  left: 1284px;
-  top: 2106px;
-  width: 383px;
-  height: 16px;
-  font-size: 23px;
-  line-height: 165px;
-  letter-spacing: 0px;
-  font-family: 'Raleway-ExtraBold';
-  font-weight: 400;
-  color: rgb(255, 255, 255);
-}
-
-.rectangle_9_copy_9_76 {
-  left: 950px;
-  top: 5773px;
-  width: 353px;
-  height: 79px;
-}
-
-.read_more_77 {
-  left: 1062px;
-  top: 5805px;
-  width: 131px;
-  height: 16px;
-  font-size: 23px;
-  line-height: 165px;
-  letter-spacing: 0px;
-  font-family: 'Raleway-ExtraBold';
-  font-weight: 400;
-  color: rgb(255, 255, 255);
-}
-
-.group_2_78 {
-  left: 0px;
-  top: 0px;
-  width: 0px;
-  height: 0px;
-}
-
-.rectangle_9_copy_6_0 {
-  left: 686px;
-  top: 2888px;
-  width: 161px;
-  height: 53px;
-}
-
-.read_more_1 {
-  left: 718px;
-  top: 2908px;
-  width: 98px;
-  height: 12px;
+.text-style-15 {
   font-size: 26px;
   line-height: 164px;
   letter-spacing: 0px;
@@ -757,86 +143,7 @@
   color: rgb(0, 100, 40);
 }
 
-.rectangle_9_copy_5_2 {
-  left: 734px;
-  top: 3413px;
-  width: 452px;
-  height: 78px;
-}
-
-.view_all_practice_areas_3 {
-  left: 809px;
-  top: 3444px;
-  width: 301px;
-  height: 16px;
-  font-size: 23px;
-  line-height: 165px;
-  letter-spacing: 0px;
-  font-family: 'Raleway-ExtraBold';
-  font-weight: 400;
-  color: rgb(255, 255, 255);
-}
-
-.rectangle_11_79 {
-  left: -89px;
-  top: 3596px;
-  width: 2089px;
-  height: 1110px;
-}
-
-.rectangle_11_copy_80 {
-  left: -89px;
-  top: 3604px;
-  width: 2089px;
-  height: 1110px;
-}
-
-.layer_15_81 {
-  left: 0px;
-  top: 3548px;
-  width: 1920px;
-  height: 1292px;
-}
-
-.layer_14_82 {
-  left: 0px;
-  top: 3590px;
-  width: 1920px;
-  height: 2055px;
-}
-
-.rectangle_10_83 {
-  left: 1618px;
-  top: 3968px;
-  width: 699px;
-  height: 699px;
-}
-
-.rectangle_10_copy_84 {
-  left: 1372px;
-  top: 4358px;
-  width: 494px;
-  height: 494px;
-}
-
-.types_of_cases_we_handle_85 {
-  left: 481px;
-  top: 2542px;
-  width: 954px;
-  height: 77px;
-  font-size: 80px;
-  line-height: 97px;
-  letter-spacing: -20px;
-  font-family: 'Raleway-Light';
-  font-weight: 400;
-  color: rgb(0, 0, 0);
-}
-
-.practice_areas_86 {
-  left: 372px;
-  top: 2451px;
-  width: 1175px;
-  height: 110px;
+.text-style-16 {
   font-size: 149px;
   line-height: 149px;
   letter-spacing: -20px;
@@ -845,11 +152,7 @@
   color: rgb(0, 0, 0);
 }
 
-.our_reviews_87 {
-  left: 743px;
-  top: 3852px;
-  width: 433px;
-  height: 60px;
+.text-style-17 {
   font-size: 80px;
   line-height: 97px;
   letter-spacing: -20px;
@@ -858,31 +161,7 @@
   color: rgb(255, 255, 255);
 }
 
-.testimonials_88 {
-  left: 435px;
-  top: 3761px;
-  width: 1048px;
-  height: 110px;
-  font-size: 149px;
-  line-height: 149px;
-  letter-spacing: -20px;
-  font-family: 'Raleway-ExtraBold';
-  font-weight: 400;
-  color: rgb(0, 0, 0);
-}
-
-.group_3_89 {
-  left: 0px;
-  top: 0px;
-  width: 0px;
-  height: 0px;
-}
-
-.criminal_defense_attorney_0 {
-  left: 944px;
-  top: 5086px;
-  width: 713px;
-  height: 30px;
+.text-style-18 {
   font-size: 40px;
   line-height: 165px;
   letter-spacing: 120px;
@@ -891,11 +170,7 @@
   color: rgb(0, 0, 0);
 }
 
-.earl_dobson_grew_up_in_austin__texas_and_graduated_from_reagan__1 {
-  left: 952px;
-  top: 5153px;
-  width: 746px;
-  height: 574px;
+.text-style-19 {
   font-size: 24px;
   letter-spacing: 0px;
   font-family: 'Jost-Regular';
@@ -903,32 +178,7 @@
   color: rgb(0, 0, 0);
 }
 
-.group_4_90 {
-  left: 0px;
-  top: 0px;
-  width: 0px;
-  height: 0px;
-}
-
-.rectangle_10_copy_4_0 {
-  left: 1235px;
-  top: 4015px;
-  width: 623px;
-  height: 508px;
-}
-
-.rectangle_10_copy_5_1 {
-  left: 62px;
-  top: 4015px;
-  width: 623px;
-  height: 508px;
-}
-
-.copy_2_2 {
-  left: 316px;
-  top: 4061px;
-  width: 116px;
-  height: 86px;
+.text-style-20 {
   font-size: 104px;
   line-height: 104px;
   letter-spacing: -30px;
@@ -937,11 +187,7 @@
   color: rgb(255, 255, 255);
 }
 
-.wwwww_copy_3_3 {
-  left: 315px;
-  top: 4362px;
-  width: 118px;
-  height: 20px;
+.text-style-21 {
   font-size: 29px;
   line-height: 40px;
   letter-spacing: 140px;
@@ -950,11 +196,7 @@
   color: rgb(238, 213, 6);
 }
 
-.i_would_like_to_thank_mr__dobson_and_mrs__melissa_for_helping_m_4 {
-  left: 119px;
-  top: 4171px;
-  width: 511px;
-  height: 166px;
+.text-style-22 {
   font-size: 21px;
   line-height: 36px;
   letter-spacing: 0px;
@@ -963,11 +205,7 @@
   color: rgb(255, 255, 255);
 }
 
-.keashia_sennet_5 {
-  left: 268px;
-  top: 4407px;
-  width: 212px;
-  height: 25px;
+.text-style-23 {
   font-size: 24px;
   line-height: 40px;
   letter-spacing: 20px;
@@ -977,193 +215,7 @@
   text-decoration: underline;
 }
 
-.rectangle_10_copy_3_6 {
-  left: 645px;
-  top: 3977px;
-  width: 623px;
-  height: 508px;
-}
-
-.7 {
-  left: 908px;
-  top: 4016px;
-  width: 116px;
-  height: 86px;
-  font-size: 104px;
-  line-height: 104px;
-  letter-spacing: -30px;
-  font-family: 'PlayfairDisplay-Bold';
-  font-weight: 400;
-  color: rgb(255, 255, 255);
-}
-
-.copy_8 {
-  left: 1489px;
-  top: 4061px;
-  width: 116px;
-  height: 86px;
-  font-size: 104px;
-  line-height: 104px;
-  letter-spacing: -30px;
-  font-family: 'PlayfairDisplay-Bold';
-  font-weight: 400;
-  color: rgb(255, 255, 255);
-}
-
-.wwwww_copy_9 {
-  left: 899px;
-  top: 4359px;
-  width: 118px;
-  height: 20px;
-  font-size: 29px;
-  line-height: 40px;
-  letter-spacing: 140px;
-  font-family: 'SeeingStars';
-  font-weight: 400;
-  color: rgb(238, 213, 6);
-}
-
-.i_have_used_earl_twice_and_there_isn_t_anyone_else_i_would_go_t_10 {
-  left: 704px;
-  top: 4129px;
-  width: 508px;
-  height: 202px;
-  font-size: 21px;
-  line-height: 36px;
-  letter-spacing: 0px;
-  font-family: 'Jost-Italic';
-  font-weight: 400;
-  color: rgb(255, 255, 255);
-}
-
-.reese_pickard_11 {
-  left: 863px;
-  top: 4404px;
-  width: 189px;
-  height: 25px;
-  font-size: 24px;
-  line-height: 40px;
-  letter-spacing: 20px;
-  font-family: 'Jost-SemiBold';
-  font-weight: 400;
-  color: rgb(255, 255, 255);
-  text-decoration: underline;
-}
-
-.wwwww_copy_2_12 {
-  left: 1488px;
-  top: 4362px;
-  width: 118px;
-  height: 20px;
-  font-size: 29px;
-  line-height: 40px;
-  letter-spacing: 140px;
-  font-family: 'SeeingStars';
-  font-weight: 400;
-  color: rgb(238, 213, 6);
-}
-
-.in_a_stressful_situation_and_they_were_great_from_start_to_fini_13 {
-  left: 1302px;
-  top: 4171px;
-  width: 491px;
-  height: 166px;
-  font-size: 21px;
-  line-height: 36px;
-  letter-spacing: 0px;
-  font-family: 'Jost-Italic';
-  font-weight: 400;
-  color: rgb(255, 255, 255);
-}
-
-.rectangle_25_14 {
-  left: 640px;
-  top: 4548px;
-  width: 66px;
-  height: 66px;
-}
-
-.layer_43_copy_15 {
-  left: 654px;
-  top: 4566px;
-  width: 38px;
-  height: 32px;
-}
-
-.rectangle_25_copy_16 {
-  left: 1214px;
-  top: 4549px;
-  width: 65px;
-  height: 66px;
-}
-
-.layer_43_copy_2_17 {
-  left: 1228px;
-  top: 4566px;
-  width: 38px;
-  height: 32px;
-}
-
-.dy_l_18 {
-  left: 1520px;
-  top: 4408px;
-  width: 54px;
-  height: 24px;
-  font-size: 24px;
-  line-height: 40px;
-  letter-spacing: 20px;
-  font-family: 'Jost-SemiBold';
-  font-weight: 400;
-  color: rgb(255, 255, 255);
-  text-decoration: underline;
-}
-
-.rectangle_9_copy_8_91 {
-  left: 734px;
-  top: 4542px;
-  width: 452px;
-  height: 79px;
-}
-
-.view_all_testimonials_92 {
-  left: 820px;
-  top: 4574px;
-  width: 279px;
-  height: 16px;
-  font-size: 23px;
-  line-height: 165px;
-  letter-spacing: 0px;
-  font-family: 'Raleway-ExtraBold';
-  font-weight: 400;
-  color: rgb(255, 255, 255);
-}
-
-.rectangle_10_93 {
-  left: -549px;
-  top: 4778px;
-  width: 1422px;
-  height: 1422px;
-}
-
-.shape_7_94 {
-  left: -9px;
-  top: 4956px;
-  width: 419px;
-  height: 560px;
-}
-
-.background_copy_95 {
-  left: 217px;
-  top: 4821px;
-  width: 546px;
-  height: 1767px;
-}
-
-.awards_of_excellence_96 {
-  left: 624px;
-  top: 6039px;
-  width: 672px;
-  height: 26px;
+.text-style-24 {
   font-size: 35px;
   line-height: 90px;
   letter-spacing: 360px;
@@ -1172,74 +224,7 @@
   color: rgb(0, 0, 0);
 }
 
-.group_5_97 {
-  left: 0px;
-  top: 0px;
-  width: 0px;
-  height: 0px;
-}
-
-.rectangle_16_0 {
-  left: 207px;
-  top: 6123px;
-  width: 279px;
-  height: 189px;
-}
-
-.layer_16_1 {
-  left: 281px;
-  top: 6152px;
-  width: 132px;
-  height: 132px;
-}
-
-.rectangle_16_copy_2 {
-  left: 513px;
-  top: 6123px;
-  width: 279px;
-  height: 189px;
-}
-
-.rectangle_16_copy_4_3 {
-  left: 820px;
-  top: 6123px;
-  width: 279px;
-  height: 189px;
-}
-
-.rectangle_16_copy_4_4 {
-  left: 1126px;
-  top: 6123px;
-  width: 279px;
-  height: 189px;
-}
-
-.rectangle_16_copy_5_5 {
-  left: 1432px;
-  top: 6123px;
-  width: 279px;
-  height: 189px;
-}
-
-.layer_20_6 {
-  left: 1155px;
-  top: 6180px;
-  width: 223px;
-  height: 75px;
-}
-
-.layer_21_7 {
-  left: 1473px;
-  top: 6139px;
-  width: 198px;
-  height: 161px;
-}
-
-.board_certified_98 {
-  left: 715px;
-  top: 4956px;
-  width: 819px;
-  height: 73px;
+.text-style-25 {
   font-size: 100px;
   line-height: 137px;
   letter-spacing: -35px;
@@ -1248,101 +233,7 @@
   color: rgb(0, 112, 44);
 }
 
-.earl_dobson_99 {
-  left: 716px;
-  top: 4831px;
-  width: 997px;
-  height: 110px;
-  font-size: 149px;
-  line-height: 149px;
-  letter-spacing: -20px;
-  font-family: 'Raleway-ExtraBold';
-  font-weight: 400;
-  color: rgb(0, 0, 0);
-}
-
-.legal_experience_100 {
-  left: 1581px;
-  top: 4933px;
-  width: 137px;
-  height: 111px;
-}
-
-.layer_12_101 {
-  left: 878px;
-  top: 6140px;
-  width: 165px;
-  height: 157px;
-}
-
-.layer_23_102 {
-  left: 180px;
-  top: 6533px;
-  width: 926px;
-  height: 443px;
-}
-
-.rectangle_11_copy_103 {
-  left: -89px;
-  top: 6894px;
-  width: 2089px;
-  height: 1110px;
-}
-
-.layer_44_104 {
-  left: -5px;
-  top: 6694px;
-  width: 1931px;
-  height: 1287px;
-}
-
-.rectangle_10_105 {
-  left: -430px;
-  top: 6939px;
-  width: 699px;
-  height: 700px;
-}
-
-.rectangle_10_copy_106 {
-  left: 21px;
-  top: 7329px;
-  width: 495px;
-  height: 495px;
-}
-
-.rectangle_10_copy_2_107 {
-  left: -120px;
-  top: 7614px;
-  width: 274px;
-  height: 274px;
-}
-
-.rectangle_10_copy_6_108 {
-  left: 1686px;
-  top: 6939px;
-  width: 699px;
-  height: 700px;
-}
-
-.rectangle_10_copy_6_109 {
-  left: 1439px;
-  top: 7329px;
-  width: 495px;
-  height: 495px;
-}
-
-.rectangle_10_copy_6_110 {
-  left: 1801px;
-  top: 7614px;
-  width: 274px;
-  height: 274px;
-}
-
-.home___attorney_profile___practice_areas____111 {
-  left: 302px;
-  top: 7269px;
-  width: 1315px;
-  height: 31px;
+.text-style-26 {
   font-size: 30px;
   line-height: 36px;
   letter-spacing: 30px;
@@ -1351,88 +242,7 @@
   color: rgb(255, 255, 255);
 }
 
-.rectangle_861_112 {
-  left: 239px;
-  top: 7227px;
-  width: 1442px;
-  height: 6px;
-}
-
-.rectangle_860_113 {
-  left: 209px;
-  top: 6561px;
-  width: 1502px;
-  height: 599px;
-}
-
-.layer_43_114 {
-  left: 0px;
-  top: 6372px;
-  width: 1743px;
-  height: 1080px;
-}
-
-.rectangle_857_115 {
-  left: 941px;
-  top: 6402px;
-  width: 770px;
-  height: 758px;
-}
-
-.rectangle_858_copy_3_116 {
-  left: 1011px;
-  top: 6829px;
-  width: 640px;
-  height: 167px;
-}
-
-.rectangle_859_117 {
-  left: 1590px;
-  top: 6829px;
-  width: 60px;
-  height: 67px;
-}
-
-.layer_28_118 {
-  left: 1605px;
-  top: 6853px;
-  width: 31px;
-  height: 20px;
-}
-
-.rectangle_858_copy_2_119 {
-  left: 1337px;
-  top: 6751px;
-  width: 314px;
-  height: 67px;
-}
-
-.rectangle_859_120 {
-  left: 1591px;
-  top: 6751px;
-  width: 60px;
-  height: 67px;
-}
-
-.rectangle_858_copy_2_121 {
-  left: 1011px;
-  top: 6751px;
-  width: 314px;
-  height: 67px;
-}
-
-.rectangle_859_122 {
-  left: 1265px;
-  top: 6751px;
-  width: 60px;
-  height: 67px;
-}
-
-.how_we_can_help_you___123 {
-  left: 1033px;
-  top: 6854px;
-  width: 216px;
-  height: 21px;
+.text-style-27 {
   font-size: 20px;
   line-height: 38px;
   letter-spacing: 0px;
@@ -1441,119 +251,7 @@
   color: rgb(102, 102, 102);
 }
 
-.layer_30_124 {
-  left: 1610px;
-  top: 6774px;
-  width: 20px;
-  height: 20px;
-}
-
-.phone_number__125 {
-  left: 1358px;
-  top: 6776px;
-  width: 138px;
-  height: 17px;
-  font-size: 20px;
-  line-height: 38px;
-  letter-spacing: 0px;
-  font-family: 'Jost-Regular';
-  font-weight: 400;
-  color: rgb(102, 102, 102);
-}
-
-.layer_32_126 {
-  left: 1280px;
-  top: 6773px;
-  width: 33px;
-  height: 23px;
-}
-
-.email_address__127 {
-  left: 1033px;
-  top: 6776px;
-  width: 130px;
-  height: 17px;
-  font-size: 20px;
-  line-height: 38px;
-  letter-spacing: 0px;
-  font-family: 'Jost-Regular';
-  font-weight: 400;
-  color: rgb(102, 102, 102);
-}
-
-.rectangle_858_copy_128 {
-  left: 1337px;
-  top: 6672px;
-  width: 314px;
-  height: 67px;
-}
-
-.rectangle_859_129 {
-  left: 1591px;
-  top: 6672px;
-  width: 60px;
-  height: 67px;
-}
-
-.layer_34_130 {
-  left: 1609px;
-  top: 6694px;
-  width: 23px;
-  height: 24px;
-}
-
-.last_name__131 {
-  left: 1358px;
-  top: 6699px;
-  width: 97px;
-  height: 16px;
-  font-size: 20px;
-  line-height: 38px;
-  letter-spacing: 0px;
-  font-family: 'Jost-Regular';
-  font-weight: 400;
-  color: rgb(102, 102, 102);
-}
-
-.rectangle_858_132 {
-  left: 1011px;
-  top: 6672px;
-  width: 314px;
-  height: 67px;
-}
-
-.rectangle_859_133 {
-  left: 1265px;
-  top: 6672px;
-  width: 60px;
-  height: 67px;
-}
-
-.layer_36_134 {
-  left: 1284px;
-  top: 6695px;
-  width: 23px;
-  height: 24px;
-}
-
-.first_name__135 {
-  left: 1033px;
-  top: 6699px;
-  width: 100px;
-  height: 16px;
-  font-size: 20px;
-  line-height: 38px;
-  letter-spacing: 0px;
-  font-family: 'Jost-Regular';
-  font-weight: 400;
-  color: rgb(102, 102, 102);
-}
-
-.don_t_wait__contact_us_today_136 {
-  left: 1044px;
-  top: 6477px;
-  width: 576px;
-  height: 141px;
+.text-style-28 {
   font-size: 72px;
   line-height: 72px;
   letter-spacing: 0px;
@@ -1562,38 +260,7 @@
   color: rgb(255, 255, 255);
 }
 
-.layer_11_137 {
-  left: 543px;
-  top: 6173px;
-  width: 221px;
-  height: 89px;
-}
-
-.rectangle_9_copy_10_138 {
-  left: 1368px;
-  top: 7019px;
-  width: 283px;
-  height: 79px;
-}
-
-.submit_now_139 {
-  left: 1434px;
-  top: 7051px;
-  width: 152px;
-  height: 16px;
-  font-size: 23px;
-  line-height: 165px;
-  letter-spacing: 0px;
-  font-family: 'Raleway-ExtraBold';
-  font-weight: 400;
-  color: rgb(255, 255, 255);
-}
-
-.fields_marked_with_an___are_required_140 {
-  left: 1186px;
-  top: 6631px;
-  width: 292px;
-  height: 19px;
+.text-style-29 {
   font-size: 18px;
   line-height: 40px;
   letter-spacing: 20px;
@@ -1602,65 +269,7 @@
   color: rgb(255, 255, 255);
 }
 
-.disclaimer___privacy_policy_141 {
-  left: 1014px;
-  top: 7037px;
-  width: 219px;
-  height: 20px;
-  font-size: 18px;
-  line-height: 40px;
-  letter-spacing: 20px;
-  font-family: 'Jost-Regular';
-  font-weight: 400;
-  color: rgb(255, 255, 255);
-}
-
-.i_have_read_the_disclaimer___142 {
-  left: 1035px;
-  top: 7064px;
-  width: 238px;
-  height: 16px;
-  font-size: 18px;
-  line-height: 40px;
-  letter-spacing: 20px;
-  font-family: 'Jost-Regular';
-  font-weight: 400;
-  color: rgb(255, 255, 255);
-}
-
-.rectangle_12_copy_3_143 {
-  left: 1011px;
-  top: 7064px;
-  width: 15px;
-  height: 15px;
-}
-
-.group_6_144 {
-  left: 0px;
-  top: 0px;
-  width: 0px;
-  height: 0px;
-}
-
-.group_7_145 {
-  left: 0px;
-  top: 0px;
-  width: 0px;
-  height: 0px;
-}
-
-.earl_dobson-smallwebversion_0 {
-  left: 765px;
-  top: 7406px;
-  width: 390px;
-  height: 119px;
-}
-
-.940__591-7097_1 {
-  left: 1363px;
-  top: 7498px;
-  width: 272px;
-  height: 35px;
+.text-style-30 {
   font-size: 35px;
   line-height: 35px;
   letter-spacing: 20px;
@@ -1669,11 +278,7 @@
   color: rgb(255, 255, 255);
 }
 
-.contact_us_2 {
-  left: 1320px;
-  top: 7419px;
-  width: 243px;
-  height: 30px;
+.text-style-31 {
   font-size: 40px;
   line-height: 105px;
   letter-spacing: -20px;
@@ -1682,157 +287,12 @@
   color: rgb(255, 255, 255);
 }
 
-.rectangle_49_copy_3 {
-  left: 1321px;
-  top: 7459px;
-  width: 246px;
-  height: 8px;
-}
-
-.office_location_4 {
-  left: 275px;
-  top: 7419px;
-  width: 335px;
-  height: 30px;
-  font-size: 40px;
-  line-height: 105px;
-  letter-spacing: -20px;
-  font-family: 'Raleway-Bold';
-  font-weight: 400;
-  color: rgb(255, 255, 255);
-}
-
-.rectangle_49_5 {
-  left: 270px;
-  top: 7459px;
-  width: 345px;
-  height: 8px;
-}
-
-.the_law_office_of_earl_dobson_1415_north_locust_street_denton___6 {
-  left: 309px;
-  top: 7502px;
-  width: 311px;
-  height: 123px;
+.text-style-32 {
   letter-spacing: 0px;
   font-weight: 400;
 }
 
-.layer_37_7 {
-  left: 271px;
-  top: 7498px;
-  width: 22px;
-  height: 31px;
-}
-
-.rectangle_51_8 {
-  left: 209px;
-  top: 7399px;
-  width: 4px;
-  height: 250px;
-}
-
-.rectangle_51_copy_9 {
-  left: 209px;
-  top: 7439px;
-  width: 5px;
-  height: 170px;
-}
-
-.rectangle_51_copy_2_10 {
-  left: 678px;
-  top: 7399px;
-  width: 4px;
-  height: 250px;
-}
-
-.rectangle_51_copy_2_11 {
-  left: 677px;
-  top: 7439px;
-  width: 6px;
-  height: 170px;
-}
-
-.rectangle_51_copy_3_12 {
-  left: 1237px;
-  top: 7399px;
-  width: 4px;
-  height: 250px;
-}
-
-.rectangle_51_copy_3_13 {
-  left: 1236px;
-  top: 7439px;
-  width: 6px;
-  height: 170px;
-}
-
-.rectangle_51_copy_4_14 {
-  left: 1706px;
-  top: 7399px;
-  width: 4px;
-  height: 250px;
-}
-
-.rectangle_51_copy_4_15 {
-  left: 1705px;
-  top: 7439px;
-  width: 6px;
-  height: 170px;
-}
-
-.layer_40_16 {
-  left: 1318px;
-  top: 7503px;
-  width: 26px;
-  height: 26px;
-}
-
-.940__382-6505_17 {
-  left: 1363px;
-  top: 7554px;
-  width: 278px;
-  height: 35px;
-  font-size: 35px;
-  line-height: 35px;
-  letter-spacing: 20px;
-  font-family: 'Jost-Bold';
-  font-weight: 400;
-  color: rgb(255, 255, 255);
-}
-
-.fax_18 {
-  left: 1318px;
-  top: 7556px;
-  width: 33px;
-  height: 29px;
-}
-
-.rectangle_9_copy_11_19 {
-  left: 768px;
-  top: 7559px;
-  width: 383px;
-  height: 79px;
-}
-
-.get_a_free_consultation_20 {
-  left: 807px;
-  top: 7591px;
-  width: 305px;
-  height: 16px;
-  font-size: 23px;
-  line-height: 165px;
-  letter-spacing: 0px;
-  font-family: 'Raleway-ExtraBold';
-  font-weight: 400;
-  color: rgb(255, 255, 255);
-}
-
-.earl_dobson_is_a_board_certified__texas_criminal_defense_attorn_21 {
-  left: 478px;
-  top: 7696px;
-  width: 963px;
-  height: 56px;
+.text-style-33 {
   font-size: 18px;
   line-height: 18px;
   letter-spacing: 0px;
@@ -1841,7 +301,1673 @@
   color: rgb(255, 255, 255);
 }
 
+.text-style-34 {
+  font-size: 20px;
+  line-height: 38px;
+  letter-spacing: 20px;
+  font-family: 'Jost-Regular';
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+.background_0 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 7921px;
+}
+
+.rectangle_8_1 {
+  position: absolute;
+  left: -1px;
+  top: 86px;
+  width: 1922px;
+  height: 1068px;
+}
+
+.layer_7_2 {
+  position: absolute;
+  left: 0px;
+  top: 32px;
+  width: 1920px;
+  height: 1334px;
+}
+
+.layer_2_3 {
+  position: absolute;
+  left: 1px;
+  top: 67px;
+  width: 1919px;
+  height: 794px;
+}
+
+.color_lookup_1_4 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 0px;
+  height: 0px;
+}
+
+.photo_filter_1_5 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 0px;
+  height: 0px;
+}
+
+.layer_6_6 {
+  position: absolute;
+  left: 0px;
+  top: 392px;
+  width: 1920px;
+  height: 1088px;
+}
+
+.layer_8_7 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1920px;
+  height: 2162px;
+}
+
+.group_1_8 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 0px;
+  height: 0px;
+}
+
+.rectangle_10_0 {
+  position: absolute;
+  left: 1533px;
+  top: 142px;
+  width: 699px;
+  height: 699px;
+}
+
+.rectangle_10_copy_1 {
+  position: absolute;
+  left: 1287px;
+  top: 532px;
+  width: 494px;
+  height: 494px;
+}
+
+.rectangle_10_copy_2_2 {
+  position: absolute;
+  left: 1649px;
+  top: 816px;
+  width: 274px;
+  height: 274px;
+}
+
+.rectangle_10_copy_3_3 {
+  position: absolute;
+  left: -374px;
+  top: 328px;
+  width: 699px;
+  height: 699px;
+}
+
+.rectangle_10_copy_3_4 {
+  position: absolute;
+  left: 136px;
+  top: 427px;
+  width: 494px;
+  height: 495px;
+}
+
+.rectangle_10_copy_3_5 {
+  position: absolute;
+  left: 112px;
+  top: 817px;
+  width: 232px;
+  height: 231px;
+}
+
+.board_certified_9 {
+  position: absolute;
+  left: 209px;
+  top: 457px;
+  width: 911px;
+  height: 302px;
+}
+
+._criminal_defense_attorney_10 {
+  position: absolute;
+  left: 208px;
+  top: 795px;
+  width: 891px;
+  height: 37px;
+}
+
+.san_bernardino_county_11 {
+  position: absolute;
+  left: 156px;
+  top: 549px;
+  width: 755px;
+  height: 39px;
+}
+
+.rectangle_6_12 {
+  position: absolute;
+  left: -1px;
+  top: 90px;
+  width: 1922px;
+  height: 91px;
+}
+
+.home_attorney_profile_practice_areas__13 {
+  position: absolute;
+  left: 733px;
+  top: 126px;
+  width: 977px;
+  height: 18px;
+}
+
+.rectangle_11_14 {
+  position: absolute;
+  left: 571px;
+  top: 1049px;
+  width: 1428px;
+  height: 273px;
+}
+
+.rectangle_13_copy_3_15 {
+  position: absolute;
+  left: 834px;
+  top: 113px;
+  width: 701px;
+  height: 44px;
+}
+
+.rectangle_7_16 {
+  position: absolute;
+  left: -18px;
+  top: -1px;
+  width: 2227px;
+  height: 93px;
+}
+
+.call_us_today__940_591_7097__17 {
+  position: absolute;
+  left: 1285px;
+  top: 33px;
+  width: 425px;
+  height: 22px;
+}
+
+.contact_us_at_any_time__24_7__18 {
+  position: absolute;
+  left: 807px;
+  top: 33px;
+  width: 375px;
+  height: 28px;
+}
+
+.rectangle_9_19 {
+  position: absolute;
+  left: 209px;
+  top: -1px;
+  width: 470px;
+  height: 218px;
+}
+
+.rectangle_9_copy_20 {
+  position: absolute;
+  left: 209px;
+  top: 874px;
+  width: 472px;
+  height: 79px;
+}
+
+.rectangle_9_copy_2_21 {
+  position: absolute;
+  left: -16px;
+  top: 1143px;
+  width: 756px;
+  height: 11px;
+}
+
+.ellipse_2_22 {
+  position: absolute;
+  left: 1212px;
+  top: 16px;
+  width: 59px;
+  height: 59px;
+}
+
+.layer_5_23 {
+  position: absolute;
+  left: 1228px;
+  top: 32px;
+  width: 28px;
+  height: 27px;
+}
+
+.call_us_today__940_591_7097__24 {
+  position: absolute;
+  left: 1400px;
+  top: 5787px;
+  width: 280px;
+  height: 52px;
+}
+
+.phone-call__1__25 {
+  position: absolute;
+  left: 1342px;
+  top: 5790px;
+  width: 47px;
+  height: 47px;
+}
+
+.earl_dobson-smallwebversion_26 {
+  position: absolute;
+  left: 245px;
+  top: 48px;
+  width: 398px;
+  height: 122px;
+}
+
+.schedule_a_free_consultation_27 {
+  position: absolute;
+  left: 254px;
+  top: 906px;
+  width: 383px;
+  height: 16px;
+}
+
+.layer_9_28 {
+  position: absolute;
+  left: 0px;
+  top: 903px;
+  width: 1920px;
+  height: 1406px;
+}
+
+.layer_13_29 {
+  position: absolute;
+  left: 0px;
+  top: 1031px;
+  width: 1920px;
+  height: 1265px;
+}
+
+.defending_every_client_s_rights___reputation_30 {
+  position: absolute;
+  left: 210px;
+  top: 1271px;
+  width: 833px;
+  height: 174px;
+}
+
+.free_office_or_phone_consultations_available__31 {
+  position: absolute;
+  left: 210px;
+  top: 1747px;
+  width: 808px;
+  height: 31px;
+}
+
+.rectangle_12_32 {
+  position: absolute;
+  left: 1377px;
+  top: 1199px;
+  width: 347px;
+  height: 274px;
+}
+
+.rectangle_13_33 {
+  position: absolute;
+  left: 210px;
+  top: 1817px;
+  width: 1129px;
+  height: 442px;
+}
+
+.rectangle_13_copy_34 {
+  position: absolute;
+  left: 0px;
+  top: 2309px;
+  width: 1920px;
+  height: 871px;
+}
+
+.rectangle_13_copy_2_35 {
+  position: absolute;
+  left: 0px;
+  top: 5928px;
+  width: 1920px;
+  height: 871px;
+}
+
+.rectangle_14_copy_36 {
+  position: absolute;
+  left: 1113px;
+  top: 1665px;
+  width: 16px;
+  height: 153px;
+}
+
+.rectangle_14_copy_2_37 {
+  position: absolute;
+  left: 1707px;
+  top: 1450px;
+  width: 17px;
+  height: 635px;
+}
+
+.rectangle_14_38 {
+  position: absolute;
+  left: 596px;
+  top: 2660px;
+  width: 340px;
+  height: 339px;
+}
+
+.logo_39 {
+  position: absolute;
+  left: 639px;
+  top: 2671px;
+  width: 254px;
+  height: 342px;
+}
+
+.rectangle_14_copy_3_40 {
+  position: absolute;
+  left: 959px;
+  top: 2660px;
+  width: 3px;
+  height: 339px;
+}
+
+.rectangle_14_copy_4_41 {
+  position: absolute;
+  left: 983px;
+  top: 2660px;
+  width: 340px;
+  height: 339px;
+}
+
+.rectangle_14_copy_5_42 {
+  position: absolute;
+  left: 1371px;
+  top: 2660px;
+  width: 340px;
+  height: 339px;
+}
+
+.rectangle_14_copy_4_43 {
+  position: absolute;
+  left: 1345px;
+  top: 2660px;
+  width: 4px;
+  height: 339px;
+}
+
+.rectangle_14_copy_6_44 {
+  position: absolute;
+  left: 596px;
+  top: 3026px;
+  width: 340px;
+  height: 339px;
+}
+
+.rectangle_14_copy_6_45 {
+  position: absolute;
+  left: 959px;
+  top: 3026px;
+  width: 3px;
+  height: 339px;
+}
+
+.rectangle_14_copy_7_46 {
+  position: absolute;
+  left: 209px;
+  top: 2660px;
+  width: 339px;
+  height: 339px;
+}
+
+.rectangle_14_copy_7_47 {
+  position: absolute;
+  left: 570px;
+  top: 2660px;
+  width: 4px;
+  height: 339px;
+}
+
+.rectangle_14_copy_7_48 {
+  position: absolute;
+  left: 209px;
+  top: 3026px;
+  width: 339px;
+  height: 339px;
+}
+
+.rectangle_14_copy_7_49 {
+  position: absolute;
+  left: 570px;
+  top: 3026px;
+  width: 4px;
+  height: 339px;
+}
+
+.rectangle_14_copy_6_50 {
+  position: absolute;
+  left: 983px;
+  top: 3026px;
+  width: 340px;
+  height: 339px;
+}
+
+.rectangle_14_copy_6_51 {
+  position: absolute;
+  left: 1371px;
+  top: 3026px;
+  width: 340px;
+  height: 339px;
+}
+
+.rectangle_14_copy_6_52 {
+  position: absolute;
+  left: 1345px;
+  top: 3026px;
+  width: 4px;
+  height: 339px;
+}
+
+.rectangle_12_copy_53 {
+  position: absolute;
+  left: 1124px;
+  top: 1213px;
+  width: 587px;
+  height: 824px;
+}
+
+.layer_10_54 {
+  position: absolute;
+  left: 1118px;
+  top: 1184px;
+  width: 614px;
+  height: 920px;
+}
+
+.rectangle_9_copy_2_55 {
+  position: absolute;
+  left: 209px;
+  top: 2178px;
+  width: 752px;
+  height: 11px;
+}
+
+.the_denton_law_office_of_defense_attorney_earl_dobson_has_handl_56 {
+  position: absolute;
+  left: 210px;
+  top: 1474px;
+  width: 802px;
+  height: 230px;
+}
+
+.without_skillful_legal_representation__defendants_will_face_the_57 {
+  position: absolute;
+  left: 259px;
+  top: 1859px;
+  width: 736px;
+  height: 271px;
+}
+
+.dwi___dui_58 {
+  position: absolute;
+  left: 320px;
+  top: 2887px;
+  width: 116px;
+  height: 17px;
+}
+
+.drink_59 {
+  position: absolute;
+  left: 325px;
+  top: 2722px;
+  width: 107px;
+  height: 107px;
+}
+
+.computer_crimes_60 {
+  position: absolute;
+  left: 279px;
+  top: 3251px;
+  width: 198px;
+  height: 23px;
+}
+
+.domestic_violence___assault_61 {
+  position: absolute;
+  left: 662px;
+  top: 3251px;
+  width: 210px;
+  height: 49px;
+}
+
+.stop-violence_62 {
+  position: absolute;
+  left: 713px;
+  top: 3087px;
+  width: 107px;
+  height: 107px;
+}
+
+.probation_violations_63 {
+  position: absolute;
+  left: 1042px;
+  top: 3251px;
+  width: 223px;
+  height: 18px;
+}
+
+.gavel_64 {
+  position: absolute;
+  left: 1101px;
+  top: 3087px;
+  width: 106px;
+  height: 106px;
+}
+
+.theft_charges_65 {
+  position: absolute;
+  left: 1461px;
+  top: 3251px;
+  width: 159px;
+  height: 23px;
+}
+
+.thief_66 {
+  position: absolute;
+  left: 1496px;
+  top: 3089px;
+  width: 91px;
+  height: 101px;
+}
+
+.prohibition_67 {
+  position: absolute;
+  left: 726px;
+  top: 2731px;
+  width: 81px;
+  height: 81px;
+}
+
+.drug_crimes_68 {
+  position: absolute;
+  left: 680px;
+  top: 2832px;
+  width: 174px;
+  height: 29px;
+}
+
+.expunction___non-disclosure_69 {
+  position: absolute;
+  left: 1067px;
+  top: 2887px;
+  width: 174px;
+  height: 51px;
+}
+
+.badge_70 {
+  position: absolute;
+  left: 1102px;
+  top: 2725px;
+  width: 104px;
+  height: 102px;
+}
+
+.sex_crimes_71 {
+  position: absolute;
+  left: 1502px;
+  top: 2888px;
+  width: 78px;
+  height: 50px;
+}
+
+.harassment_72 {
+  position: absolute;
+  left: 1489px;
+  top: 2722px;
+  width: 105px;
+  height: 105px;
+}
+
+.hacker_73 {
+  position: absolute;
+  left: 326px;
+  top: 3087px;
+  width: 106px;
+  height: 108px;
+}
+
+.rectangle_9_copy_3_74 {
+  position: absolute;
+  left: 1238px;
+  top: 2074px;
+  width: 473px;
+  height: 79px;
+}
+
+.schedule_a_free_consultation_copy_75 {
+  position: absolute;
+  left: 1284px;
+  top: 2106px;
+  width: 383px;
+  height: 16px;
+}
+
+.rectangle_9_copy_9_76 {
+  position: absolute;
+  left: 950px;
+  top: 5773px;
+  width: 353px;
+  height: 79px;
+}
+
+.read_more_77 {
+  position: absolute;
+  left: 1062px;
+  top: 5805px;
+  width: 131px;
+  height: 16px;
+}
+
+.group_2_78 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 0px;
+  height: 0px;
+}
+
+.rectangle_9_copy_6_0 {
+  position: absolute;
+  left: 686px;
+  top: 2888px;
+  width: 161px;
+  height: 53px;
+}
+
+.read_more_1 {
+  position: absolute;
+  left: 718px;
+  top: 2908px;
+  width: 98px;
+  height: 12px;
+}
+
+.rectangle_9_copy_5_2 {
+  position: absolute;
+  left: 734px;
+  top: 3413px;
+  width: 452px;
+  height: 78px;
+}
+
+.view_all_practice_areas_3 {
+  position: absolute;
+  left: 809px;
+  top: 3444px;
+  width: 301px;
+  height: 16px;
+}
+
+.rectangle_11_79 {
+  position: absolute;
+  left: -89px;
+  top: 3596px;
+  width: 2089px;
+  height: 1110px;
+}
+
+.rectangle_11_copy_80 {
+  position: absolute;
+  left: -89px;
+  top: 3604px;
+  width: 2089px;
+  height: 1110px;
+}
+
+.layer_15_81 {
+  position: absolute;
+  left: 0px;
+  top: 3548px;
+  width: 1920px;
+  height: 1292px;
+}
+
+.layer_14_82 {
+  position: absolute;
+  left: 0px;
+  top: 3590px;
+  width: 1920px;
+  height: 2055px;
+}
+
+.rectangle_10_83 {
+  position: absolute;
+  left: 1618px;
+  top: 3968px;
+  width: 699px;
+  height: 699px;
+}
+
+.rectangle_10_copy_84 {
+  position: absolute;
+  left: 1372px;
+  top: 4358px;
+  width: 494px;
+  height: 494px;
+}
+
+.types_of_cases_we_handle_85 {
+  position: absolute;
+  left: 481px;
+  top: 2542px;
+  width: 954px;
+  height: 77px;
+}
+
+.practice_areas_86 {
+  position: absolute;
+  left: 372px;
+  top: 2451px;
+  width: 1175px;
+  height: 110px;
+}
+
+.our_reviews_87 {
+  position: absolute;
+  left: 743px;
+  top: 3852px;
+  width: 433px;
+  height: 60px;
+}
+
+._testimonials_88 {
+  position: absolute;
+  left: 435px;
+  top: 3761px;
+  width: 1048px;
+  height: 110px;
+}
+
+.group_3_89 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 0px;
+  height: 0px;
+}
+
+._criminal_defense_attorney_0 {
+  position: absolute;
+  left: 944px;
+  top: 5086px;
+  width: 713px;
+  height: 30px;
+}
+
+.earl_dobson_grew_up_in_austin__texas_and_graduated_from_reagan__1 {
+  position: absolute;
+  left: 952px;
+  top: 5153px;
+  width: 746px;
+  height: 574px;
+}
+
+.group_4_90 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 0px;
+  height: 0px;
+}
+
+.rectangle_10_copy_4_0 {
+  position: absolute;
+  left: 1235px;
+  top: 4015px;
+  width: 623px;
+  height: 508px;
+}
+
+.rectangle_10_copy_5_1 {
+  position: absolute;
+  left: 62px;
+  top: 4015px;
+  width: 623px;
+  height: 508px;
+}
+
+.__copy_2_2 {
+  position: absolute;
+  left: 316px;
+  top: 4061px;
+  width: 116px;
+  height: 86px;
+}
+
+.wwwww_copy_3_3 {
+  position: absolute;
+  left: 315px;
+  top: 4362px;
+  width: 118px;
+  height: 20px;
+}
+
+.i_would_like_to_thank_mr__dobson_and_mrs__melissa_for_helping_m_4 {
+  position: absolute;
+  left: 119px;
+  top: 4171px;
+  width: 511px;
+  height: 166px;
+}
+
+.keashia_sennet_5 {
+  position: absolute;
+  left: 268px;
+  top: 4407px;
+  width: 212px;
+  height: 25px;
+}
+
+.rectangle_10_copy_3_6 {
+  position: absolute;
+  left: 645px;
+  top: 3977px;
+  width: 623px;
+  height: 508px;
+}
+
+.__7 {
+  position: absolute;
+  left: 908px;
+  top: 4016px;
+  width: 116px;
+  height: 86px;
+}
+
+.__copy_8 {
+  position: absolute;
+  left: 1489px;
+  top: 4061px;
+  width: 116px;
+  height: 86px;
+}
+
+.wwwww_copy_9 {
+  position: absolute;
+  left: 899px;
+  top: 4359px;
+  width: 118px;
+  height: 20px;
+}
+
+.i_have_used_earl_twice_and_there_isn_t_anyone_else_i_would_go_t_10 {
+  position: absolute;
+  left: 704px;
+  top: 4129px;
+  width: 508px;
+  height: 202px;
+}
+
+.reese_pickard_11 {
+  position: absolute;
+  left: 863px;
+  top: 4404px;
+  width: 189px;
+  height: 25px;
+}
+
+.wwwww_copy_2_12 {
+  position: absolute;
+  left: 1488px;
+  top: 4362px;
+  width: 118px;
+  height: 20px;
+}
+
+.in_a_stressful_situation_and_they_were_great_from_start_to_fini_13 {
+  position: absolute;
+  left: 1302px;
+  top: 4171px;
+  width: 491px;
+  height: 166px;
+}
+
+.rectangle_25_14 {
+  position: absolute;
+  left: 640px;
+  top: 4548px;
+  width: 66px;
+  height: 66px;
+}
+
+.layer_43_copy_15 {
+  position: absolute;
+  left: 654px;
+  top: 4566px;
+  width: 38px;
+  height: 32px;
+}
+
+.rectangle_25_copy_16 {
+  position: absolute;
+  left: 1214px;
+  top: 4549px;
+  width: 65px;
+  height: 66px;
+}
+
+.layer_43_copy_2_17 {
+  position: absolute;
+  left: 1228px;
+  top: 4566px;
+  width: 38px;
+  height: 32px;
+}
+
+.dy_l_18 {
+  position: absolute;
+  left: 1520px;
+  top: 4408px;
+  width: 54px;
+  height: 24px;
+}
+
+.rectangle_9_copy_8_91 {
+  position: absolute;
+  left: 734px;
+  top: 4542px;
+  width: 452px;
+  height: 79px;
+}
+
+.view_all_testimonials_92 {
+  position: absolute;
+  left: 820px;
+  top: 4574px;
+  width: 279px;
+  height: 16px;
+}
+
+.rectangle_10_93 {
+  position: absolute;
+  left: -549px;
+  top: 4778px;
+  width: 1422px;
+  height: 1422px;
+}
+
+.shape_7_94 {
+  position: absolute;
+  left: -9px;
+  top: 4956px;
+  width: 419px;
+  height: 560px;
+}
+
+.background_copy_95 {
+  position: absolute;
+  left: 217px;
+  top: 4821px;
+  width: 546px;
+  height: 1767px;
+}
+
+.awards_of_excellence_96 {
+  position: absolute;
+  left: 624px;
+  top: 6039px;
+  width: 672px;
+  height: 26px;
+}
+
+.group_5_97 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 0px;
+  height: 0px;
+}
+
+.rectangle_16_0 {
+  position: absolute;
+  left: 207px;
+  top: 6123px;
+  width: 279px;
+  height: 189px;
+}
+
+.layer_16_1 {
+  position: absolute;
+  left: 281px;
+  top: 6152px;
+  width: 132px;
+  height: 132px;
+}
+
+.rectangle_16_copy_2 {
+  position: absolute;
+  left: 513px;
+  top: 6123px;
+  width: 279px;
+  height: 189px;
+}
+
+.rectangle_16_copy_4_3 {
+  position: absolute;
+  left: 820px;
+  top: 6123px;
+  width: 279px;
+  height: 189px;
+}
+
+.rectangle_16_copy_4_4 {
+  position: absolute;
+  left: 1126px;
+  top: 6123px;
+  width: 279px;
+  height: 189px;
+}
+
+.rectangle_16_copy_5_5 {
+  position: absolute;
+  left: 1432px;
+  top: 6123px;
+  width: 279px;
+  height: 189px;
+}
+
+.layer_20_6 {
+  position: absolute;
+  left: 1155px;
+  top: 6180px;
+  width: 223px;
+  height: 75px;
+}
+
+.layer_21_7 {
+  position: absolute;
+  left: 1473px;
+  top: 6139px;
+  width: 198px;
+  height: 161px;
+}
+
+.board_certified_98 {
+  position: absolute;
+  left: 715px;
+  top: 4956px;
+  width: 819px;
+  height: 73px;
+}
+
+.earl_dobson_99 {
+  position: absolute;
+  left: 716px;
+  top: 4831px;
+  width: 997px;
+  height: 110px;
+}
+
+.legal_experience_100 {
+  position: absolute;
+  left: 1581px;
+  top: 4933px;
+  width: 137px;
+  height: 111px;
+}
+
+.layer_12_101 {
+  position: absolute;
+  left: 878px;
+  top: 6140px;
+  width: 165px;
+  height: 157px;
+}
+
+.layer_23_102 {
+  position: absolute;
+  left: 180px;
+  top: 6533px;
+  width: 926px;
+  height: 443px;
+}
+
+.rectangle_11_copy_103 {
+  position: absolute;
+  left: -89px;
+  top: 6894px;
+  width: 2089px;
+  height: 1110px;
+}
+
+.layer_44_104 {
+  position: absolute;
+  left: -5px;
+  top: 6694px;
+  width: 1931px;
+  height: 1287px;
+}
+
+.rectangle_10_105 {
+  position: absolute;
+  left: -430px;
+  top: 6939px;
+  width: 699px;
+  height: 700px;
+}
+
+.rectangle_10_copy_106 {
+  position: absolute;
+  left: 21px;
+  top: 7329px;
+  width: 495px;
+  height: 495px;
+}
+
+.rectangle_10_copy_2_107 {
+  position: absolute;
+  left: -120px;
+  top: 7614px;
+  width: 274px;
+  height: 274px;
+}
+
+.rectangle_10_copy_6_108 {
+  position: absolute;
+  left: 1686px;
+  top: 6939px;
+  width: 699px;
+  height: 700px;
+}
+
+.rectangle_10_copy_6_109 {
+  position: absolute;
+  left: 1439px;
+  top: 7329px;
+  width: 495px;
+  height: 495px;
+}
+
+.rectangle_10_copy_6_110 {
+  position: absolute;
+  left: 1801px;
+  top: 7614px;
+  width: 274px;
+  height: 274px;
+}
+
+.home___attorney_profile___practice_areas____111 {
+  position: absolute;
+  left: 302px;
+  top: 7269px;
+  width: 1315px;
+  height: 31px;
+}
+
+.rectangle_861_112 {
+  position: absolute;
+  left: 239px;
+  top: 7227px;
+  width: 1442px;
+  height: 6px;
+}
+
+.rectangle_860_113 {
+  position: absolute;
+  left: 209px;
+  top: 6561px;
+  width: 1502px;
+  height: 599px;
+}
+
+.layer_43_114 {
+  position: absolute;
+  left: 0px;
+  top: 6372px;
+  width: 1743px;
+  height: 1080px;
+}
+
+.rectangle_857_115 {
+  position: absolute;
+  left: 941px;
+  top: 6402px;
+  width: 770px;
+  height: 758px;
+}
+
+.rectangle_858_copy_3_116 {
+  position: absolute;
+  left: 1011px;
+  top: 6829px;
+  width: 640px;
+  height: 167px;
+}
+
+.rectangle_859_117 {
+  position: absolute;
+  left: 1590px;
+  top: 6829px;
+  width: 60px;
+  height: 67px;
+}
+
+.layer_28_118 {
+  position: absolute;
+  left: 1605px;
+  top: 6853px;
+  width: 31px;
+  height: 20px;
+}
+
+.rectangle_858_copy_2_119 {
+  position: absolute;
+  left: 1337px;
+  top: 6751px;
+  width: 314px;
+  height: 67px;
+}
+
+.rectangle_859_120 {
+  position: absolute;
+  left: 1591px;
+  top: 6751px;
+  width: 60px;
+  height: 67px;
+}
+
+.rectangle_858_copy_2_121 {
+  position: absolute;
+  left: 1011px;
+  top: 6751px;
+  width: 314px;
+  height: 67px;
+}
+
+.rectangle_859_122 {
+  position: absolute;
+  left: 1265px;
+  top: 6751px;
+  width: 60px;
+  height: 67px;
+}
+
+.how_we_can_help_you___123 {
+  position: absolute;
+  left: 1033px;
+  top: 6854px;
+  width: 216px;
+  height: 21px;
+}
+
+.layer_30_124 {
+  position: absolute;
+  left: 1610px;
+  top: 6774px;
+  width: 20px;
+  height: 20px;
+}
+
+.phone_number__125 {
+  position: absolute;
+  left: 1358px;
+  top: 6776px;
+  width: 138px;
+  height: 17px;
+}
+
+.layer_32_126 {
+  position: absolute;
+  left: 1280px;
+  top: 6773px;
+  width: 33px;
+  height: 23px;
+}
+
+.email_address__127 {
+  position: absolute;
+  left: 1033px;
+  top: 6776px;
+  width: 130px;
+  height: 17px;
+}
+
+.rectangle_858_copy_128 {
+  position: absolute;
+  left: 1337px;
+  top: 6672px;
+  width: 314px;
+  height: 67px;
+}
+
+.rectangle_859_129 {
+  position: absolute;
+  left: 1591px;
+  top: 6672px;
+  width: 60px;
+  height: 67px;
+}
+
+.layer_34_130 {
+  position: absolute;
+  left: 1609px;
+  top: 6694px;
+  width: 23px;
+  height: 24px;
+}
+
+.last_name__131 {
+  position: absolute;
+  left: 1358px;
+  top: 6699px;
+  width: 97px;
+  height: 16px;
+}
+
+.rectangle_858_132 {
+  position: absolute;
+  left: 1011px;
+  top: 6672px;
+  width: 314px;
+  height: 67px;
+}
+
+.rectangle_859_133 {
+  position: absolute;
+  left: 1265px;
+  top: 6672px;
+  width: 60px;
+  height: 67px;
+}
+
+.layer_36_134 {
+  position: absolute;
+  left: 1284px;
+  top: 6695px;
+  width: 23px;
+  height: 24px;
+}
+
+.first_name__135 {
+  position: absolute;
+  left: 1033px;
+  top: 6699px;
+  width: 100px;
+  height: 16px;
+}
+
+.don_t_wait__contact_us_today_136 {
+  position: absolute;
+  left: 1044px;
+  top: 6477px;
+  width: 576px;
+  height: 141px;
+}
+
+.layer_11_137 {
+  position: absolute;
+  left: 543px;
+  top: 6173px;
+  width: 221px;
+  height: 89px;
+}
+
+.rectangle_9_copy_10_138 {
+  position: absolute;
+  left: 1368px;
+  top: 7019px;
+  width: 283px;
+  height: 79px;
+}
+
+.submit_now_139 {
+  position: absolute;
+  left: 1434px;
+  top: 7051px;
+  width: 152px;
+  height: 16px;
+}
+
+.fields_marked_with_an___are_required_140 {
+  position: absolute;
+  left: 1186px;
+  top: 6631px;
+  width: 292px;
+  height: 19px;
+}
+
+.disclaimer___privacy_policy_141 {
+  position: absolute;
+  left: 1014px;
+  top: 7037px;
+  width: 219px;
+  height: 20px;
+}
+
+.i_have_read_the_disclaimer___142 {
+  position: absolute;
+  left: 1035px;
+  top: 7064px;
+  width: 238px;
+  height: 16px;
+}
+
+.rectangle_12_copy_3_143 {
+  position: absolute;
+  left: 1011px;
+  top: 7064px;
+  width: 15px;
+  height: 15px;
+}
+
+.group_6_144 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 0px;
+  height: 0px;
+}
+
+.group_7_145 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 0px;
+  height: 0px;
+}
+
+.earl_dobson-smallwebversion_0 {
+  position: absolute;
+  left: 765px;
+  top: 7406px;
+  width: 390px;
+  height: 119px;
+}
+
+._940__591-7097_1 {
+  position: absolute;
+  left: 1363px;
+  top: 7498px;
+  width: 272px;
+  height: 35px;
+}
+
+.contact_us_2 {
+  position: absolute;
+  left: 1320px;
+  top: 7419px;
+  width: 243px;
+  height: 30px;
+}
+
+.rectangle_49_copy_3 {
+  position: absolute;
+  left: 1321px;
+  top: 7459px;
+  width: 246px;
+  height: 8px;
+}
+
+.office_location_4 {
+  position: absolute;
+  left: 275px;
+  top: 7419px;
+  width: 335px;
+  height: 30px;
+}
+
+.rectangle_49_5 {
+  position: absolute;
+  left: 270px;
+  top: 7459px;
+  width: 345px;
+  height: 8px;
+}
+
+.the_law_office_of_earl_dobson_1415_north_locust_street_denton___6 {
+  position: absolute;
+  left: 309px;
+  top: 7502px;
+  width: 311px;
+  height: 123px;
+}
+
+.layer_37_7 {
+  position: absolute;
+  left: 271px;
+  top: 7498px;
+  width: 22px;
+  height: 31px;
+}
+
+.rectangle_51_8 {
+  position: absolute;
+  left: 209px;
+  top: 7399px;
+  width: 4px;
+  height: 250px;
+}
+
+.rectangle_51_copy_9 {
+  position: absolute;
+  left: 209px;
+  top: 7439px;
+  width: 5px;
+  height: 170px;
+}
+
+.rectangle_51_copy_2_10 {
+  position: absolute;
+  left: 678px;
+  top: 7399px;
+  width: 4px;
+  height: 250px;
+}
+
+.rectangle_51_copy_2_11 {
+  position: absolute;
+  left: 677px;
+  top: 7439px;
+  width: 6px;
+  height: 170px;
+}
+
+.rectangle_51_copy_3_12 {
+  position: absolute;
+  left: 1237px;
+  top: 7399px;
+  width: 4px;
+  height: 250px;
+}
+
+.rectangle_51_copy_3_13 {
+  position: absolute;
+  left: 1236px;
+  top: 7439px;
+  width: 6px;
+  height: 170px;
+}
+
+.rectangle_51_copy_4_14 {
+  position: absolute;
+  left: 1706px;
+  top: 7399px;
+  width: 4px;
+  height: 250px;
+}
+
+.rectangle_51_copy_4_15 {
+  position: absolute;
+  left: 1705px;
+  top: 7439px;
+  width: 6px;
+  height: 170px;
+}
+
+.layer_40_16 {
+  position: absolute;
+  left: 1318px;
+  top: 7503px;
+  width: 26px;
+  height: 26px;
+}
+
+._940__382-6505_17 {
+  position: absolute;
+  left: 1363px;
+  top: 7554px;
+  width: 278px;
+  height: 35px;
+}
+
+.fax_18 {
+  position: absolute;
+  left: 1318px;
+  top: 7556px;
+  width: 33px;
+  height: 29px;
+}
+
+.rectangle_9_copy_11_19 {
+  position: absolute;
+  left: 768px;
+  top: 7559px;
+  width: 383px;
+  height: 79px;
+}
+
+.get_a_free_consultation_20 {
+  position: absolute;
+  left: 807px;
+  top: 7591px;
+  width: 305px;
+  height: 16px;
+}
+
+.earl_dobson_is_a_board_certified__texas_criminal_defense_attorn_21 {
+  position: absolute;
+  left: 478px;
+  top: 7696px;
+  width: 963px;
+  height: 56px;
+}
+
 .rectangle_861_copy_146 {
+  position: absolute;
   left: 239px;
   top: 7334px;
   width: 1442px;
@@ -1849,22 +1975,18 @@
 }
 
 .rounded_rectangle_7_copy_4_147 {
+  position: absolute;
   left: 141px;
   top: 7815px;
   width: 1639px;
   height: 178px;
 }
 
-.2024___the_law_office_of_earl_dobson___all_rights_reserved_di_148 {
+.__2024___the_law_office_of_earl_dobson___all_rights_reserved_di_148 {
+  position: absolute;
   left: 517px;
   top: 7860px;
   width: 888px;
   height: 21px;
-  font-size: 20px;
-  line-height: 38px;
-  letter-spacing: 20px;
-  font-family: 'Jost-Regular';
-  font-weight: 400;
-  color: rgb(255, 255, 255);
 }
 
