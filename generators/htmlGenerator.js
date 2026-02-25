@@ -1,51 +1,41 @@
-export function generateHTML(elements) {
+export function generateHTML(model) {
   let html = "";
 
-  const styleMap = new Map();
-  let styleIndex = 1;
+  const buttons = model.buttons || [];
+  const elements = model.elements || [];
+  const used = new Set(model.usedElements || []);
 
-  elements.forEach((el) => {
-    if (el.type !== "text" || !el.styles) return;
-
-    const key = createStyleKey(el.styles);
-
-    if (!styleMap.has(key)) {
-      styleMap.set(key, `text-style-${styleIndex++}`);
-    }
+  /* Render Buttons */
+  buttons.forEach(({ container, label }) => {
+    html += `
+<button class="button ${sanitize(container.id)}">
+  ${escape(label?.name)}
+</button>\n`;
   });
 
+  /* Remaining Elements */
   elements.forEach((el) => {
-    const layoutClass = sanitizeClass(el.id);
+    if (used.has(el.id)) return;
+
+    const cls = sanitize(el.id);
 
     if (el.type === "text") {
-      const styleClass = styleMap.get(createStyleKey(el.styles));
-
-      html += `<div class="text-layer ${layoutClass} ${styleClass}">${escape(el.name)}</div>\n`;
+      html += `<div class="text-layer ${cls}">${escape(el.name)}</div>\n`;
     } else {
-      html += `<div class="image-layer ${layoutClass}"></div>\n`;
+      html += `<div class="image-layer ${cls}"></div>\n`;
     }
   });
 
   return html;
 }
 
-function createStyleKey(styles) {
-  return JSON.stringify({
-    fontSize: styles?.fontSize,
-    lineHeight: styles?.lineHeight,
-    letterSpacing: styles?.letterSpacing,
-    fontFamily: styles?.fontFamily,
-    fontWeight: styles?.fontWeight,
-    color: styles?.color,
-    textDecoration: styles?.textDecoration,
-  });
-}
-
-function sanitizeClass(id) {
+function sanitize(id) {
   return id.replace(/[^a-zA-Z0-9_-]/g, "_");
 }
 
 function escape(text) {
+  if (!text) return "";
+
   return text
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")

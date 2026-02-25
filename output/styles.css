@@ -10,48 +10,52 @@
   position: absolute;
 }
 
+.button {
+  position: absolute;
+}
+
 .text-style-1 {
   font-size: 193px;
-  line-height: 193px;
-  letter-spacing: -35px;
+  line-height: 162px;
+  letter-spacing: 0px;
   font-family: 'Raleway-ExtraBold';
-  font-weight: 400;
+  font-weight: 700;
   color: rgb(236, 255, 244);
 }
 
 .text-style-2 {
   font-size: 50px;
-  line-height: 165px;
-  letter-spacing: 120px;
+  line-height: 60px;
+  letter-spacing: 0px;
   font-family: 'Raleway-SemiBold';
-  font-weight: 400;
+  font-weight: 600;
   color: rgb(255, 255, 255);
 }
 
 .text-style-3 {
   font-size: 49px;
-  line-height: 49px;
-  letter-spacing: 100px;
+  line-height: 40px;
+  letter-spacing: 0px;
   font-family: 'Jost-SemiBold';
-  font-weight: 400;
+  font-weight: 600;
   color: rgb(255, 255, 255);
 }
 
 .text-style-4 {
   font-size: 23px;
   line-height: 36px;
-  letter-spacing: 30px;
+  letter-spacing: 0px;
   font-family: 'Jost-Medium';
-  font-weight: 400;
+  font-weight: 500;
   color: rgb(0, 0, 0);
 }
 
 .text-style-5 {
   font-size: 28px;
   line-height: 36px;
-  letter-spacing: 30px;
+  letter-spacing: 0px;
   font-family: 'Jost-Medium';
-  font-weight: 400;
+  font-weight: 500;
   color: rgb(255, 255, 255);
 }
 
@@ -60,12 +64,12 @@
   line-height: 36px;
   letter-spacing: 0px;
   font-family: 'Jost-Medium';
-  font-weight: 400;
+  font-weight: 500;
   color: rgb(255, 255, 255);
 }
 
 .text-style-7 {
-  line-height: 36px;
+  line-height: 0px;
   letter-spacing: 0px;
   font-weight: 400;
   color: rgb(1, 1, 1);
@@ -73,10 +77,10 @@
 
 .text-style-8 {
   font-size: 23px;
-  line-height: 165px;
+  line-height: 28px;
   letter-spacing: 0px;
   font-family: 'Raleway-ExtraBold';
-  font-weight: 400;
+  font-weight: 700;
   color: rgb(255, 255, 255);
 }
 
@@ -85,7 +89,7 @@
   line-height: 97px;
   letter-spacing: -20px;
   font-family: 'Raleway-Light';
-  font-weight: 400;
+  font-weight: 300;
   color: rgb(0, 0, 0);
 }
 
@@ -94,7 +98,7 @@
   line-height: 97px;
   letter-spacing: -20px;
   font-family: 'Raleway-Bold';
-  font-weight: 400;
+  font-weight: 700;
   color: rgb(0, 110, 45);
 }
 
@@ -103,7 +107,7 @@
   line-height: 41px;
   letter-spacing: 0px;
   font-family: 'Jost-Medium';
-  font-weight: 400;
+  font-weight: 500;
   color: rgb(0, 0, 0);
 }
 
@@ -112,7 +116,7 @@
   line-height: 31px;
   letter-spacing: 0px;
   font-family: 'Raleway-Medium';
-  font-weight: 400;
+  font-weight: 500;
   color: rgb(0, 0, 0);
 }
 
@@ -121,7 +125,7 @@
   line-height: 33px;
   letter-spacing: 0px;
   font-family: 'Raleway-SemiBold';
-  font-weight: 400;
+  font-weight: 600;
   color: rgb(255, 255, 255);
 }
 
@@ -130,25 +134,25 @@
   line-height: 33px;
   letter-spacing: 0px;
   font-family: 'Raleway-Medium';
-  font-weight: 400;
+  font-weight: 500;
   color: rgb(0, 0, 0);
 }
 
 .text-style-15 {
   font-size: 26px;
-  line-height: 164px;
+  line-height: 31px;
   letter-spacing: 0px;
   font-family: 'Raleway-ExtraBold';
-  font-weight: 400;
+  font-weight: 700;
   color: rgb(0, 100, 40);
 }
 
 .text-style-16 {
   font-size: 149px;
-  line-height: 149px;
+  line-height: 67px;
   letter-spacing: -20px;
   font-family: 'Raleway-ExtraBold';
-  font-weight: 400;
+  font-weight: 700;
   color: rgb(0, 0, 0);
 }
 
@@ -157,21 +161,22 @@
   line-height: 97px;
   letter-spacing: -20px;
   font-family: 'Raleway-Light';
-  font-weight: 400;
+  font-weight: 300;
   color: rgb(255, 255, 255);
 }
 
 .text-style-18 {
   font-size: 40px;
-  line-height: 165px;
-  letter-spacing: 120px;
+  line-height: 48px;
+  letter-spacing: 0px;
   font-family: 'Raleway-SemiBold';
-  font-weight: 400;
+  font-weight: 600;
   color: rgb(0, 0, 0);
 }
 
 .text-style-19 {
   font-size: 24px;
+  line-height: 29px;
   letter-spacing: 0px;
   font-family: 'Jost-Regular';
   font-weight: 400;
@@ -180,17 +185,17 @@
 
 .text-style-20 {
   font-size: 104px;
-  line-height: 104px;
-  letter-spacing: -30px;
+  line-height: 90px;
+  letter-spacing: 0px;
   font-family: 'PlayfairDisplay-Bold';
-  font-weight: 400;
+  font-weight: 700;
   color: rgb(255, 255, 255);
 }
 
 .text-style-21 {
   font-size: 29px;
   line-height: 40px;
-  letter-spacing: 140px;
+  letter-spacing: 0px;
   font-family: 'SeeingStars';
   font-weight: 400;
   color: rgb(238, 213, 6);
@@ -210,7 +215,7 @@
   line-height: 40px;
   letter-spacing: 20px;
   font-family: 'Jost-SemiBold';
-  font-weight: 400;
+  font-weight: 600;
   color: rgb(255, 255, 255);
   text-decoration: underline;
 }
@@ -218,27 +223,27 @@
 .text-style-24 {
   font-size: 35px;
   line-height: 90px;
-  letter-spacing: 360px;
+  letter-spacing: 0px;
   font-family: 'Raleway-SemiBold';
-  font-weight: 400;
+  font-weight: 600;
   color: rgb(0, 0, 0);
 }
 
 .text-style-25 {
   font-size: 100px;
   line-height: 137px;
-  letter-spacing: -35px;
+  letter-spacing: 0px;
   font-family: 'Raleway-ExtraBold';
-  font-weight: 400;
+  font-weight: 700;
   color: rgb(0, 112, 44);
 }
 
 .text-style-26 {
   font-size: 30px;
   line-height: 36px;
-  letter-spacing: 30px;
+  letter-spacing: 0px;
   font-family: 'Jost-Medium';
-  font-weight: 400;
+  font-weight: 500;
   color: rgb(255, 255, 255);
 }
 
@@ -256,7 +261,7 @@
   line-height: 72px;
   letter-spacing: 0px;
   font-family: 'Raleway-Light';
-  font-weight: 400;
+  font-weight: 300;
   color: rgb(255, 255, 255);
 }
 
@@ -271,10 +276,10 @@
 
 .text-style-30 {
   font-size: 35px;
-  line-height: 35px;
+  line-height: 32px;
   letter-spacing: 20px;
   font-family: 'Jost-Bold';
-  font-weight: 400;
+  font-weight: 700;
   color: rgb(255, 255, 255);
 }
 
@@ -283,11 +288,12 @@
   line-height: 105px;
   letter-spacing: -20px;
   font-family: 'Raleway-Bold';
-  font-weight: 400;
+  font-weight: 700;
   color: rgb(255, 255, 255);
 }
 
 .text-style-32 {
+  line-height: 0px;
   letter-spacing: 0px;
   font-weight: 400;
 }

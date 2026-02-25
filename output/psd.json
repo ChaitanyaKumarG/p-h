@@ -20,7 +20,7 @@
     {
       "id": "rectangle_8_1",
       "name": "Rectangle 8",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": -1,
         "y": 86,
@@ -124,7 +124,7 @@
     {
       "id": "rectangle_10_0",
       "name": "Rectangle 10",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1533,
         "y": 142,
@@ -137,7 +137,7 @@
     {
       "id": "rectangle_10_copy_1",
       "name": "Rectangle 10 copy",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1287,
         "y": 532,
@@ -150,7 +150,7 @@
     {
       "id": "rectangle_10_copy_2_2",
       "name": "Rectangle 10 copy 2",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1649,
         "y": 816,
@@ -163,7 +163,7 @@
     {
       "id": "rectangle_10_copy_3_3",
       "name": "Rectangle 10 copy 3",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": -374,
         "y": 328,
@@ -176,7 +176,7 @@
     {
       "id": "rectangle_10_copy_3_4",
       "name": "Rectangle 10 copy 3",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 136,
         "y": 427,
@@ -189,7 +189,7 @@
     {
       "id": "rectangle_10_copy_3_5",
       "name": "Rectangle 10 copy 3",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 112,
         "y": 817,
@@ -265,7 +265,7 @@
     {
       "id": "rectangle_6_12",
       "name": "Rectangle 6",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": -1,
         "y": 90,
@@ -299,7 +299,7 @@
     {
       "id": "rectangle_11_14",
       "name": "Rectangle 11",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 571,
         "y": 1049,
@@ -312,7 +312,7 @@
     {
       "id": "rectangle_13_copy_3_15",
       "name": "Rectangle 13 copy 3",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 834,
         "y": 113,
@@ -325,7 +325,7 @@
     {
       "id": "rectangle_7_16",
       "name": "Rectangle 7",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": -18,
         "y": -1,
@@ -380,7 +380,7 @@
     {
       "id": "rectangle_9_19",
       "name": "Rectangle 9",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 209,
         "y": -1,
@@ -393,7 +393,7 @@
     {
       "id": "rectangle_9_copy_20",
       "name": "Rectangle 9 copy",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 209,
         "y": 874,
@@ -406,7 +406,7 @@
     {
       "id": "rectangle_9_copy_2_21",
       "name": "Rectangle 9 copy 2",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": -16,
         "y": 1143,
@@ -419,7 +419,7 @@
     {
       "id": "ellipse_2_22",
       "name": "Ellipse 2",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1212,
         "y": 16,
@@ -581,7 +581,7 @@
     {
       "id": "rectangle_12_32",
       "name": "Rectangle 12",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1377,
         "y": 1199,
@@ -633,7 +633,7 @@
     {
       "id": "rectangle_14_copy_36",
       "name": "Rectangle 14 copy",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1113,
         "y": 1665,
@@ -646,7 +646,7 @@
     {
       "id": "rectangle_14_copy_2_37",
       "name": "Rectangle 14 copy 2",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1707,
         "y": 1450,
@@ -659,7 +659,7 @@
     {
       "id": "rectangle_14_38",
       "name": "Rectangle 14",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 596,
         "y": 2660,
@@ -672,7 +672,7 @@
     {
       "id": "logo_39",
       "name": "Logo",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 639,
         "y": 2671,
@@ -685,7 +685,7 @@
     {
       "id": "rectangle_14_copy_3_40",
       "name": "Rectangle 14 copy 3",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 959,
         "y": 2660,
@@ -698,7 +698,7 @@
     {
       "id": "rectangle_14_copy_4_41",
       "name": "Rectangle 14 copy 4",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 983,
         "y": 2660,
@@ -711,7 +711,7 @@
     {
       "id": "rectangle_14_copy_5_42",
       "name": "Rectangle 14 copy 5",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1371,
         "y": 2660,
@@ -724,7 +724,7 @@
     {
       "id": "rectangle_14_copy_4_43",
       "name": "Rectangle 14 copy 4",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1345,
         "y": 2660,
@@ -737,7 +737,7 @@
     {
       "id": "rectangle_14_copy_6_44",
       "name": "Rectangle 14 copy 6",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 596,
         "y": 3026,
@@ -750,7 +750,7 @@
     {
       "id": "rectangle_14_copy_6_45",
       "name": "Rectangle 14 copy 6",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 959,
         "y": 3026,
@@ -763,7 +763,7 @@
     {
       "id": "rectangle_14_copy_7_46",
       "name": "Rectangle 14 copy 7",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 209,
         "y": 2660,
@@ -776,7 +776,7 @@
     {
       "id": "rectangle_14_copy_7_47",
       "name": "Rectangle 14 copy 7",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 570,
         "y": 2660,
@@ -789,7 +789,7 @@
     {
       "id": "rectangle_14_copy_7_48",
       "name": "Rectangle 14 copy 7",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 209,
         "y": 3026,
@@ -802,7 +802,7 @@
     {
       "id": "rectangle_14_copy_7_49",
       "name": "Rectangle 14 copy 7",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 570,
         "y": 3026,
@@ -815,7 +815,7 @@
     {
       "id": "rectangle_14_copy_6_50",
       "name": "Rectangle 14 copy 6",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 983,
         "y": 3026,
@@ -828,7 +828,7 @@
     {
       "id": "rectangle_14_copy_6_51",
       "name": "Rectangle 14 copy 6",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1371,
         "y": 3026,
@@ -841,7 +841,7 @@
     {
       "id": "rectangle_14_copy_6_52",
       "name": "Rectangle 14 copy 6",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1345,
         "y": 3026,
@@ -854,7 +854,7 @@
     {
       "id": "rectangle_12_copy_53",
       "name": "Rectangle 12 copy",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1124,
         "y": 1213,
@@ -880,7 +880,7 @@
     {
       "id": "rectangle_9_copy_2_55",
       "name": "Rectangle 9 copy 2",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 209,
         "y": 2178,
@@ -1207,7 +1207,7 @@
     {
       "id": "rectangle_9_copy_3_74",
       "name": "Rectangle 9 copy 3",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1238,
         "y": 2074,
@@ -1241,7 +1241,7 @@
     {
       "id": "rectangle_9_copy_9_76",
       "name": "Rectangle 9 copy 9",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 950,
         "y": 5773,
@@ -1288,7 +1288,7 @@
     {
       "id": "rectangle_9_copy_6_0",
       "name": "Rectangle 9 copy 6",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 686,
         "y": 2888,
@@ -1322,7 +1322,7 @@
     {
       "id": "rectangle_9_copy_5_2",
       "name": "Rectangle 9 copy 5",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 734,
         "y": 3413,
@@ -1356,7 +1356,7 @@
     {
       "id": "rectangle_11_79",
       "name": "Rectangle 11",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": -89,
         "y": 3596,
@@ -1369,7 +1369,7 @@
     {
       "id": "rectangle_11_copy_80",
       "name": "Rectangle 11 copy",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": -89,
         "y": 3604,
@@ -1408,7 +1408,7 @@
     {
       "id": "rectangle_10_83",
       "name": "Rectangle 10",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1618,
         "y": 3968,
@@ -1421,7 +1421,7 @@
     {
       "id": "rectangle_10_copy_84",
       "name": "Rectangle 10 copy",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1372,
         "y": 4358,
@@ -1586,7 +1586,7 @@
     {
       "id": "rectangle_10_copy_4_0",
       "name": "Rectangle 10 copy 4",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1235,
         "y": 4015,
@@ -1599,7 +1599,7 @@
     {
       "id": "rectangle_10_copy_5_1",
       "name": "Rectangle 10 copy 5",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 62,
         "y": 4015,
@@ -1696,7 +1696,7 @@
     {
       "id": "rectangle_10_copy_3_6",
       "name": "Rectangle 10 copy 3",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 645,
         "y": 3977,
@@ -1856,7 +1856,7 @@
     {
       "id": "rectangle_25_14",
       "name": "Rectangle 25",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 640,
         "y": 4548,
@@ -1882,7 +1882,7 @@
     {
       "id": "rectangle_25_copy_16",
       "name": "Rectangle 25 copy",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1214,
         "y": 4549,
@@ -1929,7 +1929,7 @@
     {
       "id": "rectangle_9_copy_8_91",
       "name": "Rectangle 9 copy 8",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 734,
         "y": 4542,
@@ -1963,7 +1963,7 @@
     {
       "id": "rectangle_10_93",
       "name": "Rectangle 10",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": -549,
         "y": 4778,
@@ -2036,7 +2036,7 @@
     {
       "id": "rectangle_16_0",
       "name": "Rectangle 16",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 207,
         "y": 6123,
@@ -2062,7 +2062,7 @@
     {
       "id": "rectangle_16_copy_2",
       "name": "Rectangle 16 copy",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 513,
         "y": 6123,
@@ -2075,7 +2075,7 @@
     {
       "id": "rectangle_16_copy_4_3",
       "name": "Rectangle 16 copy 4",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 820,
         "y": 6123,
@@ -2088,7 +2088,7 @@
     {
       "id": "rectangle_16_copy_4_4",
       "name": "Rectangle 16 copy 4",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1126,
         "y": 6123,
@@ -2101,7 +2101,7 @@
     {
       "id": "rectangle_16_copy_5_5",
       "name": "Rectangle 16 copy 5",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1432,
         "y": 6123,
@@ -2221,7 +2221,7 @@
     {
       "id": "rectangle_11_copy_103",
       "name": "Rectangle 11 copy",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": -89,
         "y": 6894,
@@ -2247,7 +2247,7 @@
     {
       "id": "rectangle_10_105",
       "name": "Rectangle 10",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": -430,
         "y": 6939,
@@ -2260,7 +2260,7 @@
     {
       "id": "rectangle_10_copy_106",
       "name": "Rectangle 10 copy",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 21,
         "y": 7329,
@@ -2273,7 +2273,7 @@
     {
       "id": "rectangle_10_copy_2_107",
       "name": "Rectangle 10 copy 2",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": -120,
         "y": 7614,
@@ -2286,7 +2286,7 @@
     {
       "id": "rectangle_10_copy_6_108",
       "name": "Rectangle 10 copy 6",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1686,
         "y": 6939,
@@ -2299,7 +2299,7 @@
     {
       "id": "rectangle_10_copy_6_109",
       "name": "Rectangle 10 copy 6",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1439,
         "y": 7329,
@@ -2312,7 +2312,7 @@
     {
       "id": "rectangle_10_copy_6_110",
       "name": "Rectangle 10 copy 6",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1801,
         "y": 7614,
@@ -2346,7 +2346,7 @@
     {
       "id": "rectangle_861_112",
       "name": "Rectangle 861",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 239,
         "y": 7227,
@@ -2359,7 +2359,7 @@
     {
       "id": "rectangle_860_113",
       "name": "Rectangle 860",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 209,
         "y": 6561,
@@ -2385,7 +2385,7 @@
     {
       "id": "rectangle_857_115",
       "name": "Rectangle 857",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 941,
         "y": 6402,
@@ -2398,7 +2398,7 @@
     {
       "id": "rectangle_858_copy_3_116",
       "name": "Rectangle 858 copy 3",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1011,
         "y": 6829,
@@ -2411,7 +2411,7 @@
     {
       "id": "rectangle_859_117",
       "name": "Rectangle 859",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1590,
         "y": 6829,
@@ -2437,7 +2437,7 @@
     {
       "id": "rectangle_858_copy_2_119",
       "name": "Rectangle 858 copy 2",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1337,
         "y": 6751,
@@ -2450,7 +2450,7 @@
     {
       "id": "rectangle_859_120",
       "name": "Rectangle 859",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1591,
         "y": 6751,
@@ -2463,7 +2463,7 @@
     {
       "id": "rectangle_858_copy_2_121",
       "name": "Rectangle 858 copy 2",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1011,
         "y": 6751,
@@ -2476,7 +2476,7 @@
     {
       "id": "rectangle_859_122",
       "name": "Rectangle 859",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1265,
         "y": 6751,
@@ -2578,7 +2578,7 @@
     {
       "id": "rectangle_858_copy_128",
       "name": "Rectangle 858 copy",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1337,
         "y": 6672,
@@ -2591,7 +2591,7 @@
     {
       "id": "rectangle_859_129",
       "name": "Rectangle 859",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1591,
         "y": 6672,
@@ -2638,7 +2638,7 @@
     {
       "id": "rectangle_858_132",
       "name": "Rectangle 858",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1011,
         "y": 6672,
@@ -2651,7 +2651,7 @@
     {
       "id": "rectangle_859_133",
       "name": "Rectangle 859",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1265,
         "y": 6672,
@@ -2732,7 +2732,7 @@
     {
       "id": "rectangle_9_copy_10_138",
       "name": "Rectangle 9 copy 10",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1368,
         "y": 7019,
@@ -2829,7 +2829,7 @@
     {
       "id": "rectangle_12_copy_3_143",
       "name": "Rectangle 12 copy 3",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1011,
         "y": 7064,
@@ -2923,7 +2923,7 @@
     {
       "id": "rectangle_49_copy_3",
       "name": "Rectangle 49 copy",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1321,
         "y": 7459,
@@ -2957,7 +2957,7 @@
     {
       "id": "rectangle_49_5",
       "name": "Rectangle 49",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 270,
         "y": 7459,
@@ -3004,7 +3004,7 @@
     {
       "id": "rectangle_51_8",
       "name": "Rectangle 51",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 209,
         "y": 7399,
@@ -3017,7 +3017,7 @@
     {
       "id": "rectangle_51_copy_9",
       "name": "Rectangle 51 copy",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 209,
         "y": 7439,
@@ -3030,7 +3030,7 @@
     {
       "id": "rectangle_51_copy_2_10",
       "name": "Rectangle 51 copy 2",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 678,
         "y": 7399,
@@ -3043,7 +3043,7 @@
     {
       "id": "rectangle_51_copy_2_11",
       "name": "Rectangle 51 copy 2",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 677,
         "y": 7439,
@@ -3056,7 +3056,7 @@
     {
       "id": "rectangle_51_copy_3_12",
       "name": "Rectangle 51 copy 3",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1237,
         "y": 7399,
@@ -3069,7 +3069,7 @@
     {
       "id": "rectangle_51_copy_3_13",
       "name": "Rectangle 51 copy 3",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1236,
         "y": 7439,
@@ -3082,7 +3082,7 @@
     {
       "id": "rectangle_51_copy_4_14",
       "name": "Rectangle 51 copy 4",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1706,
         "y": 7399,
@@ -3095,7 +3095,7 @@
     {
       "id": "rectangle_51_copy_4_15",
       "name": "Rectangle 51 copy 4",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 1705,
         "y": 7439,
@@ -3155,7 +3155,7 @@
     {
       "id": "rectangle_9_copy_11_19",
       "name": "Rectangle 9 copy 11",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 768,
         "y": 7559,
@@ -3210,7 +3210,7 @@
     {
       "id": "rectangle_861_copy_146",
       "name": "Rectangle 861 copy",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 239,
         "y": 7334,
@@ -3223,7 +3223,7 @@
     {
       "id": "rounded_rectangle_7_copy_4_147",
       "name": "Rounded Rectangle 7 copy 4",
-      "type": "image",
+      "type": "shape",
       "frame": {
         "x": 141,
         "y": 7815,
@@ -3254,5 +3254,2480 @@
       },
       "parent": null
     }
+  ],
+  "buttons": [
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "board_certified_9",
+        "name": "Board Certified",
+        "type": "text",
+        "frame": {
+          "x": 209,
+          "y": 457,
+          "width": 911,
+          "height": 302
+        },
+        "styles": {
+          "fontSize": 193,
+          "lineHeight": 162,
+          "letterSpacing": -35,
+          "fontFamily": "Raleway-ExtraBold",
+          "fontWeight": 400,
+          "color": "rgb(235.99995, 255, 244.14465)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "_criminal_defense_attorney_10",
+        "name": " Criminal Defense Attorney",
+        "type": "text",
+        "frame": {
+          "x": 208,
+          "y": 795,
+          "width": 891,
+          "height": 37
+        },
+        "styles": {
+          "fontSize": 50,
+          "lineHeight": 165,
+          "letterSpacing": 120,
+          "fontFamily": "Raleway-SemiBold",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "san_bernardino_county_11",
+        "name": "San Bernardino County",
+        "type": "text",
+        "frame": {
+          "x": 156,
+          "y": 549,
+          "width": 755,
+          "height": 39
+        },
+        "styles": {
+          "fontSize": 49,
+          "lineHeight": 40,
+          "letterSpacing": 100,
+          "fontFamily": "Jost-SemiBold",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "home_attorney_profile_practice_areas__13",
+        "name": "Home          Attorney Profile          Practice Areas         ",
+        "type": "text",
+        "frame": {
+          "x": 733,
+          "y": 126,
+          "width": 977,
+          "height": 18
+        },
+        "styles": {
+          "fontSize": 23,
+          "lineHeight": 36,
+          "letterSpacing": 30,
+          "fontFamily": "Jost-Medium",
+          "fontWeight": 400,
+          "color": "rgb(0, 0, 0)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "call_us_today!_940.591.7097__17",
+        "name": "Call Us Today! 940.591.7097 ",
+        "type": "text",
+        "frame": {
+          "x": 1285,
+          "y": 33,
+          "width": 425,
+          "height": 22
+        },
+        "styles": {
+          "fontSize": 28,
+          "lineHeight": 36,
+          "letterSpacing": 30,
+          "fontFamily": "Jost-Medium",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "contact_us_at_any_time,_24/7._18",
+        "name": "Contact Us At Any Time, 24/7.",
+        "type": "text",
+        "frame": {
+          "x": 807,
+          "y": 33,
+          "width": 375,
+          "height": 28
+        },
+        "styles": {
+          "fontSize": 28,
+          "lineHeight": 36,
+          "letterSpacing": 0,
+          "fontFamily": "Jost-Medium",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "call_us_today!_940.591.7097__24",
+        "name": "Call Us Today! 940.591.7097 ",
+        "type": "text",
+        "frame": {
+          "x": 1400,
+          "y": 5787,
+          "width": 280,
+          "height": 52
+        },
+        "styles": {
+          "fontSize": null,
+          "lineHeight": 36,
+          "letterSpacing": null,
+          "fontFamily": null,
+          "fontWeight": 400,
+          "color": "rgb(0.9995999999999999, 0.8160000000000001, 0.8160000000000001)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "schedule_a_free_consultation_27",
+        "name": "Schedule A Free Consultation",
+        "type": "text",
+        "frame": {
+          "x": 254,
+          "y": 906,
+          "width": 383,
+          "height": 16
+        },
+        "styles": {
+          "fontSize": 23,
+          "lineHeight": 165,
+          "letterSpacing": 0,
+          "fontFamily": "Raleway-ExtraBold",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "defending_every_client’s_rights_&_reputation_30",
+        "name": "Defending Every Client’s Rights & Reputation",
+        "type": "text",
+        "frame": {
+          "x": 210,
+          "y": 1271,
+          "width": 833,
+          "height": 174
+        },
+        "styles": {
+          "fontSize": 80,
+          "lineHeight": 97,
+          "letterSpacing": -20,
+          "fontFamily": "Raleway-Light",
+          "fontWeight": 400,
+          "color": "rgb(0, 0, 0)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "free_office_or_phone_consultations_available__31",
+        "name": "Free Office or Phone Consultations Available ",
+        "type": "text",
+        "frame": {
+          "x": 210,
+          "y": 1747,
+          "width": 808,
+          "height": 31
+        },
+        "styles": {
+          "fontSize": 40,
+          "lineHeight": 97,
+          "letterSpacing": -20,
+          "fontFamily": "Raleway-Bold",
+          "fontWeight": 400,
+          "color": "rgb(0, 110.4966, 45.0024)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "the_denton_law_office_of_defense_attorney_earl_dobson_has_handl_56",
+        "name": "The Denton Law Office of Defense Attorney Earl Dobson has handl",
+        "type": "text",
+        "frame": {
+          "x": 210,
+          "y": 1474,
+          "width": 802,
+          "height": 230
+        },
+        "styles": {
+          "fontSize": 23,
+          "lineHeight": 41,
+          "letterSpacing": 0,
+          "fontFamily": "Jost-Medium",
+          "fontWeight": 400,
+          "color": "rgb(0, 0, 0)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "without_skillful_legal_representation,_defendants_will_face_the_57",
+        "name": "Without skillful legal representation, defendants will face the",
+        "type": "text",
+        "frame": {
+          "x": 259,
+          "y": 1859,
+          "width": 736,
+          "height": 271
+        },
+        "styles": {
+          "fontSize": 23,
+          "lineHeight": 41,
+          "letterSpacing": 0,
+          "fontFamily": "Jost-Medium",
+          "fontWeight": 400,
+          "color": "rgb(0, 0, 0)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "dwi_&_dui_58",
+        "name": "DWI & DUI",
+        "type": "text",
+        "frame": {
+          "x": 320,
+          "y": 2887,
+          "width": 116,
+          "height": 17
+        },
+        "styles": {
+          "fontSize": 24,
+          "lineHeight": 31,
+          "letterSpacing": 0,
+          "fontFamily": "Raleway-Medium",
+          "fontWeight": 400,
+          "color": "rgb(0, 0, 0)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "computer_crimes_60",
+        "name": "Computer Crimes",
+        "type": "text",
+        "frame": {
+          "x": 279,
+          "y": 3251,
+          "width": 198,
+          "height": 23
+        },
+        "styles": {
+          "fontSize": 24,
+          "lineHeight": 31,
+          "letterSpacing": 0,
+          "fontFamily": "Raleway-Medium",
+          "fontWeight": 400,
+          "color": "rgb(0, 0, 0)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "domestic_violence_&_assault_61",
+        "name": "Domestic Violence & Assault",
+        "type": "text",
+        "frame": {
+          "x": 662,
+          "y": 3251,
+          "width": 210,
+          "height": 49
+        },
+        "styles": {
+          "fontSize": 24,
+          "lineHeight": 31,
+          "letterSpacing": 0,
+          "fontFamily": "Raleway-Medium",
+          "fontWeight": 400,
+          "color": "rgb(0, 0, 0)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "probation_violations_63",
+        "name": "Probation Violations",
+        "type": "text",
+        "frame": {
+          "x": 1042,
+          "y": 3251,
+          "width": 223,
+          "height": 18
+        },
+        "styles": {
+          "fontSize": 24,
+          "lineHeight": 31,
+          "letterSpacing": 0,
+          "fontFamily": "Raleway-Medium",
+          "fontWeight": 400,
+          "color": "rgb(0, 0, 0)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "theft_charges_65",
+        "name": "Theft Charges",
+        "type": "text",
+        "frame": {
+          "x": 1461,
+          "y": 3251,
+          "width": 159,
+          "height": 23
+        },
+        "styles": {
+          "fontSize": 24,
+          "lineHeight": 31,
+          "letterSpacing": 0,
+          "fontFamily": "Raleway-Medium",
+          "fontWeight": 400,
+          "color": "rgb(0, 0, 0)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "drug_crimes_68",
+        "name": "Drug Crimes",
+        "type": "text",
+        "frame": {
+          "x": 680,
+          "y": 2832,
+          "width": 174,
+          "height": 29
+        },
+        "styles": {
+          "fontSize": 30,
+          "lineHeight": 33,
+          "letterSpacing": 0,
+          "fontFamily": "Raleway-SemiBold",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "expunction_&_non-disclosure_69",
+        "name": "Expunction & Non-Disclosure",
+        "type": "text",
+        "frame": {
+          "x": 1067,
+          "y": 2887,
+          "width": 174,
+          "height": 51
+        },
+        "styles": {
+          "fontSize": 24,
+          "lineHeight": 33,
+          "letterSpacing": 0,
+          "fontFamily": "Raleway-Medium",
+          "fontWeight": 400,
+          "color": "rgb(0, 0, 0)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "sex_crimes_71",
+        "name": "Sex Crimes",
+        "type": "text",
+        "frame": {
+          "x": 1502,
+          "y": 2888,
+          "width": 78,
+          "height": 50
+        },
+        "styles": {
+          "fontSize": 24,
+          "lineHeight": 33,
+          "letterSpacing": 0,
+          "fontFamily": "Raleway-Medium",
+          "fontWeight": 400,
+          "color": "rgb(0, 0, 0)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "schedule_a_free_consultation_copy_75",
+        "name": "Schedule A Free Consultation copy",
+        "type": "text",
+        "frame": {
+          "x": 1284,
+          "y": 2106,
+          "width": 383,
+          "height": 16
+        },
+        "styles": {
+          "fontSize": 23,
+          "lineHeight": 165,
+          "letterSpacing": 0,
+          "fontFamily": "Raleway-ExtraBold",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "read_more_77",
+        "name": "READ MORE",
+        "type": "text",
+        "frame": {
+          "x": 1062,
+          "y": 5805,
+          "width": 131,
+          "height": 16
+        },
+        "styles": {
+          "fontSize": 23,
+          "lineHeight": 165,
+          "letterSpacing": 0,
+          "fontFamily": "Raleway-ExtraBold",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "read_more_1",
+        "name": "Read More",
+        "type": "text",
+        "frame": {
+          "x": 718,
+          "y": 2908,
+          "width": 98,
+          "height": 12
+        },
+        "styles": {
+          "fontSize": 25.63218,
+          "lineHeight": 164.34747,
+          "letterSpacing": 0,
+          "fontFamily": "Raleway-ExtraBold",
+          "fontWeight": 400,
+          "color": "rgb(0, 99.501, 40.49655)",
+          "textDecoration": "none"
+        },
+        "parent": "group_2_78"
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "view_all_practice_areas_3",
+        "name": "VIEW ALL PRACTICE AREAS",
+        "type": "text",
+        "frame": {
+          "x": 809,
+          "y": 3444,
+          "width": 301,
+          "height": 16
+        },
+        "styles": {
+          "fontSize": 23,
+          "lineHeight": 165,
+          "letterSpacing": 0,
+          "fontFamily": "Raleway-ExtraBold",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": "group_2_78"
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "types_of_cases_we_handle_85",
+        "name": "Types Of Cases We Handle",
+        "type": "text",
+        "frame": {
+          "x": 481,
+          "y": 2542,
+          "width": 954,
+          "height": 77
+        },
+        "styles": {
+          "fontSize": 80,
+          "lineHeight": 97,
+          "letterSpacing": -20,
+          "fontFamily": "Raleway-Light",
+          "fontWeight": 400,
+          "color": "rgb(0, 0, 0)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "practice_areas_86",
+        "name": "Practice Areas",
+        "type": "text",
+        "frame": {
+          "x": 372,
+          "y": 2451,
+          "width": 1175,
+          "height": 110
+        },
+        "styles": {
+          "fontSize": 149.24298,
+          "lineHeight": 66.66187,
+          "letterSpacing": -20,
+          "fontFamily": "Raleway-ExtraBold",
+          "fontWeight": 400,
+          "color": "rgb(0, 0, 0)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "our_reviews_87",
+        "name": "Our Reviews",
+        "type": "text",
+        "frame": {
+          "x": 743,
+          "y": 3852,
+          "width": 433,
+          "height": 60
+        },
+        "styles": {
+          "fontSize": 80,
+          "lineHeight": 97,
+          "letterSpacing": -20,
+          "fontFamily": "Raleway-Light",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "_testimonials_88",
+        "name": " Testimonials",
+        "type": "text",
+        "frame": {
+          "x": 435,
+          "y": 3761,
+          "width": 1048,
+          "height": 110
+        },
+        "styles": {
+          "fontSize": 149.24298,
+          "lineHeight": 66.66187,
+          "letterSpacing": -20,
+          "fontFamily": "Raleway-ExtraBold",
+          "fontWeight": 400,
+          "color": "rgb(0, 0, 0)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "_criminal_defense_attorney_0",
+        "name": " Criminal Defense Attorney",
+        "type": "text",
+        "frame": {
+          "x": 944,
+          "y": 5086,
+          "width": 713,
+          "height": 30
+        },
+        "styles": {
+          "fontSize": 40,
+          "lineHeight": 165,
+          "letterSpacing": 120,
+          "fontFamily": "Raleway-SemiBold",
+          "fontWeight": 400,
+          "color": "rgb(0, 0, 0)",
+          "textDecoration": "none"
+        },
+        "parent": "group_3_89"
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "earl_dobson_grew_up_in_austin,_texas_and_graduated_from_reagan__1",
+        "name": "Earl Dobson grew up in Austin, Texas and graduated from Reagan ",
+        "type": "text",
+        "frame": {
+          "x": 952,
+          "y": 5153,
+          "width": 746,
+          "height": 574
+        },
+        "styles": {
+          "fontSize": 24,
+          "lineHeight": null,
+          "letterSpacing": 0,
+          "fontFamily": "Jost-Regular",
+          "fontWeight": 400,
+          "color": "rgb(0, 0, 0)",
+          "textDecoration": "none"
+        },
+        "parent": "group_3_89"
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "“_copy_2_2",
+        "name": "“ copy 2",
+        "type": "text",
+        "frame": {
+          "x": 316,
+          "y": 4061,
+          "width": 116,
+          "height": 86
+        },
+        "styles": {
+          "fontSize": 103.88439,
+          "lineHeight": 89.78243,
+          "letterSpacing": -30,
+          "fontFamily": "PlayfairDisplay-Bold",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": "group_4_90"
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "wwwww_copy_3_3",
+        "name": "wwwww copy 3",
+        "type": "text",
+        "frame": {
+          "x": 315,
+          "y": 4362,
+          "width": 118,
+          "height": 20
+        },
+        "styles": {
+          "fontSize": 28.81872,
+          "lineHeight": 40,
+          "letterSpacing": 140,
+          "fontFamily": "SeeingStars",
+          "fontWeight": 400,
+          "color": "rgb(237.9966, 213.384, 5.60745)",
+          "textDecoration": "none"
+        },
+        "parent": "group_4_90"
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "i_would_like_to_thank_mr._dobson,and_mrs._melissa_for_helping_m_4",
+        "name": "I would like to thank Mr. Dobson,and Mrs. Melissa for helping m",
+        "type": "text",
+        "frame": {
+          "x": 119,
+          "y": 4171,
+          "width": 511,
+          "height": 166
+        },
+        "styles": {
+          "fontSize": 21,
+          "lineHeight": 36,
+          "letterSpacing": null,
+          "fontFamily": "Jost-Italic",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": "group_4_90"
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "keashia_sennet_5",
+        "name": "Keashia Sennet",
+        "type": "text",
+        "frame": {
+          "x": 268,
+          "y": 4407,
+          "width": 212,
+          "height": 25
+        },
+        "styles": {
+          "fontSize": 24,
+          "lineHeight": 40,
+          "letterSpacing": 20,
+          "fontFamily": "Jost-SemiBold",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "underline"
+        },
+        "parent": "group_4_90"
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "“_7",
+        "name": "“",
+        "type": "text",
+        "frame": {
+          "x": 908,
+          "y": 4016,
+          "width": 116,
+          "height": 86
+        },
+        "styles": {
+          "fontSize": 103.88439,
+          "lineHeight": 89.78243,
+          "letterSpacing": -30,
+          "fontFamily": "PlayfairDisplay-Bold",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": "group_4_90"
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "“_copy_8",
+        "name": "“ copy",
+        "type": "text",
+        "frame": {
+          "x": 1489,
+          "y": 4061,
+          "width": 116,
+          "height": 86
+        },
+        "styles": {
+          "fontSize": 103.88439,
+          "lineHeight": 89.78243,
+          "letterSpacing": -30,
+          "fontFamily": "PlayfairDisplay-Bold",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": "group_4_90"
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "wwwww_copy_9",
+        "name": "wwwww copy",
+        "type": "text",
+        "frame": {
+          "x": 899,
+          "y": 4359,
+          "width": 118,
+          "height": 20
+        },
+        "styles": {
+          "fontSize": 28.81872,
+          "lineHeight": 40,
+          "letterSpacing": 140,
+          "fontFamily": "SeeingStars",
+          "fontWeight": 400,
+          "color": "rgb(237.9966, 213.384, 5.60745)",
+          "textDecoration": "none"
+        },
+        "parent": "group_4_90"
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "i_have_used_earl_twice_and_there_isn't_anyone_else_i_would_go_t_10",
+        "name": "I have used Earl twice and there isn't anyone else I would go t",
+        "type": "text",
+        "frame": {
+          "x": 704,
+          "y": 4129,
+          "width": 508,
+          "height": 202
+        },
+        "styles": {
+          "fontSize": 21,
+          "lineHeight": 36,
+          "letterSpacing": null,
+          "fontFamily": "Jost-Italic",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": "group_4_90"
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "reese_pickard_11",
+        "name": "Reese Pickard",
+        "type": "text",
+        "frame": {
+          "x": 863,
+          "y": 4404,
+          "width": 189,
+          "height": 25
+        },
+        "styles": {
+          "fontSize": 24,
+          "lineHeight": 40,
+          "letterSpacing": 20,
+          "fontFamily": "Jost-SemiBold",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "underline"
+        },
+        "parent": "group_4_90"
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "wwwww_copy_2_12",
+        "name": "wwwww copy 2",
+        "type": "text",
+        "frame": {
+          "x": 1488,
+          "y": 4362,
+          "width": 118,
+          "height": 20
+        },
+        "styles": {
+          "fontSize": 28.81872,
+          "lineHeight": 40,
+          "letterSpacing": 140,
+          "fontFamily": "SeeingStars",
+          "fontWeight": 400,
+          "color": "rgb(237.9966, 213.384, 5.60745)",
+          "textDecoration": "none"
+        },
+        "parent": "group_4_90"
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "in_a_stressful_situation_and_they_were_great_from_start_to_fini_13",
+        "name": "In a stressful situation and they were great from start to fini",
+        "type": "text",
+        "frame": {
+          "x": 1302,
+          "y": 4171,
+          "width": 491,
+          "height": 166
+        },
+        "styles": {
+          "fontSize": 21,
+          "lineHeight": 36,
+          "letterSpacing": null,
+          "fontFamily": "Jost-Italic",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": "group_4_90"
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "dy_l_18",
+        "name": "Dy L",
+        "type": "text",
+        "frame": {
+          "x": 1520,
+          "y": 4408,
+          "width": 54,
+          "height": 24
+        },
+        "styles": {
+          "fontSize": 24,
+          "lineHeight": 40,
+          "letterSpacing": 20,
+          "fontFamily": "Jost-SemiBold",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "underline"
+        },
+        "parent": "group_4_90"
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "view_all_testimonials_92",
+        "name": "View All tESTIMONIALS",
+        "type": "text",
+        "frame": {
+          "x": 820,
+          "y": 4574,
+          "width": 279,
+          "height": 16
+        },
+        "styles": {
+          "fontSize": 23,
+          "lineHeight": 165,
+          "letterSpacing": 0,
+          "fontFamily": "Raleway-ExtraBold",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "awards_of_excellence_96",
+        "name": "Awards of Excellence",
+        "type": "text",
+        "frame": {
+          "x": 624,
+          "y": 6039,
+          "width": 672,
+          "height": 26
+        },
+        "styles": {
+          "fontSize": 35,
+          "lineHeight": 90,
+          "letterSpacing": 360,
+          "fontFamily": "Raleway-SemiBold",
+          "fontWeight": 400,
+          "color": "rgb(0, 0, 0)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "board_certified_98",
+        "name": "Board Certified",
+        "type": "text",
+        "frame": {
+          "x": 715,
+          "y": 4956,
+          "width": 819,
+          "height": 73
+        },
+        "styles": {
+          "fontSize": 99.9666,
+          "lineHeight": 137,
+          "letterSpacing": -35,
+          "fontFamily": "Raleway-ExtraBold",
+          "fontWeight": 400,
+          "color": "rgb(0, 111.6645, 44.497499999999995)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "earl_dobson_99",
+        "name": "Earl Dobson",
+        "type": "text",
+        "frame": {
+          "x": 716,
+          "y": 4831,
+          "width": 997,
+          "height": 110
+        },
+        "styles": {
+          "fontSize": 149.24298,
+          "lineHeight": 66.66187,
+          "letterSpacing": -20,
+          "fontFamily": "Raleway-ExtraBold",
+          "fontWeight": 400,
+          "color": "rgb(0, 0, 0)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "home_|_attorney_profile_|_practice_areas_|__111",
+        "name": "Home     |     Attorney Profile     |     Practice Areas     | ",
+        "type": "text",
+        "frame": {
+          "x": 302,
+          "y": 7269,
+          "width": 1315,
+          "height": 31
+        },
+        "styles": {
+          "fontSize": 30,
+          "lineHeight": 36,
+          "letterSpacing": 30,
+          "fontFamily": "Jost-Medium",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "how_we_can_help_you?*_123",
+        "name": "How We Can Help You?*",
+        "type": "text",
+        "frame": {
+          "x": 1033,
+          "y": 6854,
+          "width": 216,
+          "height": 21
+        },
+        "styles": {
+          "fontSize": 20,
+          "lineHeight": 38,
+          "letterSpacing": null,
+          "fontFamily": "Jost-Regular",
+          "fontWeight": 400,
+          "color": "rgb(101.99745, 101.99745, 101.99745)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "phone_number*_125",
+        "name": "Phone Number*",
+        "type": "text",
+        "frame": {
+          "x": 1358,
+          "y": 6776,
+          "width": 138,
+          "height": 17
+        },
+        "styles": {
+          "fontSize": 20,
+          "lineHeight": 38,
+          "letterSpacing": null,
+          "fontFamily": "Jost-Regular",
+          "fontWeight": 400,
+          "color": "rgb(101.99745, 101.99745, 101.99745)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "email_address*_127",
+        "name": "Email Address*",
+        "type": "text",
+        "frame": {
+          "x": 1033,
+          "y": 6776,
+          "width": 130,
+          "height": 17
+        },
+        "styles": {
+          "fontSize": 20,
+          "lineHeight": 38,
+          "letterSpacing": null,
+          "fontFamily": "Jost-Regular",
+          "fontWeight": 400,
+          "color": "rgb(101.99745, 101.99745, 101.99745)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "last_name*_131",
+        "name": "Last Name*",
+        "type": "text",
+        "frame": {
+          "x": 1358,
+          "y": 6699,
+          "width": 97,
+          "height": 16
+        },
+        "styles": {
+          "fontSize": 20,
+          "lineHeight": 38,
+          "letterSpacing": null,
+          "fontFamily": "Jost-Regular",
+          "fontWeight": 400,
+          "color": "rgb(101.99745, 101.99745, 101.99745)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "first_name*_135",
+        "name": "First Name*",
+        "type": "text",
+        "frame": {
+          "x": 1033,
+          "y": 6699,
+          "width": 100,
+          "height": 16
+        },
+        "styles": {
+          "fontSize": 20,
+          "lineHeight": 38,
+          "letterSpacing": null,
+          "fontFamily": "Jost-Regular",
+          "fontWeight": 400,
+          "color": "rgb(101.99745, 101.99745, 101.99745)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "don't_wait!_contact_us_today_136",
+        "name": "Don't Wait! Contact Us Today",
+        "type": "text",
+        "frame": {
+          "x": 1044,
+          "y": 6477,
+          "width": 576,
+          "height": 141
+        },
+        "styles": {
+          "fontSize": 72,
+          "lineHeight": 72,
+          "letterSpacing": null,
+          "fontFamily": "Raleway-Light",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "submit_now_139",
+        "name": "Submit Now",
+        "type": "text",
+        "frame": {
+          "x": 1434,
+          "y": 7051,
+          "width": 152,
+          "height": 16
+        },
+        "styles": {
+          "fontSize": 23,
+          "lineHeight": 165,
+          "letterSpacing": 0,
+          "fontFamily": "Raleway-ExtraBold",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "fields_marked_with_an_*_are_required_140",
+        "name": "Fields marked with an * are required",
+        "type": "text",
+        "frame": {
+          "x": 1186,
+          "y": 6631,
+          "width": 292,
+          "height": 19
+        },
+        "styles": {
+          "fontSize": 18,
+          "lineHeight": 40,
+          "letterSpacing": 20,
+          "fontFamily": "Jost-Regular",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "disclaimer_|_privacy_policy_141",
+        "name": "Disclaimer  |  Privacy Policy",
+        "type": "text",
+        "frame": {
+          "x": 1014,
+          "y": 7037,
+          "width": 219,
+          "height": 20
+        },
+        "styles": {
+          "fontSize": 18,
+          "lineHeight": 40,
+          "letterSpacing": 20,
+          "fontFamily": "Jost-Regular",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "i_have_read_the_disclaimer_*_142",
+        "name": "I  Have Read The Disclaimer *",
+        "type": "text",
+        "frame": {
+          "x": 1035,
+          "y": 7064,
+          "width": 238,
+          "height": 16
+        },
+        "styles": {
+          "fontSize": 18,
+          "lineHeight": 40,
+          "letterSpacing": 20,
+          "fontFamily": "Jost-Regular",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "(940)_591-7097_1",
+        "name": "(940) 591-7097",
+        "type": "text",
+        "frame": {
+          "x": 1363,
+          "y": 7498,
+          "width": 272,
+          "height": 35
+        },
+        "styles": {
+          "fontSize": 35,
+          "lineHeight": 32,
+          "letterSpacing": 20,
+          "fontFamily": "Jost-Bold",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": "group_7_145"
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "contact_us_2",
+        "name": "Contact Us",
+        "type": "text",
+        "frame": {
+          "x": 1320,
+          "y": 7419,
+          "width": 243,
+          "height": 30
+        },
+        "styles": {
+          "fontSize": 40,
+          "lineHeight": 105,
+          "letterSpacing": -20,
+          "fontFamily": "Raleway-Bold",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": "group_7_145"
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "office_location_4",
+        "name": "Office Location",
+        "type": "text",
+        "frame": {
+          "x": 275,
+          "y": 7419,
+          "width": 335,
+          "height": 30
+        },
+        "styles": {
+          "fontSize": 40,
+          "lineHeight": 105,
+          "letterSpacing": -20,
+          "fontFamily": "Raleway-Bold",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": "group_7_145"
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "the_law_office_of_earl_dobson_1415_north_locust_street_denton,__6",
+        "name": "The Law Office of Earl Dobson 1415 North Locust Street Denton, ",
+        "type": "text",
+        "frame": {
+          "x": 309,
+          "y": 7502,
+          "width": 311,
+          "height": 123
+        },
+        "styles": {
+          "fontSize": null,
+          "lineHeight": null,
+          "letterSpacing": 0,
+          "fontFamily": null,
+          "fontWeight": 400,
+          "color": null,
+          "textDecoration": "none"
+        },
+        "parent": "group_7_145"
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "(940)_382-6505_17",
+        "name": "(940) 382-6505",
+        "type": "text",
+        "frame": {
+          "x": 1363,
+          "y": 7554,
+          "width": 278,
+          "height": 35
+        },
+        "styles": {
+          "fontSize": 35,
+          "lineHeight": 32,
+          "letterSpacing": 20,
+          "fontFamily": "Jost-Bold",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": "group_7_145"
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "get_a_free_consultation_20",
+        "name": "Get A free Consultation",
+        "type": "text",
+        "frame": {
+          "x": 807,
+          "y": 7591,
+          "width": 305,
+          "height": 16
+        },
+        "styles": {
+          "fontSize": 23,
+          "lineHeight": 165,
+          "letterSpacing": 0,
+          "fontFamily": "Raleway-ExtraBold",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": "group_7_145"
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "earl_dobson_is_a_board_certified®_texas_criminal_defense_attorn_21",
+        "name": "Earl Dobson is a Board Certified® Texas criminal defense attorn",
+        "type": "text",
+        "frame": {
+          "x": 478,
+          "y": 7696,
+          "width": 963,
+          "height": 56
+        },
+        "styles": {
+          "fontSize": 18,
+          "lineHeight": 18,
+          "letterSpacing": 0,
+          "fontFamily": "Jost-Regular",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": "group_7_145"
+      }
+    },
+    {
+      "id": "btn_background_0",
+      "container": {
+        "id": "background_0",
+        "name": "Background",
+        "type": "image",
+        "frame": {
+          "x": 0,
+          "y": 0,
+          "width": 1920,
+          "height": 7921
+        },
+        "styles": {},
+        "parent": null
+      },
+      "label": {
+        "id": "©_2024_•_the_law_office_of_earl_dobson_•_all_rights_reserved_di_148",
+        "name": "© 2024 • The Law Office Of Earl Dobson • All Rights Reserved Di",
+        "type": "text",
+        "frame": {
+          "x": 517,
+          "y": 7860,
+          "width": 888,
+          "height": 21
+        },
+        "styles": {
+          "fontSize": 20,
+          "lineHeight": 38,
+          "letterSpacing": 20,
+          "fontFamily": "Jost-Regular",
+          "fontWeight": 400,
+          "color": "rgb(255, 255, 255)",
+          "textDecoration": "none"
+        },
+        "parent": null
+      }
+    }
+  ],
+  "usedElements": [
+    "background_0",
+    "board_certified_9",
+    "_criminal_defense_attorney_10",
+    "san_bernardino_county_11",
+    "home_attorney_profile_practice_areas__13",
+    "call_us_today!_940.591.7097__17",
+    "contact_us_at_any_time,_24/7._18",
+    "call_us_today!_940.591.7097__24",
+    "schedule_a_free_consultation_27",
+    "defending_every_client’s_rights_&_reputation_30",
+    "free_office_or_phone_consultations_available__31",
+    "the_denton_law_office_of_defense_attorney_earl_dobson_has_handl_56",
+    "without_skillful_legal_representation,_defendants_will_face_the_57",
+    "dwi_&_dui_58",
+    "computer_crimes_60",
+    "domestic_violence_&_assault_61",
+    "probation_violations_63",
+    "theft_charges_65",
+    "drug_crimes_68",
+    "expunction_&_non-disclosure_69",
+    "sex_crimes_71",
+    "schedule_a_free_consultation_copy_75",
+    "read_more_77",
+    "read_more_1",
+    "view_all_practice_areas_3",
+    "types_of_cases_we_handle_85",
+    "practice_areas_86",
+    "our_reviews_87",
+    "_testimonials_88",
+    "_criminal_defense_attorney_0",
+    "earl_dobson_grew_up_in_austin,_texas_and_graduated_from_reagan__1",
+    "“_copy_2_2",
+    "wwwww_copy_3_3",
+    "i_would_like_to_thank_mr._dobson,and_mrs._melissa_for_helping_m_4",
+    "keashia_sennet_5",
+    "“_7",
+    "“_copy_8",
+    "wwwww_copy_9",
+    "i_have_used_earl_twice_and_there_isn't_anyone_else_i_would_go_t_10",
+    "reese_pickard_11",
+    "wwwww_copy_2_12",
+    "in_a_stressful_situation_and_they_were_great_from_start_to_fini_13",
+    "dy_l_18",
+    "view_all_testimonials_92",
+    "awards_of_excellence_96",
+    "board_certified_98",
+    "earl_dobson_99",
+    "home_|_attorney_profile_|_practice_areas_|__111",
+    "how_we_can_help_you?*_123",
+    "phone_number*_125",
+    "email_address*_127",
+    "last_name*_131",
+    "first_name*_135",
+    "don't_wait!_contact_us_today_136",
+    "submit_now_139",
+    "fields_marked_with_an_*_are_required_140",
+    "disclaimer_|_privacy_policy_141",
+    "i_have_read_the_disclaimer_*_142",
+    "(940)_591-7097_1",
+    "contact_us_2",
+    "office_location_4",
+    "the_law_office_of_earl_dobson_1415_north_locust_street_denton,__6",
+    "(940)_382-6505_17",
+    "get_a_free_consultation_20",
+    "earl_dobson_is_a_board_certified®_texas_criminal_defense_attorn_21",
+    "©_2024_•_the_law_office_of_earl_dobson_•_all_rights_reserved_di_148"
   ]
 }

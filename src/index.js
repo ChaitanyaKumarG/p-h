@@ -3,6 +3,7 @@ import { normalizePsd } from "../core/normalize.js";
 import { parsePsd } from "../core/parsePsd.js";
 import { generateCSS } from "../generators/cssGenerator.js";
 import { generateHTML } from "../generators/htmlGenerator.js";
+import { buildModel } from "../core/modelBuilder.js";
 
 const filePath = process.argv[2];
 
@@ -20,9 +21,15 @@ if (!psd) {
   process.exit(1);
 }
 
+// const normalized = normalizePsd(psd);
+// const html = generateHTML(normalized.elements);
+
 const normalized = normalizePsd(psd);
+const model = buildModel(normalized);
+
+const html = generateHTML(model);
+
 const css = generateCSS(normalized.elements);
-const html = generateHTML(normalized.elements);
 
 fs.writeFileSync("./output/psd.json", JSON.stringify(normalized, null, 2));
 

@@ -44,16 +44,21 @@ export function generateCSS(elements) {
 function generateTextStyles(s) {
   let css = "";
 
-  if (s.fontSize) css += `  font-size: ${round(s.fontSize)}px;\n`;
+  const fontSize = round(s.fontSize);
+  const lineHeight = normalizeLineHeight(fontSize, s.lineHeight);
+  const letterSpacing = normalizeLetterSpacing(s.letterSpacing);
+  const fontWeight = detectFontWeight(s.fontFamily || "", s.fontWeight);
 
-  if (s.lineHeight) css += `  line-height: ${safeLineHeight(s)}px;\n`;
+  if (fontSize) css += `  font-size: ${fontSize}px;\n`;
 
-  if (s.letterSpacing !== undefined)
-    css += `  letter-spacing: ${round(s.letterSpacing)}px;\n`;
+  css += `  line-height: ${round(lineHeight)}px;\n`;
+
+  if (letterSpacing !== undefined)
+    css += `  letter-spacing: ${round(letterSpacing)}px;\n`;
 
   if (s.fontFamily) css += `  font-family: '${s.fontFamily}';\n`;
 
-  if (s.fontWeight) css += `  font-weight: ${s.fontWeight};\n`;
+  css += `  font-weight: ${fontWeight};\n`;
 
   if (s.color) css += `  color: ${sanitizeColor(s.color)};\n`;
 
@@ -62,6 +67,42 @@ function generateTextStyles(s) {
 
   return css;
 }
+
+
+function normalizeLineHeight(fontSize, lineHeight) {
+  if (!lineHeight) return Math.round(fontSize * 1.2);
+
+  // Prevent insane PSD values
+  if (lineHeight > fontSize * 3) {
+    return Math.round(fontSize * 1.2);
+  }
+
+  return lineHeight;
+}
+
+function normalizeLetterSpacing(value) {
+  if (!value) return 0;
+
+  if (Math.abs(value) > 20) return 0;
+
+  return value;
+}
+
+function detectFontWeight(fontFamily, fallback) {
+  const name = fontFamily.toLowerCase();
+
+  if (name.includes("thin")) return 100;
+  if (name.includes("light")) return 300;
+  if (name.includes("regular")) return 400;
+  if (name.includes("medium")) return 500;
+  if (name.includes("semibold")) return 600;
+  if (name.includes("bold")) return 700;
+  if (name.includes("extrabold")) return 800;
+
+  return fallback || 400;
+}
+
+
 
 function createStyleKey(styles) {
   return JSON.stringify({
@@ -90,6 +131,10 @@ function getBaseCSS() {
   position: absolute;
 }
 
+.button {
+  position: absolute;
+}
+
 `;
 }
 
@@ -105,11 +150,6 @@ function sanitizeColor(color) {
   return color.replace(/[\d\\.]+/g, (num) => Math.round(parseFloat(num)));
 }
 
-function safeLineHeight(styles) {
-  if (!styles.lineHeight) return round(styles.fontSize);
-  if (styles.lineHeight < styles.fontSize) return round(styles.fontSize);
-  return round(styles.lineHeight);
-}
 
 function sanitizeClass(id) {
   return id.replace(/[^a-zA-Z0-9_-]/g, "_");

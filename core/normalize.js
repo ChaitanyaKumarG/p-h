@@ -1,10 +1,52 @@
+function isInside(inner, outer) {
+  return (
+    inner.frame.x >= outer.frame.x &&
+    inner.frame.y >= outer.frame.y &&
+    inner.frame.x + inner.frame.width <= outer.frame.x + outer.frame.width &&
+    inner.frame.y + inner.frame.height <= outer.frame.y + outer.frame.height
+  );
+}
+
+function detectButtons(elements) {
+  const buttons = [];
+  const used = new Set();
+
+  elements.forEach((shape) => {
+    if (shape.type !== "image") return;
+
+    elements.forEach((text) => {
+      if (text.type !== "text") return;
+      if (used.has(text.id)) return;
+
+      if (isInside(text, shape)) {
+        buttons.push({
+          id: `btn_${shape.id}`,
+          container: shape,
+          label: text,
+        });
+
+        used.add(shape.id);
+        used.add(text.id);
+      }
+    });
+  });
+
+  return { buttons, used };
+}
+
 export function normalizePsd(psd) {
+  const elements = extractLayers(psd.children || []);
+
+  const { buttons, used } = detectButtons(elements);
+
   return {
     document: {
       width: psd.width,
       height: psd.height,
     },
-    elements: extractLayers(psd.children || []),
+    elements,
+    buttons,
+    usedElements: [...used], // helpful later
   };
 }
 
@@ -44,7 +86,14 @@ function extractLayers(layers, result = [], parent = null) {
 
 function detectType(layer) {
   if (layer.text) return "text";
+
+  /* Detect Vector Shapes */
+  if (layer.vectorMask || layer.pathList || layer.fill || layer.stroke) {
+    return "shape";
+  }
+
   if (layer.children) return "group";
+
   return "image";
 }
 
