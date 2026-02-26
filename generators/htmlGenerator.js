@@ -1,24 +1,33 @@
 export function generateHTML(model) {
   let html = "";
 
-  const buttons = model.buttons || [];
-  const elements = model.elements || [];
-  const used = new Set(model.usedElements || []);
+  const buttonMap = new Map();
 
-  /* Render Buttons */
-  buttons.forEach(({ container, label }) => {
-    html += `
+  /* Map elements → button */
+  (model.buttons || []).forEach(({ container, label }) => {
+    buttonMap.set(container.id, { container, label });
+    buttonMap.set(label.id, { container, label });
+  });
+
+  (model.elements || []).forEach((el) => {
+    const cls = sanitize(el.id);
+
+    /* If element belongs to button */
+    if (buttonMap.has(el.id)) {
+      const { container, label } = buttonMap.get(el.id);
+
+      /* Render ONLY once (on container) */
+      if (el.id !== container.id) return;
+
+      html += `
 <button class="button ${sanitize(container.id)}">
   ${escape(label?.name)}
 </button>\n`;
-  });
 
-  /* Remaining Elements */
-  elements.forEach((el) => {
-    if (used.has(el.id)) return;
+      return;
+    }
 
-    const cls = sanitize(el.id);
-
+    /* Normal rendering */
     if (el.type === "text") {
       html += `<div class="text-layer ${cls}">${escape(el.name)}</div>\n`;
     } else {
@@ -28,6 +37,8 @@ export function generateHTML(model) {
 
   return html;
 }
+
+/* ---------------- HELPERS ---------------- */
 
 function sanitize(id) {
   return id.replace(/[^a-zA-Z0-9_-]/g, "_");
