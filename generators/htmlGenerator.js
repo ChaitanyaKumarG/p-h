@@ -1,33 +1,50 @@
 export function generateHTML(model) {
   let html = "";
 
-  const buttonMap = new Map();
+  const elements = model.elements || [];
+  const buttons = model.buttons || [];
+  const navbars = model.navbars || [];
+  const cards = model.cards || [];
 
-  /* Map elements → button */
-  (model.buttons || []).forEach(({ container, label }) => {
-    buttonMap.set(container.id, { container, label });
-    buttonMap.set(label.id, { container, label });
-  });
+  const used = new Set(model.usedElements || []);
 
-  (model.elements || []).forEach((el) => {
+  const navbarIds = new Set(navbars.map((n) => n.id));
+  const cardIds = new Set(cards.map((c) => c.id));
+
+  elements.forEach((el) => {
     const cls = sanitize(el.id);
 
-    /* If element belongs to button */
-    if (buttonMap.has(el.id)) {
-      const { container, label } = buttonMap.get(el.id);
-
-      /* Render ONLY once (on container) */
-      if (el.id !== container.id) return;
-
-      html += `
-<button class="button ${sanitize(container.id)}">
-  ${escape(label?.name)}
-</button>\n`;
-
+    /* NAVBAR */
+    if (navbarIds.has(el.id)) {
+      html += `<header class="navbar ${cls}"></header>\n`;
+      used.add(el.id);
       return;
     }
 
-    /* Normal rendering */
+    /* CARD */
+    if (cardIds.has(el.id)) {
+      html += `<section class="card ${cls}"></section>\n`;
+      used.add(el.id);
+      return;
+    }
+
+    /* BUTTONS */
+    const btn = buttons.find((b) => b.container.id === el.id);
+    if (btn) {
+      html += `
+<button class="button button-${btn.variant} ${cls}">
+  ${escape(btn.label?.name)}
+</button>\n`;
+
+      used.add(btn.label.id);
+      used.add(btn.container.id);
+      return;
+    }
+
+    /* SKIP USED */
+    if (used.has(el.id)) return;
+
+    /* NORMAL ELEMENTS */
     if (el.type === "text") {
       html += `<div class="text-layer ${cls}">${escape(el.name)}</div>\n`;
     } else {
