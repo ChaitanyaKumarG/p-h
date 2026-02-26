@@ -2,12 +2,17 @@ export function detectCards(elements, pageWidth) {
   return elements.filter((el) => {
     if (el.type !== "shape") return false;
 
-    const width = el.frame.width;
-    const height = el.frame.height;
+    const { width, height } = el.frame;
 
-    const sizeMatch =
-      width > 220 && height > 160 && width < pageWidth * 0.95 && height < 1000;
+    /* Reject obvious junk */
+    if (width < 150 || height < 120) return false; // too small
+    if (height < 40) return false; // divider lines
+    if (width > pageWidth * 0.98 && height > 500) return false; // page blocks
 
-    return sizeMatch;
+    const ratio = width / height;
+
+    if (ratio > 8 || ratio < 0.2) return false; // weird strips
+
+    return true;
   });
 }
