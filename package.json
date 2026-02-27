@@ -1,4 +1,3 @@
-
 {
   "name": "p-h_cli",
   "version": "1.0.0",
@@ -10,6 +9,7 @@
     "start": "node src/index.js"
   },
   "dependencies": {
-    "ag-psd": "^29.0.0"
+    "ag-psd": "^29.0.0",
+    "canvas": "^3.2.1"
   }
 }

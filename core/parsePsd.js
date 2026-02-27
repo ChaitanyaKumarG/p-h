@@ -1,28 +1,18 @@
-// import fs from 'fs';
-// import { readPsd } from 'ag-psd';
-
-
-// export function parsePsd(filePath) {
-//   const buffer = fs.readFileSync(filePath);
-//   const psd = readPsd(buffer, { skipLayerImageData: true });
-//   return psd;
-// }
-
-
-// core/parsePsd.js
 import fs from "fs";
 import { readPsd, initializeCanvas } from "ag-psd";
+import { createCanvas, ImageData } from "canvas";
 
-// 🔥 IMPORTANT: tell ag-psd NOT to use canvas
-initializeCanvas(() => {
-  throw new Error("Canvas disabled");
-});
+/* Proper Node Canvas wiring */
+initializeCanvas(
+  (width, height) => createCanvas(width, height),
+  (width, height) => new ImageData(width, height),
+);
 
 export function parsePsd(filePath) {
   const buffer = fs.readFileSync(filePath);
 
   const psd = readPsd(buffer, {
-    skipLayerImageData: true,
+    skipLayerImageData: false,
     skipCompositeImageData: true,
   });
 
