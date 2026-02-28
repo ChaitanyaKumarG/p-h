@@ -13,15 +13,23 @@ function walk(layers, outputDir) {
   if (!layers) return;
 
   layers.forEach((layer) => {
-    if (layer.canvas && layer.canvas.width > 0 && layer.canvas.height > 0) {
-      const name = sanitize(layer.name);
-      const filePath = path.join(outputDir, `${name}.png`);
+if (
+  layer.canvas &&
+  layer.canvas.width > 5 &&
+  layer.canvas.height > 5 &&
+  !layer.text && // 🚫 Skip text layers
+  !layer.adjustment && // 🚫 Skip adjustment layers
+  !layer.children && // 🚫 Skip groups
+  layer.visible !== false // 🚫 Skip hidden layers
+) {
+  const name = sanitize(layer.name);
+  const filePath = path.join(outputDir, `${name}.png`);
 
-      const buffer = layer.canvas.toBuffer("image/png");
-      fs.writeFileSync(filePath, buffer);
+  const buffer = layer.canvas.toBuffer("image/png");
+  fs.writeFileSync(filePath, buffer);
 
-      console.log("✔ Exported:", name);
-    }
+  console.log("✔ Exported:", name);
+}
 
     if (layer.children) {
       walk(layer.children, outputDir);
