@@ -12,29 +12,31 @@ export function exportAssets(psd, outputDir = "./output/assets") {
 function walk(layers, outputDir) {
   if (!layers) return;
 
-  layers.forEach((layer) => {
-if (
-  layer.canvas &&
-  layer.canvas.width > 5 &&
-  layer.canvas.height > 5 &&
-  !layer.text && // 🚫 Skip text layers
-  !layer.adjustment && // 🚫 Skip adjustment layers
-  !layer.children && // 🚫 Skip groups
-  layer.visible !== false // 🚫 Skip hidden layers
-) {
-  const name = sanitize(layer.name);
-  const filePath = path.join(outputDir, `${name}.png`);
 
-  const buffer = layer.canvas.toBuffer("image/png");
-  fs.writeFileSync(filePath, buffer);
+  // if (layer.canvas && layer.canvas.width > 5 && layer.canvas.height > 5)
+    layers.forEach((layer) => {
+      if (
+        layer.canvas &&
+        layer.canvas.width > 5 &&
+        layer.canvas.height > 5 &&
+        !layer.text && // 🚫 Skip text layers
+        !layer.adjustment && // 🚫 Skip adjustment layers
+        !layer.children && // 🚫 Skip groups
+        layer.visible !== false // 🚫 Skip hidden layers
+      ) {
+        const name = sanitize(layer.name);
+        const filePath = path.join(outputDir, `${name}.png`);
 
-  console.log("✔ Exported:", name);
-}
+        const buffer = layer.canvas.toBuffer("image/png");
+        fs.writeFileSync(filePath, buffer);
 
-    if (layer.children) {
-      walk(layer.children, outputDir);
-    }
-  });
+        console.log("✔ Exported:", name);
+      }
+
+      if (layer.children) {
+        walk(layer.children, outputDir);
+      }
+    });
 }
 
 function sanitize(name) {
