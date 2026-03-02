@@ -25,7 +25,7 @@ if (!psd) {
 }
 exportAssets(psd);
 
-// const normalized = normalizePsd(psd);
+// const  normalized = normalizePsd(psd);
 // const html = generateHTML(normalized.elements);
 
 
