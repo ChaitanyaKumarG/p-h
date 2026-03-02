@@ -6,6 +6,8 @@ import { generateHTML } from "../generators/htmlGenerator.js";
 import { buildModel } from "../core/modelBuilder.js";
 import { exportAssets } from "../core/exportAssets.js";
 import { createCanvas, ImageData } from "canvas";
+import { buildLayoutModel } from "../core/layoutEngine.js";
+
 
 
 const filePath = process.argv[2];
@@ -19,18 +21,18 @@ if (!filePath) {
 
 const psd = parsePsd(filePath);
 
-if (!psd) {
-  console.error("❌ Failed to parse PSD");
-  process.exit(1);
-}
-exportAssets(psd);
+// if (!psd) {
+//   console.error("❌ Failed to parse PSD");
+//   process.exit(1);
+// }
+// exportAssets(psd);
 
 // const  normalized = normalizePsd(psd);
 // const html = generateHTML(normalized.elements);
 
 
 const normalized = normalizePsd(psd);
-const model = buildModel(normalized);
+const model = buildLayoutModel(normalized);
 
 const html = generateHTML(model);
 

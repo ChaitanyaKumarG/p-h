@@ -135,6 +135,12 @@ function getBaseCSS() {
   position: absolute;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 `;
 }
 

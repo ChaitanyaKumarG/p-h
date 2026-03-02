@@ -14,6 +14,12 @@
   position: absolute;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 .text-style-1 {
   font-size: 193px;
   line-height: 162px;
