@@ -61,27 +61,37 @@ function finalizeSection(section) {
 function detectRows(elements) {
   const sorted = [...elements].sort((a, b) => a.frame.y - b.frame.y);
 
-  const ROW_GAP = 60;
   const rows = [];
 
-  let currentRow = [];
-  let lastY = null;
-
   sorted.forEach((el) => {
-    const y = el.frame.y;
+    let placed = false;
 
-    if (lastY !== null && Math.abs(y - lastY) > ROW_GAP) {
-      rows.push(currentRow);
-      currentRow = [];
+    for (const row of rows) {
+      if (isVerticallyAligned(el, row[0])) {
+        row.push(el);
+        placed = true;
+        break;
+      }
     }
 
-    currentRow.push(el);
-    lastY = y;
+    if (!placed) {
+      rows.push([el]);
+    }
   });
 
-  if (currentRow.length) {
-    rows.push(currentRow);
-  }
+  return rows.map((row) => row.sort((a, b) => a.frame.x - b.frame.x));
+}
 
-  return rows;
+/* --- helper --- */
+
+function isVerticallyAligned(a, b) {
+  const aTop = a.frame.y;
+  const aBottom = a.frame.y + a.frame.height;
+
+  const bTop = b.frame.y;
+  const bBottom = b.frame.y + b.frame.height;
+
+  const overlap = Math.min(aBottom, bBottom) - Math.max(aTop, bTop);
+
+  return overlap > Math.min(a.frame.height, b.frame.height) * 0.4;
 }

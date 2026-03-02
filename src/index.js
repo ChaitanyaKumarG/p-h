@@ -7,6 +7,11 @@ import { buildModel } from "../core/modelBuilder.js";
 import { exportAssets } from "../core/exportAssets.js";
 import { createCanvas, ImageData } from "canvas";
 import { buildLayoutModel } from "../core/layoutEngine.js";
+import { applySemanticTagging } from "../core/semanticAnalyzer.js";
+
+
+
+
 
 
 
@@ -33,10 +38,16 @@ const psd = parsePsd(filePath);
 
 const normalized = normalizePsd(psd);
 const model = buildLayoutModel(normalized);
+const layout = buildLayoutModel(normalized);
 
-const html = generateHTML(model);
+const semanticModel = applySemanticTagging(layout);
+
+const html = generateHTML(semanticModel);
 
 const css = generateCSS(normalized.elements);
+
+
+
 
 fs.writeFileSync("./output/psd.json", JSON.stringify(normalized, null, 2));
 

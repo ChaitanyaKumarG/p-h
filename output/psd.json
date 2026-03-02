@@ -218,7 +218,8 @@
         "color": "rgb(235.99995, 255, 244.14465)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "h1"
     },
     {
       "id": "_criminal_defense_attorney_10",
@@ -239,7 +240,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "h3"
     },
     {
       "id": "san_bernardino_county_11",
@@ -260,7 +262,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "h3"
     },
     {
       "id": "rectangle_6_12",
@@ -294,7 +297,8 @@
         "color": "rgb(0, 0, 0)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "p"
     },
     {
       "id": "rectangle_11_14",
@@ -354,7 +358,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "p"
     },
     {
       "id": "contact_us_at_any_time,_24/7._18",
@@ -375,7 +380,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "p"
     },
     {
       "id": "rectangle_9_19",
@@ -461,7 +467,8 @@
         "color": "rgb(0.9995999999999999, 0.8160000000000001, 0.8160000000000001)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "h2"
     },
     {
       "id": "phone-call_(1)_25",
@@ -508,7 +515,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "p"
     },
     {
       "id": "layer_9_28",
@@ -555,7 +563,8 @@
         "color": "rgb(0, 0, 0)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "h1"
     },
     {
       "id": "free_office_or_phone_consultations_available__31",
@@ -576,7 +585,8 @@
         "color": "rgb(0, 110.4966, 45.0024)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "h3"
     },
     {
       "id": "rectangle_12_32",
@@ -909,7 +919,8 @@
         "color": "rgb(0, 0, 0)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "h1"
     },
     {
       "id": "without_skillful_legal_representation,_defendants_will_face_the_57",
@@ -930,7 +941,8 @@
         "color": "rgb(0, 0, 0)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "h1"
     },
     {
       "id": "dwi_&_dui_58",
@@ -951,7 +963,8 @@
         "color": "rgb(0, 0, 0)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "span"
     },
     {
       "id": "drink_59",
@@ -985,7 +998,8 @@
         "color": "rgb(0, 0, 0)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "span"
     },
     {
       "id": "domestic_violence_&_assault_61",
@@ -1006,7 +1020,8 @@
         "color": "rgb(0, 0, 0)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "h3"
     },
     {
       "id": "stop-violence_62",
@@ -1040,7 +1055,8 @@
         "color": "rgb(0, 0, 0)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "span"
     },
     {
       "id": "gavel_64",
@@ -1074,7 +1090,8 @@
         "color": "rgb(0, 0, 0)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "span"
     },
     {
       "id": "thief_66",
@@ -1121,7 +1138,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "span"
     },
     {
       "id": "expunction_&_non-disclosure_69",
@@ -1142,7 +1160,8 @@
         "color": "rgb(0, 0, 0)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "h2"
     },
     {
       "id": "badge_70",
@@ -1176,7 +1195,8 @@
         "color": "rgb(0, 0, 0)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "h3"
     },
     {
       "id": "harassment_72",
@@ -1236,7 +1256,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "p"
     },
     {
       "id": "rectangle_9_copy_9_76",
@@ -1270,7 +1291,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "span"
     },
     {
       "id": "group_2_78",
@@ -1317,7 +1339,8 @@
         "color": "rgb(0, 99.501, 40.49655)",
         "textDecoration": "none"
       },
-      "parent": "group_2_78"
+      "parent": "group_2_78",
+      "semantic": "span"
     },
     {
       "id": "rectangle_9_copy_5_2",
@@ -1351,7 +1374,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": "group_2_78"
+      "parent": "group_2_78",
+      "semantic": "p"
     },
     {
       "id": "rectangle_11_79",
@@ -1450,7 +1474,8 @@
         "color": "rgb(0, 0, 0)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "h2"
     },
     {
       "id": "practice_areas_86",
@@ -1471,7 +1496,8 @@
         "color": "rgb(0, 0, 0)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "h2"
     },
     {
       "id": "our_reviews_87",
@@ -1492,7 +1518,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "h2"
     },
     {
       "id": "_testimonials_88",
@@ -1513,7 +1540,8 @@
         "color": "rgb(0, 0, 0)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "h2"
     },
     {
       "id": "group_3_89",
@@ -1547,7 +1575,8 @@
         "color": "rgb(0, 0, 0)",
         "textDecoration": "none"
       },
-      "parent": "group_3_89"
+      "parent": "group_3_89",
+      "semantic": "p"
     },
     {
       "id": "earl_dobson_grew_up_in_austin,_texas_and_graduated_from_reagan__1",
@@ -1568,7 +1597,8 @@
         "color": "rgb(0, 0, 0)",
         "textDecoration": "none"
       },
-      "parent": "group_3_89"
+      "parent": "group_3_89",
+      "semantic": "h2"
     },
     {
       "id": "group_4_90",
@@ -1628,7 +1658,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": "group_4_90"
+      "parent": "group_4_90",
+      "semantic": "h2"
     },
     {
       "id": "wwwww_copy_3_3",
@@ -1649,7 +1680,8 @@
         "color": "rgb(237.9966, 213.384, 5.60745)",
         "textDecoration": "none"
       },
-      "parent": "group_4_90"
+      "parent": "group_4_90",
+      "semantic": "span"
     },
     {
       "id": "i_would_like_to_thank_mr._dobson,and_mrs._melissa_for_helping_m_4",
@@ -1670,7 +1702,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": "group_4_90"
+      "parent": "group_4_90",
+      "semantic": "h2"
     },
     {
       "id": "keashia_sennet_5",
@@ -1691,7 +1724,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "underline"
       },
-      "parent": "group_4_90"
+      "parent": "group_4_90",
+      "semantic": "span"
     },
     {
       "id": "rectangle_10_copy_3_6",
@@ -1725,7 +1759,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": "group_4_90"
+      "parent": "group_4_90",
+      "semantic": "h2"
     },
     {
       "id": "“_copy_8",
@@ -1746,7 +1781,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": "group_4_90"
+      "parent": "group_4_90",
+      "semantic": "h2"
     },
     {
       "id": "wwwww_copy_9",
@@ -1767,7 +1803,8 @@
         "color": "rgb(237.9966, 213.384, 5.60745)",
         "textDecoration": "none"
       },
-      "parent": "group_4_90"
+      "parent": "group_4_90",
+      "semantic": "span"
     },
     {
       "id": "i_have_used_earl_twice_and_there_isn't_anyone_else_i_would_go_t_10",
@@ -1788,7 +1825,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": "group_4_90"
+      "parent": "group_4_90",
+      "semantic": "h2"
     },
     {
       "id": "reese_pickard_11",
@@ -1809,7 +1847,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "underline"
       },
-      "parent": "group_4_90"
+      "parent": "group_4_90",
+      "semantic": "span"
     },
     {
       "id": "wwwww_copy_2_12",
@@ -1830,7 +1869,8 @@
         "color": "rgb(237.9966, 213.384, 5.60745)",
         "textDecoration": "none"
       },
-      "parent": "group_4_90"
+      "parent": "group_4_90",
+      "semantic": "span"
     },
     {
       "id": "in_a_stressful_situation_and_they_were_great_from_start_to_fini_13",
@@ -1851,7 +1891,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": "group_4_90"
+      "parent": "group_4_90",
+      "semantic": "h2"
     },
     {
       "id": "rectangle_25_14",
@@ -1924,7 +1965,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "underline"
       },
-      "parent": "group_4_90"
+      "parent": "group_4_90",
+      "semantic": "span"
     },
     {
       "id": "rectangle_9_copy_8_91",
@@ -1958,7 +2000,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "span"
     },
     {
       "id": "rectangle_10_93",
@@ -2018,7 +2061,8 @@
         "color": "rgb(0, 0, 0)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "p"
     },
     {
       "id": "group_5_97",
@@ -2156,7 +2200,8 @@
         "color": "rgb(0, 111.6645, 44.497499999999995)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "h2"
     },
     {
       "id": "earl_dobson_99",
@@ -2177,7 +2222,8 @@
         "color": "rgb(0, 0, 0)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "h2"
     },
     {
       "id": "legal_experience_100",
@@ -2341,7 +2387,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "h3"
     },
     {
       "id": "rectangle_861_112",
@@ -2505,7 +2552,8 @@
         "color": "rgb(101.99745, 101.99745, 101.99745)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "span"
     },
     {
       "id": "layer_30_124",
@@ -2539,7 +2587,8 @@
         "color": "rgb(101.99745, 101.99745, 101.99745)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "span"
     },
     {
       "id": "layer_32_126",
@@ -2573,7 +2622,8 @@
         "color": "rgb(101.99745, 101.99745, 101.99745)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "span"
     },
     {
       "id": "rectangle_858_copy_128",
@@ -2633,7 +2683,8 @@
         "color": "rgb(101.99745, 101.99745, 101.99745)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "span"
     },
     {
       "id": "rectangle_858_132",
@@ -2693,7 +2744,8 @@
         "color": "rgb(101.99745, 101.99745, 101.99745)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "span"
     },
     {
       "id": "don't_wait!_contact_us_today_136",
@@ -2714,7 +2766,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "h2"
     },
     {
       "id": "layer_11_137",
@@ -2761,7 +2814,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "span"
     },
     {
       "id": "fields_marked_with_an_*_are_required_140",
@@ -2782,7 +2836,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "span"
     },
     {
       "id": "disclaimer_|_privacy_policy_141",
@@ -2803,7 +2858,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "span"
     },
     {
       "id": "i_have_read_the_disclaimer_*_142",
@@ -2824,7 +2880,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "span"
     },
     {
       "id": "rectangle_12_copy_3_143",
@@ -2897,7 +2954,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": "group_7_145"
+      "parent": "group_7_145",
+      "semantic": "h3"
     },
     {
       "id": "contact_us_2",
@@ -2918,7 +2976,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": "group_7_145"
+      "parent": "group_7_145",
+      "semantic": "span"
     },
     {
       "id": "rectangle_49_copy_3",
@@ -2952,7 +3011,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": "group_7_145"
+      "parent": "group_7_145",
+      "semantic": "p"
     },
     {
       "id": "rectangle_49_5",
@@ -2986,7 +3046,8 @@
         "color": null,
         "textDecoration": "none"
       },
-      "parent": "group_7_145"
+      "parent": "group_7_145",
+      "semantic": "h2"
     },
     {
       "id": "layer_37_7",
@@ -3137,7 +3198,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": "group_7_145"
+      "parent": "group_7_145",
+      "semantic": "h3"
     },
     {
       "id": "fax_18",
@@ -3184,7 +3246,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": "group_7_145"
+      "parent": "group_7_145",
+      "semantic": "p"
     },
     {
       "id": "earl_dobson_is_a_board_certified®_texas_criminal_defense_attorn_21",
@@ -3205,7 +3268,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": "group_7_145"
+      "parent": "group_7_145",
+      "semantic": "h2"
     },
     {
       "id": "rectangle_861_copy_146",
@@ -3252,7 +3316,8 @@
         "color": "rgb(255, 255, 255)",
         "textDecoration": "none"
       },
-      "parent": null
+      "parent": null,
+      "semantic": "p"
     }
   ],
   "buttons": [
@@ -3290,7 +3355,8 @@
           "color": "rgb(235.99995, 255, 244.14465)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "h1"
       }
     },
     {
@@ -3327,7 +3393,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "h3"
       }
     },
     {
@@ -3364,7 +3431,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "h3"
       }
     },
     {
@@ -3401,7 +3469,8 @@
           "color": "rgb(0, 0, 0)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "p"
       }
     },
     {
@@ -3438,7 +3507,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "p"
       }
     },
     {
@@ -3475,7 +3545,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "p"
       }
     },
     {
@@ -3512,7 +3583,8 @@
           "color": "rgb(0.9995999999999999, 0.8160000000000001, 0.8160000000000001)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "h2"
       }
     },
     {
@@ -3549,7 +3621,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "p"
       }
     },
     {
@@ -3586,7 +3659,8 @@
           "color": "rgb(0, 0, 0)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "h1"
       }
     },
     {
@@ -3623,7 +3697,8 @@
           "color": "rgb(0, 110.4966, 45.0024)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "h3"
       }
     },
     {
@@ -3660,7 +3735,8 @@
           "color": "rgb(0, 0, 0)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "h1"
       }
     },
     {
@@ -3697,7 +3773,8 @@
           "color": "rgb(0, 0, 0)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "h1"
       }
     },
     {
@@ -3734,7 +3811,8 @@
           "color": "rgb(0, 0, 0)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "span"
       }
     },
     {
@@ -3771,7 +3849,8 @@
           "color": "rgb(0, 0, 0)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "span"
       }
     },
     {
@@ -3808,7 +3887,8 @@
           "color": "rgb(0, 0, 0)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "h3"
       }
     },
     {
@@ -3845,7 +3925,8 @@
           "color": "rgb(0, 0, 0)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "span"
       }
     },
     {
@@ -3882,7 +3963,8 @@
           "color": "rgb(0, 0, 0)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "span"
       }
     },
     {
@@ -3919,7 +4001,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "span"
       }
     },
     {
@@ -3956,7 +4039,8 @@
           "color": "rgb(0, 0, 0)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "h2"
       }
     },
     {
@@ -3993,7 +4077,8 @@
           "color": "rgb(0, 0, 0)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "h3"
       }
     },
     {
@@ -4030,7 +4115,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "p"
       }
     },
     {
@@ -4067,7 +4153,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "span"
       }
     },
     {
@@ -4104,7 +4191,8 @@
           "color": "rgb(0, 99.501, 40.49655)",
           "textDecoration": "none"
         },
-        "parent": "group_2_78"
+        "parent": "group_2_78",
+        "semantic": "span"
       }
     },
     {
@@ -4141,7 +4229,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": "group_2_78"
+        "parent": "group_2_78",
+        "semantic": "p"
       }
     },
     {
@@ -4178,7 +4267,8 @@
           "color": "rgb(0, 0, 0)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "h2"
       }
     },
     {
@@ -4215,7 +4305,8 @@
           "color": "rgb(0, 0, 0)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "h2"
       }
     },
     {
@@ -4252,7 +4343,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "h2"
       }
     },
     {
@@ -4289,7 +4381,8 @@
           "color": "rgb(0, 0, 0)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "h2"
       }
     },
     {
@@ -4326,7 +4419,8 @@
           "color": "rgb(0, 0, 0)",
           "textDecoration": "none"
         },
-        "parent": "group_3_89"
+        "parent": "group_3_89",
+        "semantic": "p"
       }
     },
     {
@@ -4363,7 +4457,8 @@
           "color": "rgb(0, 0, 0)",
           "textDecoration": "none"
         },
-        "parent": "group_3_89"
+        "parent": "group_3_89",
+        "semantic": "h2"
       }
     },
     {
@@ -4400,7 +4495,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": "group_4_90"
+        "parent": "group_4_90",
+        "semantic": "h2"
       }
     },
     {
@@ -4437,7 +4533,8 @@
           "color": "rgb(237.9966, 213.384, 5.60745)",
           "textDecoration": "none"
         },
-        "parent": "group_4_90"
+        "parent": "group_4_90",
+        "semantic": "span"
       }
     },
     {
@@ -4474,7 +4571,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": "group_4_90"
+        "parent": "group_4_90",
+        "semantic": "h2"
       }
     },
     {
@@ -4511,7 +4609,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "underline"
         },
-        "parent": "group_4_90"
+        "parent": "group_4_90",
+        "semantic": "span"
       }
     },
     {
@@ -4548,7 +4647,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": "group_4_90"
+        "parent": "group_4_90",
+        "semantic": "h2"
       }
     },
     {
@@ -4585,7 +4685,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": "group_4_90"
+        "parent": "group_4_90",
+        "semantic": "h2"
       }
     },
     {
@@ -4622,7 +4723,8 @@
           "color": "rgb(237.9966, 213.384, 5.60745)",
           "textDecoration": "none"
         },
-        "parent": "group_4_90"
+        "parent": "group_4_90",
+        "semantic": "span"
       }
     },
     {
@@ -4659,7 +4761,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": "group_4_90"
+        "parent": "group_4_90",
+        "semantic": "h2"
       }
     },
     {
@@ -4696,7 +4799,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "underline"
         },
-        "parent": "group_4_90"
+        "parent": "group_4_90",
+        "semantic": "span"
       }
     },
     {
@@ -4733,7 +4837,8 @@
           "color": "rgb(237.9966, 213.384, 5.60745)",
           "textDecoration": "none"
         },
-        "parent": "group_4_90"
+        "parent": "group_4_90",
+        "semantic": "span"
       }
     },
     {
@@ -4770,7 +4875,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": "group_4_90"
+        "parent": "group_4_90",
+        "semantic": "h2"
       }
     },
     {
@@ -4807,7 +4913,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "underline"
         },
-        "parent": "group_4_90"
+        "parent": "group_4_90",
+        "semantic": "span"
       }
     },
     {
@@ -4844,7 +4951,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "span"
       }
     },
     {
@@ -4881,7 +4989,8 @@
           "color": "rgb(0, 0, 0)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "p"
       }
     },
     {
@@ -4918,7 +5027,8 @@
           "color": "rgb(0, 111.6645, 44.497499999999995)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "h2"
       }
     },
     {
@@ -4955,7 +5065,8 @@
           "color": "rgb(0, 0, 0)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "h2"
       }
     },
     {
@@ -4992,7 +5103,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "h3"
       }
     },
     {
@@ -5029,7 +5141,8 @@
           "color": "rgb(101.99745, 101.99745, 101.99745)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "span"
       }
     },
     {
@@ -5066,7 +5179,8 @@
           "color": "rgb(101.99745, 101.99745, 101.99745)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "span"
       }
     },
     {
@@ -5103,7 +5217,8 @@
           "color": "rgb(101.99745, 101.99745, 101.99745)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "span"
       }
     },
     {
@@ -5140,7 +5255,8 @@
           "color": "rgb(101.99745, 101.99745, 101.99745)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "span"
       }
     },
     {
@@ -5177,7 +5293,8 @@
           "color": "rgb(101.99745, 101.99745, 101.99745)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "span"
       }
     },
     {
@@ -5214,7 +5331,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "h2"
       }
     },
     {
@@ -5251,7 +5369,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "span"
       }
     },
     {
@@ -5288,7 +5407,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "span"
       }
     },
     {
@@ -5325,7 +5445,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "span"
       }
     },
     {
@@ -5362,7 +5483,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "span"
       }
     },
     {
@@ -5399,7 +5521,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": "group_7_145"
+        "parent": "group_7_145",
+        "semantic": "h3"
       }
     },
     {
@@ -5436,7 +5559,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": "group_7_145"
+        "parent": "group_7_145",
+        "semantic": "span"
       }
     },
     {
@@ -5473,7 +5597,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": "group_7_145"
+        "parent": "group_7_145",
+        "semantic": "p"
       }
     },
     {
@@ -5510,7 +5635,8 @@
           "color": null,
           "textDecoration": "none"
         },
-        "parent": "group_7_145"
+        "parent": "group_7_145",
+        "semantic": "h2"
       }
     },
     {
@@ -5547,7 +5673,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": "group_7_145"
+        "parent": "group_7_145",
+        "semantic": "h3"
       }
     },
     {
@@ -5584,7 +5711,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": "group_7_145"
+        "parent": "group_7_145",
+        "semantic": "p"
       }
     },
     {
@@ -5621,7 +5749,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": "group_7_145"
+        "parent": "group_7_145",
+        "semantic": "h2"
       }
     },
     {
@@ -5658,7 +5787,8 @@
           "color": "rgb(255, 255, 255)",
           "textDecoration": "none"
         },
-        "parent": null
+        "parent": null,
+        "semantic": "p"
       }
     }
   ],
