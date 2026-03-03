@@ -20,6 +20,7 @@ export function generateHTML(model) {
 
     section.rows.forEach((row) => {
       /* ----- FORM ----- */
+      console.log("ROW SEMANTIC:", row.semantic);
       if (row.semantic === "form") {
         html += `  <form>\n`;
 
@@ -33,22 +34,28 @@ export function generateHTML(model) {
         return;
       }
 
-      if (row.semantic === "nav") {
-        html += `  <nav>\n    <ul>\n`;
+if (row.semantic === "nav") {
+    console.log("NAV DETECTED:", content);
+  html += `  <nav>\n    <ul>\n`;
 
-        row.forEach((el) => {
-          if (el.type === "text") {
-            const items = el.name.split(/\s{2,}/);
+  row.forEach((el) => {
+    if (el.type === "text") {
+      const items = el.name
+        .trim()
+        .split(/\s{2,}/)
+        .filter(Boolean);
 
-            items.forEach((item) => {
-              html += `      <li>${escape(item.trim())}</li>\n`;
-            });
-          }
-        });
+      items.forEach((item) => {
+        html += `      <li>${escape(item.trim())}</li>\n`;
+      });
+    }
+  });
 
-        html += `    </ul>\n  </nav>\n`;
-        return;
-      }
+  html += `    </ul>\n  </nav>\n`;
+  return;
+}
+
+
 
       /* ----- NAV / CARD / NORMAL ROW ----- */
       const rowTag = row.semantic === "nav" ? "nav" : "div";

@@ -1,25 +1,30 @@
-function detectNavbar(model) {
-  const header = model.sections.find((s) => s.semantic === "header");
-  if (!header) return;
+export function detectNavbar(elements) {
+  const navbars = [];
 
-  header.rows.forEach((row) => {
-    const texts = row.filter((el) => el.type === "text");
+  elements.forEach((el) => {
+    if (el.type !== "text") return;
 
-    // Case 1: multiple small items
-    if (texts.length >= 3 && texts.every((t) => t.frame.width < 300)) {
-      row.semantic = "nav";
+    const content = el.name.trim();
+
+    // Detect pipe-style nav
+    if (content.includes("|")) {
+      navbars.push(el);
       return;
     }
 
-    // Case 2: single wide text with menu words
-    if (texts.length === 1) {
-      const content = texts[0].name;
+    // Detect multi-space nav
+    const items = content.split(/\s{2,}/).filter(Boolean);
 
-      const wordCount = content.split(/\s{2,}/).length;
+    if (items.length >= 3) {
+      navbars.push(el);
+      return;
+    }
 
-      if (wordCount >= 3) {
-        row.semantic = "nav";
-      }
+    // Detect common menu words
+    if (/home|profile|practice|contact/i.test(content)) {
+      navbars.push(el);
     }
   });
+
+  return navbars;
 }

@@ -20,6 +20,14 @@ export function applySemanticTagging(model) {
   detectForm(model);
 
   return model;
+
+
+  console.log(
+    model.sections.map((s) => ({
+      section: s.id,
+      rows: s.rows.map((r) => r.semantic),
+    })),
+  );
 }
 
 /* ---------- NAVBAR ---------- */
@@ -30,6 +38,11 @@ function detectNavbar(model) {
 
   header.rows.forEach((row) => {
     const texts = row.filter((el) => el.type === "text");
+
+    console.log(
+      "HEADER ROW TEXT:",
+      texts.map((t) => t.name),
+    );
 
     if (texts.length >= 3 && texts.every((t) => t.frame.width < 300)) {
       row.semantic = "nav";
@@ -92,3 +105,4 @@ function detectTextRole(el, sectionIndex) {
 
   return "span";
 }
+
