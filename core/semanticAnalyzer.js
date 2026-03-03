@@ -1,44 +1,91 @@
 export function applySemanticTagging(model) {
+  /* ---- SECTION LEVEL ---- */
   model.sections.forEach((section, index) => {
+    if (index === 0) section.semantic = "header";
+    if (index === 1) section.semantic = "hero";
+    if (index === model.sections.length - 1) section.semantic = "footer";
+
+    /* ---- TEXT ROLES ---- */
     section.rows.forEach((row) => {
       row.forEach((el) => {
-        if (el.type !== "text") return;
-
-        el.semantic = detectTextRole(el, section, index);
+        if (el.type === "text") {
+          el.semantic = detectTextRole(el, index);
+        }
       });
     });
-
-    // Detect header (top section)
-    if (index === 0) {
-      section.semantic = "header";
-    }
-
-    // Detect footer (last section)
-    if (index === model.sections.length - 1) {
-      section.semantic = "footer";
-    }
   });
+
+  detectNavbar(model);
+  detectCards(model);
+  detectForm(model);
 
   return model;
 }
 
-/* -------- TEXT ROLE DETECTION -------- */
+/* ---------- NAVBAR ---------- */
 
-function detectTextRole(el, section, sectionIndex) {
+function detectNavbar(model) {
+  const header = model.sections.find((s) => s.semantic === "header");
+  if (!header) return;
+
+  header.rows.forEach((row) => {
+    const texts = row.filter((el) => el.type === "text");
+
+    if (texts.length >= 3 && texts.every((t) => t.frame.width < 300)) {
+      row.semantic = "nav";
+    }
+  });
+}
+
+/* ---------- CARDS ---------- */
+
+function detectCards(model) {
+  model.sections.forEach((section) => {
+    section.rows.forEach((row) => {
+      const images = row.filter((el) => el.type === "image");
+      const texts = row.filter((el) => el.type === "text");
+
+      if (images.length >= 3 && texts.length >= 3) {
+        row.semantic = "card-group";
+      }
+    });
+  });
+}
+
+/* ---------- FORM ---------- */
+
+function detectForm(model) {
+  const footer = model.sections.find((s) => s.semantic === "footer");
+  if (!footer) return;
+
+  footer.rows.forEach((row) => {
+    const formFields = row.filter(
+      (el) =>
+        el.type === "text" &&
+        /name|email|phone/i.test(el.name) &&
+        el.frame.width < 400,
+    );
+
+    if (formFields.length >= 2) {
+      row.semantic = "form";
+    }
+  });
+}
+
+/* ---------- TEXT ROLE ---------- */
+
+function detectTextRole(el, sectionIndex) {
   const height = el.frame.height;
   const width = el.frame.width;
 
-  // Large text → heading
   if (height > 50) {
     return sectionIndex === 1 ? "h1" : "h2";
   }
 
-  // Medium text → subheading
   if (height > 30) {
     return "h3";
   }
 
-  // Small wide text → paragraph
   if (width > 300) {
     return "p";
   }

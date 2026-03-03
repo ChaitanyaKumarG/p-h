@@ -7,12 +7,55 @@ export function generateHTML(model) {
         ? "header"
         : section.semantic === "footer"
           ? "footer"
-          : "section";
+          : section.semantic === "hero"
+            ? "section"
+            : "section";
 
-    html += `<${sectionTag} class="${section.id}">\n`;
+    const sectionClass =
+      section.semantic === "hero"
+        ? `class="hero ${section.id}"`
+        : `class="${section.id}"`;
+
+    html += `<${sectionTag} ${sectionClass}>\n`;
 
     section.rows.forEach((row) => {
-      html += `  <div class="row">\n`;
+      /* ----- FORM ----- */
+      if (row.semantic === "form") {
+        html += `  <form>\n`;
+
+        row.forEach((el) => {
+          if (el.type === "text") {
+            html += `    <input placeholder="${escape(el.name)}" />\n`;
+          }
+        });
+
+        html += `  </form>\n`;
+        return;
+      }
+
+      if (row.semantic === "nav") {
+        html += `  <nav>\n    <ul>\n`;
+
+        row.forEach((el) => {
+          if (el.type === "text") {
+            const items = el.name.split(/\s{2,}/);
+
+            items.forEach((item) => {
+              html += `      <li>${escape(item.trim())}</li>\n`;
+            });
+          }
+        });
+
+        html += `    </ul>\n  </nav>\n`;
+        return;
+      }
+
+      /* ----- NAV / CARD / NORMAL ROW ----- */
+      const rowTag = row.semantic === "nav" ? "nav" : "div";
+
+      const rowClass = row.semantic === "card-group" ? "card-group" : "row";
+
+      html += `  <${rowTag} class="${rowClass}">\n`;
 
       row.forEach((el) => {
         if (el.type === "text") {
@@ -23,21 +66,22 @@ export function generateHTML(model) {
         }
       });
 
-      html += `  </div>\n`;
+      html += `  </${rowTag}>\n`;
     });
 
     html += `</${sectionTag}>\n\n`;
   });
 
-  function sanitize(id) {
-    return (id || "").replace(/[^a-zA-Z0-9_-]/g, "_").toLowerCase();
-  }
-  function escape(text) {
-    return (text || "")
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;");
-  }
-
   return html;
+}
+
+function sanitize(id) {
+  return (id || "").replace(/[^a-zA-Z0-9_-]/g, "_").toLowerCase();
+}
+
+function escape(text) {
+  return (text || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
 }
