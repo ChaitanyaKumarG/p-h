@@ -7,20 +7,15 @@ export function generateHTML(model) {
         ? "header"
         : section.semantic === "footer"
           ? "footer"
-          : section.semantic === "hero"
-            ? "section"
-            : "section";
+          : "section";
 
-    const sectionClass =
-      section.semantic === "hero"
-        ? `class="hero ${section.id}"`
-        : `class="${section.id}"`;
-
-    html += `<${sectionTag} ${sectionClass}>\n`;
+    html += `<${sectionTag} class="${section.id}">\n`;
 
     section.rows.forEach((row) => {
-      /* ----- FORM ----- */
       console.log("ROW SEMANTIC:", row.semantic);
+
+      /* ---------- FORM ---------- */
+
       if (row.semantic === "form") {
         html += `  <form>\n`;
 
@@ -34,46 +29,44 @@ export function generateHTML(model) {
         return;
       }
 
-if (row.semantic === "nav") {
-    console.log("NAV DETECTED:", content);
-  html += `  <nav>\n    <ul>\n`;
+      /* ---------- NAV ---------- */
 
-  row.forEach((el) => {
-    if (el.type === "text") {
-      const items = el.name
-        .trim()
-        .split(/\s{2,}/)
-        .filter(Boolean);
+      if (row.semantic === "nav") {
+        html += `  <nav>\n    <ul>\n`;
 
-      items.forEach((item) => {
-        html += `      <li>${escape(item.trim())}</li>\n`;
-      });
-    }
-  });
+        row.forEach((el) => {
+          if (el.type === "text") {
+            const items = el.name
+              .trim()
+              .split(/\s{2,}|\|/)
+              .filter(Boolean);
 
-  html += `    </ul>\n  </nav>\n`;
-  return;
-}
+            items.forEach((item) => {
+              html += `      <li>${escape(item.trim())}</li>\n`;
+            });
+          }
+        });
 
+        html += `    </ul>\n  </nav>\n`;
 
+        return;
+      }
 
-      /* ----- NAV / CARD / NORMAL ROW ----- */
-      const rowTag = row.semantic === "nav" ? "nav" : "div";
+      /* ---------- NORMAL ROW ---------- */
 
-      const rowClass = row.semantic === "card-group" ? "card-group" : "row";
-
-      html += `  <${rowTag} class="${rowClass}">\n`;
+      html += `  <div class="row">\n`;
 
       row.forEach((el) => {
         if (el.type === "text") {
-          const tag = el.semantic || "div";
+          const tag = el.semantic || "p";
+
           html += `    <${tag}>${escape(el.name)}</${tag}>\n`;
         } else {
           html += `    <div class="image-layer ${sanitize(el.id)}"></div>\n`;
         }
       });
 
-      html += `  </${rowTag}>\n`;
+      html += `  </div>\n`;
     });
 
     html += `</${sectionTag}>\n\n`;
@@ -81,6 +74,8 @@ if (row.semantic === "nav") {
 
   return html;
 }
+
+/* ---------- HELPERS ---------- */
 
 function sanitize(id) {
   return (id || "").replace(/[^a-zA-Z0-9_-]/g, "_").toLowerCase();

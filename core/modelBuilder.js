@@ -1,17 +1,16 @@
 import { detectButtons } from "./buttonDetector.js";
-// import { detectNavbars } from "./navbarDetector.js";
-import { detectCards } from "./cardDetector.js";
-import { detectNavbar } from "./navbarDetector.js";
-
-
+// import { detectNavbar } from "./navbarDetector.js";
+// import { detectCards } from "./cardDetector.js";
+// import { detectForms } from "./formDetector.js";
 
 export function buildModel(normalized) {
   const elements = normalized.elements || [];
   const pageWidth = normalized.document.width;
 
   const { buttons, used } = detectButtons(elements);
-  const navbars = detectNavbar(elements);
-  const cards = detectCards(elements, pageWidth);
+  // const navbars = detectNavbar(elements);
+  // const cards = detectCards(elements, pageWidth);
+  // const forms = detectForms(elements);
 
   return {
     document: normalized.document,
@@ -19,6 +18,7 @@ export function buildModel(normalized) {
     buttons,
     navbars,
     cards,
+    forms,
     usedElements: [...used],
   };
 }

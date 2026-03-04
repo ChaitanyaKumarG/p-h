@@ -4,24 +4,21 @@ export function detectNavbar(elements) {
   elements.forEach((el) => {
     if (el.type !== "text") return;
 
-    const content = el.name.trim();
+    const text = el.name.trim();
 
-    // Detect pipe-style nav
-    if (content.includes("|")) {
+    if (text.includes("|")) {
       navbars.push(el);
       return;
     }
 
-    // Detect multi-space nav
-    const items = content.split(/\s{2,}/).filter(Boolean);
+    const items = text.split(/\s{2,}/).filter(Boolean);
 
     if (items.length >= 3) {
       navbars.push(el);
       return;
     }
 
-    // Detect common menu words
-    if (/home|profile|practice|contact/i.test(content)) {
+    if (/home|about|profile|practice|contact/i.test(text)) {
       navbars.push(el);
     }
   });
