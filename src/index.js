@@ -10,11 +10,6 @@ import { buildLayoutModel } from "../core/layoutEngine.js";
 import { applySemanticTagging } from "../core/semanticAnalyzer.js";
 
 
-
-
-
-
-
 const filePath = process.argv[2];
 
 if (!filePath) {
