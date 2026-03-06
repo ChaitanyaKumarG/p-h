@@ -17,7 +17,9 @@ export function applySemanticTagging(model) {
 
   detectNavbar(model);
   detectCards(model);
+  detectCardGroups(model);
   detectForm(model);
+
 
   return model;
 
@@ -53,6 +55,20 @@ function detectNavbar(model) {
 /* ---------- CARDS ---------- */
 
 function detectCards(model) {
+  model.sections.forEach((section) => {
+    section.rows.forEach((row) => {
+      const images = row.filter((el) => el.type === "image");
+      const texts = row.filter((el) => el.type === "text");
+
+      if (images.length >= 3 && texts.length >= 3) {
+        row.semantic = "card-group";
+      }
+    });
+  });
+}
+
+// -----cardsgroup----
+function detectCardGroups(model) {
   model.sections.forEach((section) => {
     section.rows.forEach((row) => {
       const images = row.filter((el) => el.type === "image");

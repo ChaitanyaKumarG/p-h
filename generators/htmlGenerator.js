@@ -52,6 +52,29 @@ export function generateHTML(model) {
         return;
       }
 
+      // -------groupcards----
+      if (row.semantic === "card-group") {
+        html += `  <section class="card-group">\n`;
+
+        const images = row.filter((el) => el.type === "image");
+        const texts = row.filter((el) => el.type === "text");
+
+        const count = Math.min(images.length, texts.length);
+
+        for (let i = 0; i < count; i++) {
+          html += `    <article class="card">\n`;
+
+          html += `      <div class="icon ${sanitize(images[i].id)}"></div>\n`;
+          html += `      <h3>${escape(texts[i].name)}</h3>\n`;
+
+          html += `    </article>\n`;
+        }
+
+        html += `  </section>\n`;
+
+        return;
+      }
+
       /* ---------- NORMAL ROW ---------- */
 
       html += `  <div class="row">\n`;
