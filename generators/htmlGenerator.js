@@ -52,6 +52,27 @@ export function generateHTML(model) {
         return;
       }
 
+      // section-generator
+    model.sections.forEach((section) => {
+      const sectionTag =
+        section.semantic === "header"
+          ? "header"
+          : section.semantic === "footer"
+            ? "footer"
+            : "section";
+
+      html += `<${sectionTag} class="${section.id}">\n`;
+
+      section.rows.forEach((row) => {
+        // nav detection
+        // form detection
+        // card detection
+        // normal row
+      });
+
+      html += `</${sectionTag}>\n\n`;
+    });
+
       // -------groupcards----
       if (row.semantic === "card-group") {
         html += `  <section class="card-group">\n`;
