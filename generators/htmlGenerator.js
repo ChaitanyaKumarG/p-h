@@ -11,7 +11,7 @@ export function generateHTML(model) {
 
     html += `<${sectionTag} class="${section.id}">\n`;
 
-    section.rows.forEach((row) => {
+    (section.rows || []).forEach((row) => {
       console.log("ROW SEMANTIC:", row.semantic);
 
       /* ---------- FORM ---------- */
@@ -48,32 +48,11 @@ export function generateHTML(model) {
         });
 
         html += `    </ul>\n  </nav>\n`;
-
         return;
       }
 
-      // section-generator
-    model.sections.forEach((section) => {
-      const sectionTag =
-        section.semantic === "header"
-          ? "header"
-          : section.semantic === "footer"
-            ? "footer"
-            : "section";
+      /* ---------- CARD GROUP ---------- */
 
-      html += `<${sectionTag} class="${section.id}">\n`;
-
-      section.rows.forEach((row) => {
-        // nav detection
-        // form detection
-        // card detection
-        // normal row
-      });
-
-      html += `</${sectionTag}>\n\n`;
-    });
-
-      // -------groupcards----
       if (row.semantic === "card-group") {
         html += `  <section class="card-group">\n`;
 
@@ -84,15 +63,12 @@ export function generateHTML(model) {
 
         for (let i = 0; i < count; i++) {
           html += `    <article class="card">\n`;
-
           html += `      <div class="icon ${sanitize(images[i].id)}"></div>\n`;
           html += `      <h3>${escape(texts[i].name)}</h3>\n`;
-
           html += `    </article>\n`;
         }
 
         html += `  </section>\n`;
-
         return;
       }
 
