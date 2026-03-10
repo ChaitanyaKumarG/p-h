@@ -140,7 +140,7 @@ function getBaseCSS() {
   flex-wrap: wrap;
   gap: 20px;
 }
-
+  
 `;
 }
 
