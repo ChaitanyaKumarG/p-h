@@ -95,7 +95,7 @@ export function generateHTML(model) {
   return html;
 }
 
-/* ----------HELPERS---------- */
+/* ----------HELPERS ---------- */
 
 function sanitize(id) {
   return (id || "").replace(/[^a-zA-Z0-9_-]/g, "_").toLowerCase();
