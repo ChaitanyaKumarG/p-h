@@ -1,4 +1,36 @@
 
+body{
+  position: relative;
+  margin:0;
+}
+
+section, header, footer{
+  position:relative;
+}
+
+.card-group{
+  display:flex;
+  gap:30px;
+  flex-wrap:wrap;
+}
+
+.card{
+  position:relative;
+  width:250px;
+}
+
+.icon {
+  display:block;
+  background-size: cover;
+  background-position: center;
+}
+
+.icon{
+position:absolute;
+background-size:cover;
+background-position:center;
+}
+
 .text-layer {
   position: absolute;
   white-space: pre;
@@ -12,12 +44,6 @@
 
 .button {
   position: absolute;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
 }
 
 .text-style-1 {
@@ -328,6 +354,9 @@
   top: 0px;
   width: 1920px;
   height: 7921px;
+  background-image: url('./assets/background_0.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .rectangle_8_1 {
@@ -344,6 +373,9 @@
   top: 32px;
   width: 1920px;
   height: 1334px;
+  background-image: url('./assets/layer_7_2.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .layer_2_3 {
@@ -352,6 +384,9 @@
   top: 67px;
   width: 1919px;
   height: 794px;
+  background-image: url('./assets/layer_2_3.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .color_lookup_1_4 {
@@ -360,6 +395,9 @@
   top: 0px;
   width: 0px;
   height: 0px;
+  background-image: url('./assets/color_lookup_1_4.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .photo_filter_1_5 {
@@ -368,6 +406,9 @@
   top: 0px;
   width: 0px;
   height: 0px;
+  background-image: url('./assets/photo_filter_1_5.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .layer_6_6 {
@@ -376,6 +417,9 @@
   top: 392px;
   width: 1920px;
   height: 1088px;
+  background-image: url('./assets/layer_6_6.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .layer_8_7 {
@@ -384,6 +428,9 @@
   top: 0px;
   width: 1920px;
   height: 2162px;
+  background-image: url('./assets/layer_8_7.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .group_1_8 {
@@ -560,6 +607,9 @@
   top: 32px;
   width: 28px;
   height: 27px;
+  background-image: url('./assets/layer_5_23.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .call_us_today__940_591_7097__24 {
@@ -576,6 +626,9 @@
   top: 5790px;
   width: 47px;
   height: 47px;
+  background-image: url('./assets/phone-call__1__25.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .earl_dobson-smallwebversion_26 {
@@ -584,6 +637,9 @@
   top: 48px;
   width: 398px;
   height: 122px;
+  background-image: url('./assets/earl_dobson-smallwebversion_26.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .schedule_a_free_consultation_27 {
@@ -600,6 +656,9 @@
   top: 903px;
   width: 1920px;
   height: 1406px;
+  background-image: url('./assets/layer_9_28.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .layer_13_29 {
@@ -608,6 +667,9 @@
   top: 1031px;
   width: 1920px;
   height: 1265px;
+  background-image: url('./assets/layer_13_29.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .defending_every_client_s_rights___reputation_30 {
@@ -640,6 +702,9 @@
   top: 1817px;
   width: 1129px;
   height: 442px;
+  background-image: url('./assets/rectangle_13_33.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .rectangle_13_copy_34 {
@@ -648,6 +713,9 @@
   top: 2309px;
   width: 1920px;
   height: 871px;
+  background-image: url('./assets/rectangle_13_copy_34.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .rectangle_13_copy_2_35 {
@@ -656,6 +724,9 @@
   top: 5928px;
   width: 1920px;
   height: 871px;
+  background-image: url('./assets/rectangle_13_copy_2_35.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .rectangle_14_copy_36 {
@@ -808,6 +879,9 @@
   top: 1184px;
   width: 614px;
   height: 920px;
+  background-image: url('./assets/layer_10_54.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .rectangle_9_copy_2_55 {
@@ -848,6 +922,9 @@
   top: 2722px;
   width: 107px;
   height: 107px;
+  background-image: url('./assets/drink_59.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .computer_crimes_60 {
@@ -872,6 +949,9 @@
   top: 3087px;
   width: 107px;
   height: 107px;
+  background-image: url('./assets/stop-violence_62.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .probation_violations_63 {
@@ -888,6 +968,9 @@
   top: 3087px;
   width: 106px;
   height: 106px;
+  background-image: url('./assets/gavel_64.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .theft_charges_65 {
@@ -904,6 +987,9 @@
   top: 3089px;
   width: 91px;
   height: 101px;
+  background-image: url('./assets/thief_66.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .prohibition_67 {
@@ -912,6 +998,9 @@
   top: 2731px;
   width: 81px;
   height: 81px;
+  background-image: url('./assets/prohibition_67.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .drug_crimes_68 {
@@ -936,6 +1025,9 @@
   top: 2725px;
   width: 104px;
   height: 102px;
+  background-image: url('./assets/badge_70.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .sex_crimes_71 {
@@ -952,6 +1044,9 @@
   top: 2722px;
   width: 105px;
   height: 105px;
+  background-image: url('./assets/harassment_72.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .hacker_73 {
@@ -960,6 +1055,9 @@
   top: 3087px;
   width: 106px;
   height: 108px;
+  background-image: url('./assets/hacker_73.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .rectangle_9_copy_3_74 {
@@ -1056,6 +1154,9 @@
   top: 3548px;
   width: 1920px;
   height: 1292px;
+  background-image: url('./assets/layer_15_81.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .layer_14_82 {
@@ -1064,6 +1165,9 @@
   top: 3590px;
   width: 1920px;
   height: 2055px;
+  background-image: url('./assets/layer_14_82.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .rectangle_10_83 {
@@ -1272,6 +1376,9 @@
   top: 4566px;
   width: 38px;
   height: 32px;
+  background-image: url('./assets/layer_43_copy_15.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .rectangle_25_copy_16 {
@@ -1288,6 +1395,9 @@
   top: 4566px;
   width: 38px;
   height: 32px;
+  background-image: url('./assets/layer_43_copy_2_17.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .dy_l_18 {
@@ -1328,6 +1438,9 @@
   top: 4956px;
   width: 419px;
   height: 560px;
+  background-image: url('./assets/shape_7_94.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .background_copy_95 {
@@ -1336,6 +1449,9 @@
   top: 4821px;
   width: 546px;
   height: 1767px;
+  background-image: url('./assets/background_copy_95.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .awards_of_excellence_96 {
@@ -1368,6 +1484,9 @@
   top: 6152px;
   width: 132px;
   height: 132px;
+  background-image: url('./assets/layer_16_1.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .rectangle_16_copy_2 {
@@ -1408,6 +1527,9 @@
   top: 6180px;
   width: 223px;
   height: 75px;
+  background-image: url('./assets/layer_20_6.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .layer_21_7 {
@@ -1416,6 +1538,9 @@
   top: 6139px;
   width: 198px;
   height: 161px;
+  background-image: url('./assets/layer_21_7.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .board_certified_98 {
@@ -1440,6 +1565,9 @@
   top: 4933px;
   width: 137px;
   height: 111px;
+  background-image: url('./assets/legal_experience_100.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .layer_12_101 {
@@ -1448,6 +1576,9 @@
   top: 6140px;
   width: 165px;
   height: 157px;
+  background-image: url('./assets/layer_12_101.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .layer_23_102 {
@@ -1456,6 +1587,9 @@
   top: 6533px;
   width: 926px;
   height: 443px;
+  background-image: url('./assets/layer_23_102.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .rectangle_11_copy_103 {
@@ -1472,6 +1606,9 @@
   top: 6694px;
   width: 1931px;
   height: 1287px;
+  background-image: url('./assets/layer_44_104.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .rectangle_10_105 {
@@ -1552,6 +1689,9 @@
   top: 6372px;
   width: 1743px;
   height: 1080px;
+  background-image: url('./assets/layer_43_114.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .rectangle_857_115 {
@@ -1584,6 +1724,9 @@
   top: 6853px;
   width: 31px;
   height: 20px;
+  background-image: url('./assets/layer_28_118.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .rectangle_858_copy_2_119 {
@@ -1632,6 +1775,9 @@
   top: 6774px;
   width: 20px;
   height: 20px;
+  background-image: url('./assets/layer_30_124.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .phone_number__125 {
@@ -1648,6 +1794,9 @@
   top: 6773px;
   width: 33px;
   height: 23px;
+  background-image: url('./assets/layer_32_126.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .email_address__127 {
@@ -1680,6 +1829,9 @@
   top: 6694px;
   width: 23px;
   height: 24px;
+  background-image: url('./assets/layer_34_130.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .last_name__131 {
@@ -1712,6 +1864,9 @@
   top: 6695px;
   width: 23px;
   height: 24px;
+  background-image: url('./assets/layer_36_134.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .first_name__135 {
@@ -1736,6 +1891,9 @@
   top: 6173px;
   width: 221px;
   height: 89px;
+  background-image: url('./assets/layer_11_137.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .rectangle_9_copy_10_138 {
@@ -1808,6 +1966,9 @@
   top: 7406px;
   width: 390px;
   height: 119px;
+  background-image: url('./assets/earl_dobson-smallwebversion_0.png');
+  background-size: cover;
+  background-position: center;
 }
 
 ._940__591-7097_1 {
@@ -1864,6 +2025,9 @@
   top: 7498px;
   width: 22px;
   height: 31px;
+  background-image: url('./assets/layer_37_7.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .rectangle_51_8 {
@@ -1936,6 +2100,9 @@
   top: 7503px;
   width: 26px;
   height: 26px;
+  background-image: url('./assets/layer_40_16.png');
+  background-size: cover;
+  background-position: center;
 }
 
 ._940__382-6505_17 {
@@ -1952,6 +2119,9 @@
   top: 7556px;
   width: 33px;
   height: 29px;
+  background-image: url('./assets/fax_18.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .rectangle_9_copy_11_19 {

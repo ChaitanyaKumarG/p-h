@@ -22,11 +22,11 @@ if (!filePath) {
 
 const psd = parsePsd(filePath);
 
-// if (!psd) {
-//   console.error("❌ Failed to parse PSD");
-//   process.exit(1);
-// }
-// exportAssets(psd);
+if (!psd) {
+  console.error("❌ Failed to parse PSD");
+  process.exit(1);
+}
+exportAssets(psd);
 
 // const  normalized = normalizePsd(psd);
 // const html = generateHTML(normalized.elements);

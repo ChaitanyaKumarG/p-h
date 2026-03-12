@@ -14,7 +14,8 @@ export function generateCSS(elements) {
     }
   });
 
-  /* Generate Utility Classes */
+  /* Generate Text Utility Classes */
+
   styleMap.forEach((className, key) => {
     const styles = JSON.parse(key);
 
@@ -24,15 +25,23 @@ export function generateCSS(elements) {
   });
 
   /* Generate Layer Layout Classes */
+
   elements.forEach((el) => {
     const className = sanitizeClass(el.id);
 
     css += `.${className} {\n`;
     css += `  position: absolute;\n`;
-    css += `  left: ${round(el.frame.x)}px;\n`;
-    css += `  top: ${round(el.frame.y)}px;\n`;
-    css += `  width: ${round(el.frame.width)}px;\n`;
-    css += `  height: ${round(el.frame.height)}px;\n`;
+    css += `  left: ${round(el.frame?.x)}px;\n`;
+    css += `  top: ${round(el.frame?.y)}px;\n`;
+    css += `  width: ${round(el.frame?.width)}px;\n`;
+    css += `  height: ${round(el.frame?.height)}px;\n`;
+
+    if (el.type === "image") {
+      css += `  background-image: url('./assets/${className}.png');\n`;
+      css += `  background-size: cover;\n`;
+      css += `  background-position: center;\n`;
+    }
+
     css += `}\n\n`;
   });
 
@@ -68,11 +77,25 @@ function generateTextStyles(s) {
   return css;
 }
 
+/* ---------------- STYLE KEY ---------------- */
+
+function createStyleKey(styles) {
+  return JSON.stringify({
+    fontSize: styles.fontSize,
+    lineHeight: styles.lineHeight,
+    letterSpacing: styles.letterSpacing,
+    fontFamily: styles.fontFamily,
+    fontWeight: styles.fontWeight,
+    color: styles.color,
+    textDecoration: styles.textDecoration,
+  });
+}
+
+/* ---------------- NORMALIZATION ---------------- */
 
 function normalizeLineHeight(fontSize, lineHeight) {
   if (!lineHeight) return Math.round(fontSize * 1.2);
 
-  // Prevent insane PSD values
   if (lineHeight > fontSize * 3) {
     return Math.round(fontSize * 1.2);
   }
@@ -102,24 +125,42 @@ function detectFontWeight(fontFamily, fallback) {
   return fallback || 400;
 }
 
-
-
-function createStyleKey(styles) {
-  return JSON.stringify({
-    fontSize: styles.fontSize,
-    lineHeight: styles.lineHeight,
-    letterSpacing: styles.letterSpacing,
-    fontFamily: styles.fontFamily,
-    fontWeight: styles.fontWeight,
-    color: styles.color,
-    textDecoration: styles.textDecoration,
-  });
-}
-
-/* ---------------- BASE ENGINE RULES ---------------- */
+/* ---------------- BASE CSS ---------------- */
 
 function getBaseCSS() {
   return `
+body{
+  position: relative;
+  margin:0;
+}
+
+section, header, footer{
+  position:relative;
+}
+
+.card-group{
+  display:flex;
+  gap:30px;
+  flex-wrap:wrap;
+}
+
+.card{
+  position:relative;
+  width:250px;
+}
+
+.icon {
+  display:block;
+  background-size: cover;
+  background-position: center;
+}
+
+.icon{
+position:absolute;
+background-size:cover;
+background-position:center;
+}
+
 .text-layer {
   position: absolute;
   white-space: pre;
@@ -135,16 +176,10 @@ function getBaseCSS() {
   position: absolute;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-  
 `;
 }
 
-/* ---------------- HELPE RS ---------------- */
+/* ---------------- HELPERS ---------------- */
 
 function round(value) {
   return Math.round(value || 0);
@@ -156,7 +191,6 @@ function sanitizeColor(color) {
   return color.replace(/[\d\\.]+/g, (num) => Math.round(parseFloat(num)));
 }
 
-
 function sanitizeClass(id) {
-  return id.replace(/[^a-zA-Z0-9_-]/g, "_");
+  return (id || "layer").replace(/[^a-zA-Z0-9_-]/g, "_").toLowerCase();
 }
