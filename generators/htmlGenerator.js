@@ -86,7 +86,7 @@ export function generateHTML(model) {
         return;
       }
 
-      /* ---------- NORMAL-LAYERS ---------- */
+      /* ---------- NORMAL - LAYERS ---------- */
 
       row.forEach((el) => {
         /* TEXT */
